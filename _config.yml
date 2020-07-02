@@ -4,29 +4,32 @@ favicon: images/favicon.ico
 
 # Personal info
 name: Geonho You / Marco You
-title: Graduate Student at PSE
+title: Graduate Student at PSE and ENPC
 email: gunhoqw20@gmail.com
 website: www.github.com/MarcoYou
 
 # Social links
-twitter_username: facespics
-github_username:  sproogen
+# twitter_username: -
+github_username: MarcoYou
 # dribbble_username: jekyll
-# facebook_username: jekyll
+facebook_username: Marco You
 # flickr_username: jekyll
-instagram_username: chillwildlife
-linkedin_username: jameswgrant
+instagram_username: MRCinanutshell
+linkedin_username: Geonho You
 # pinterest_username: jekyll
-youtube_username: globalmtb
+# youtube_username: globalmtb
 # googleplus_username: +jekyll
 
 # About Section
 # about_title: About Me
 about_profile_image: images/profile.jpg
 about_content: | # this will include new lines to allow paragraphs
-  Hi, my name's Brett and I'm a senior network system administrator. As well as administrating systems I also have experience making software and web apps. I have worked at a number of companies gaining teamwork and leadership skills.
-
-  I am most skilled in: <mark>AWS</mark> and <mark>Eating Pizza</mark>
+  Hi, my name is Marco, and I'm a Korean graduate student living in Paris since 2012.
+  I have a Bachelor's degree in Economics at University Paris II Panthéon-Assas and I finished the first year of my Master's degree in Econometrics and Statistics in Paris II.
+  From 2020 September, I will be studying at Paris School of Economics and Ecole Nationale des Ponts et Chaussées, in applied economics entitled as Economic Decision Making and Cost-Benefit Analysis.
+  Thank you for visiting my CV site ;)
+  
+  I am most skilled in: <mark>Statistics</mark> and <mark>Making Kimchi</mark> :D
 
 # Projects Section
 # projects_title: Projects
