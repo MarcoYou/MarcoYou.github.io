@@ -31,7 +31,7 @@ about_content: | # this will include new lines to allow paragraphs
   
   From September 2020, I will be studying at Paris School of Economics and Ecole Nationale des Ponts et Chaussées, in applied economics, in Economic Decision and Cost-Benefit Analysis Course.
     
-  Thank you for visiting my CV site. :)
+  Thank you for visiting my CV site. :) <br/>
   
   I am most skilled in: <mark>Statistics</mark> and <mark>Making Kimchi</mark>!
 
@@ -47,11 +47,11 @@ about_content: | # this will include new lines to allow paragraphs
 # More Section
 more_title: Interests
 more_content: | # this will include new lines to allow paragraphs
-  Alongside my interests in economics, some of my other interests and hobbies are:
-   - Finance: I have been investing in numerous stocks and ETFs. It taught me to understand different ratios and momentum of stocks.
-   - Gaming
-   - Knitting
-   - [Becoming a ninja](https://www.youtube.com/watch?v=vtg4o__aRMg)
+  Alongside my interests in economics and finance, some of my other interests are:
+   - Investment: I have been investing in numerous stocks and ETFs. It taught me to understand different ratios and momentum of stocks.
+   - Technology: I visited at IBM-Korea in 2018 and conducted an interview with the Sales Manager Mr.Park, about IBM’s Artificial Intelligence Watson
+   - Sport: I lost 30kg 100kg between 2016 and 2017! It was a huge challenge.
+   - [Cooking](https://www.youtube.com/watch?v=jm5wWji2Dds)
 
 # Footer
 footer_show_references: true
