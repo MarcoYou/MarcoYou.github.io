@@ -1,10 +1,17 @@
 - layout: left
-  name: Paris School of Economics and Ecole Nationale des Ponts et Chaussées
-  dates: 2010 - 2013
-  qualification: BSc Computer Science
+  name: Paris School of Economics (PSE)
+  dates: 2020 - 2021
+  qualification: MSc Applied Economics
   quote: >
-    Established in 1636, Harvard is the oldest higher education institution in the United States, and is widely regarded in terms of its influence, reputation, and academic pedigree as a leading university in not just the US but also the world.
+    Established in 2006, Paris School of Economics is the best graduate school in economics in France and in Europe, and is widely regarded in terms of its influence, reputation, and academic pedigree as a leading research and education insititution in economics in not just France but also the world.
   description: | # this will include new lines to allow paragraphs
-    During my time at Harvard I learnt most of my key skills that have I have taken through my career such as teamwork and working to tight deadlines. I thouroughly enjoyed my time as university and learnt a lot about a healthy work life balance.
+    EDCBA
 
-    I spent a lot of my free time as a committee member of the *Harvard Mountaineering Club* taking on roles such as *Trip Secretary* and *Vice-President*.
+- layout: left
+  name: Ecole Nationale des Ponts et Chaussées (ENPC)
+  dates: 2020 - 2021
+  qualification: MSc Applied Economics
+  quote: >
+    Established in 1747, Ecole Nationale des Ponts et Chaussées, also known as Ecole des Ponts ParisTech is the oldest engineering school in France and 3rd best engineering school in France. ENPC is a member of Parisian engineering school network called ParisTech in which we can find Ecole Polytechnique, HEC, Télécom ParisTech, Mines ParisTech etc.
+  description: | # this will include new lines to allow paragraphs
+    EDCBA
