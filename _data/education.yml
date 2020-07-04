@@ -5,10 +5,13 @@
   quote: >
     Established in 2006, Paris School of Economics is the best graduate school in economics in France and is widely regarded in terms of its influence, reputation, and academic pedigree as a leading research and education insititution in the world as well.
   description: | # this will include new lines to allow paragraphs
-    <mark>Programme title</mark> Economic Decision Making and Cost-Benefit Analysis (EDCBA) 
+    <mark>Programme Title:</mark> Economic Decision Making and Cost-Benefit Analysis (EDCBA) 
     
-    <mark>Core Courses</mark> Cost-Benefit Analysis, Econometrics and Data Analysis, Macroeconomics, Investment Decision, Structured Finance, Corporate Finance & Project, Risk and Uncertainty, Industrial Organization & Regulation, Innovation & Intangible Asset Evaluation, Organizational & Managerial Practices 
+    <mark>Core Courses:</mark> Cost-Benefit Analysis, Econometrics and Data Analysis, Macroeconomics, Investment Decision, Structured Finance, Corporate Finance, Risk and Uncertainty, Industrial Organization & Regulation, Innovation & Intangible Asset Evaluation, Organizational & Managerial Practices 
 
+    <mark>Field Courses:</mark> **Digital Transformation**[Platform Economics, Data Analysis, Disruptive Business Models] ; **Energy and Ecological Transition**[Sustainable Development and Climate Change Economics, Energy Economics, Water, Sanitation and Waste Management Economics] ; 
+    **Smart cities**[Urban Economics, Transport Economics, Housing and Real Estate] ; **Healthcare in Ageing Societies**[Health Economics, Aging and Health, Regulation in Healthcare]
+    
 - layout: left
   name: Ecole Nationale des Ponts et Chaussées (ENPC)
   dates: 2020 - 2021 (present)
