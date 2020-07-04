@@ -1,11 +1,9 @@
 - layout: left
   name: Paris School of Economics (PSE)
   dates: 2020 - 2021
-  qualification:
-  - MSc Applied Economics
-  - Economic Decision making and Cost-Benefit Analysis
+  qualification: MSc Applied Economics
   quote: >
-    Established in 2006, Paris School of Economics is the best graduate school in economics in France and in Europe, and is widely regarded in terms of its influence, reputation, and academic pedigree as a leading research and education insititution in economics in not just France but also the world.
+    Established in 2006, Paris School of Economics is the best graduate school in economics in France and is widely regarded in terms of its influence, reputation, and academic pedigree as a leading research and education insititution in not just France but also the world.
   description: | # this will include new lines to allow paragraphs
     EDCBA
 
@@ -14,6 +12,6 @@
   dates: 2020 - 2021
   qualification: MSc Applied Economics
   quote: >
-    Established in 1747, Ecole Nationale des Ponts et Chaussées, also known as Ecole des Ponts ParisTech is the oldest engineering school in France and 3rd best engineering school in France. ENPC is a member of Parisian engineering school network called ParisTech in which we can find Ecole Polytechnique, HEC, Télécom ParisTech, Mines ParisTech etc.
+    Established in 1747, Ecole Nationale des Ponts et Chaussées is the oldest *Grande École* and engineering school in France and 3rd best engineering school in France. ENPC is a member of Parisian engineering school network called ParisTech alongside with Ecole Polytechnique, HEC, Télécom ParisTech etc.
   description: | # this will include new lines to allow paragraphs
     EDCBA
