@@ -51,7 +51,7 @@ more_content: | # this will include new lines to allow paragraphs
    - Investment: I have been investing in numerous stocks and ETFs. It taught me to understand different ratios and momentum of stocks.
    - Technology: I visited at IBM-Korea in 2018 and conducted an interview with the Sales Manager Mr.Park, about IBM’s Artificial Intelligence Watson
    - Sport: I lost 30kg 100kg between 2016 and 2017! It was a huge challenge.
-   - [Cooking](https://www.youtube.com/watch?v=jm5wWji2Dds)
+   - <mark>[Making Kimchi](https://www.youtube.com/watch?v=jm5wWji2Dds)</mark>
 
 # Footer
 footer_show_references: true
@@ -67,4 +67,4 @@ plugins:
  - jekyll-seo-tag
 
 # Darkmode on when true
-darkmode: True
+darkmode: False
