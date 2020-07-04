@@ -1,7 +1,9 @@
 - layout: left
   name: Paris School of Economics (PSE)
   dates: 2020 - 2021
-  qualification: MSc Applied Economics
+  qualification:
+  - MSc Applied Economics
+  - Economic Decision making and Cost-Benefit Analysis
   quote: >
     Established in 2006, Paris School of Economics is the best graduate school in economics in France and in Europe, and is widely regarded in terms of its influence, reputation, and academic pedigree as a leading research and education insititution in economics in not just France but also the world.
   description: | # this will include new lines to allow paragraphs
