@@ -36,7 +36,7 @@ about_content: | # this will include new lines to allow paragraphs
   I am most skilled in: <mark>Statistics</mark> and <mark>Making Kimchi</mark>!
 
 # Projects Section
-# projects_title: Projects
+projects_title: Projects & Papers
 
 # Experience Section
 # experience_title: Experience
@@ -65,3 +65,6 @@ sass:
 
 plugins:
  - jekyll-seo-tag
+
+# Dark mode on when True
+darkmode: trye (options: true, false, never)
