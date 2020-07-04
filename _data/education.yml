@@ -5,7 +5,9 @@
   quote: >
     Established in 2006, Paris School of Economics is the best graduate school in economics in France and is widely regarded in terms of its influence, reputation, and academic pedigree as a leading research and education insititution in the world as well.
   description: | # this will include new lines to allow paragraphs
-    <mark>Programme Title</mark>  **Economic Decision Making and Cost-Benefit Analysis (EDCBA)**
+    <mark>Programme Title</mark>  
+    
+    **Economic Decision Making and Cost-Benefit Analysis (EDCBA)**
     
     <mark>Core Courses</mark>
     
@@ -15,7 +17,7 @@
     
     **Digital Transformation:** Platform Economics, Data Analysis, Disruptive Business Models
     
-    **Energy and Ecological Transition:** Energy Economics, Water, Sanitation and Waste Management Economics, Sustainable Development & Climate Change Economics
+    **Energy and Ecological Transition:** Water, Sanitation and Waste Management Economics, Energy Economics, Sustainable Development & Climate Change Economics
     
     **Smart cities:** Urban Economics, Transport Economics, Housing and Real Estate
     
@@ -28,4 +30,22 @@
   quote: >
     Established in 1747, Ecole Nationale des Ponts et Chaussées is the oldest Grande École and 3rd best engineering school in France. ENPC is a member of ParisTech alongside with Ecole Polytechnique, HEC, Télécom ParisTech etc.
   description: | # this will include new lines to allow paragraphs
-    <mark>Programme title</mark> Economic Decision Making and Cost-Benefit Analysis (EDCBA) 
+    <mark>Programme Title</mark>  
+    
+    **Economic Decision Making and Cost-Benefit Analysis (EDCBA)**
+    
+    <mark>Core Courses</mark>
+    
+    same as above
+    
+    <mark>Field Courses</mark>
+    
+    same as above
+    
+ - layout: left
+  name: University Paris II Panthéon-Assas
+  dates: 2019 - 2020
+  qualification: M1 Econometrics & Statistics
+  quote: >
+    Established in 1747, Ecole Nationale des Ponts et Chaussées is the oldest Grande École and 3rd best engineering school in France. ENPC is a member of ParisTech alongside with Ecole Polytechnique, HEC, Télécom ParisTech etc.
+  description: | # this will include new lines to allow paragraphs
