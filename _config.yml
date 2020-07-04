@@ -66,5 +66,4 @@ sass:
 plugins:
  - jekyll-seo-tag
 
-# Darkmode on when true
-darkmode: False
+
