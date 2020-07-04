@@ -55,3 +55,23 @@
    <mark>Minor Courses</mark>
    
    Survey Statistics, Data Analysis, Bank Economics, Insurance Economics, Python, SAS, Excel, VBA, Access, Financial English
+   
+
+- layout: left
+  name: University Paris II Panthéon-Assas
+  dates: 2016 - 2019
+  qualification: BSc Economics and Management
+  quote: >
+    Estabilished in 1257, University Paris II Panthéon-Assas is renowned for excellence in law and economics in France. It has produced 2 presidents, 4 prime ministers, and the holders of 37 other ministerships in France and around the world.
+  description: | # this will include new lines to allow paragraphs
+   <mark>Programme Title</mark>
+   
+   **Currency and Finance / Monnaie et Finance**
+   
+   <mark>Major Courses</mark>
+   
+   Macroeconomics, Microeconomics, Econometrics, Corporate Finance, Accounting, Economics of uncertainty, Mathematics, Statistics, Bank and Insurance, Currency and Finance 
+   
+   <mark>Minor Courses</mark>
+   
+   International Economics, Financial Markets, Fundamentals of Mangement, History of Economics, Economic Cycles, Commercial Law, Business Law, Java, MySQL, VBA, Excel, Access, English
