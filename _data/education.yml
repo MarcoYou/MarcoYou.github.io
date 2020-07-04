@@ -3,7 +3,7 @@
   dates: 2020 - 2021 (present)
   qualification: MSc Applied Economics
   quote: >
-    Established in 2006, Paris School of Economics is the best graduate school in economics in France and is widely regarded in terms of its influence, reputation, and academic pedigree as a leading research and education insititution in the world as well.
+    Established in 2006, Paris School of Economics is the best graduate school in economics in France. It is widely regarded in terms of its influence, reputation, and academic pedigree as a leading research and education insititution in the world as well.
   description: | # this will include new lines to allow paragraphs
     <mark>Programme Title</mark>  
     
@@ -40,14 +40,13 @@
 
 - layout: left
   name: University Paris II Panthéon-Assas
-  dates: 2020 - 2021 (present)
-  qualification: M1 Econometrics & Statistics
+  dates: 2019 - 2020
+  qualification: M1 Econometrics and Statistics
   quote: >
-    Estabilished in 1257, University Paris II Panthéon-Assas is renowned for excellence in law and economics in France. It has produced 2 presidents, 4 prime ministers, and the holders of 37 other ministerships in France and around the world.
-  description: | # this will include new lines to allow paragraphs
+    University Paris II Panthéon-Assas's graduate programme Ingénierie Statistique Financière is ranked as the best programme in Decisional Computing in France and its Economics Department is ranked as 2nd to 3rd amongst 12 Parisian Universities.
    <mark>Programme Title</mark>
    
-   **Statistical Financial Engineering / Ingénierie Statistique Financière**
+   **Statistical Financial Engineering / Ingénierie Statistique Financière (ISF)**
    
    <mark>Major Courses</mark>
    
@@ -55,4 +54,23 @@
    
    <mark>Minor Courses</mark>
    
-   Survey Statistics, Data Analysis, Bank Economics, Insurance Economics, Python, SAS, MS Excel, MS VBA, MS Access, Financial English
+   Survey Statistics, Data Analysis, Bank Economics, Insurance Economics, Python, SAS, Excel, VBA, Access, Financial English
+
+- layout: left
+  name: University Paris II Panthéon-Assas
+  dates: 2016 - 2019
+  qualification: BSc Economics and Management
+  quote: >
+    Estabilished in 1257, University Paris II Panthéon-Assas is renowned for excellence in law and economics in France. It has produced 2 presidents, 4 prime ministers, and the holders of 37 other ministerships in France and around the world.
+  description: | # this will include new lines to allow paragraphs
+   <mark>Programme Title</mark>
+   
+   **Currency and Finance / Monnaie et Finance**
+   
+   <mark>Major Courses</mark>
+   
+   Macroeconomics, Microeconomics, Econometrics, Corporate Finance, Accounting, Economics of uncertainty, Mathematics, Statistics, Bank and Insurance, Currency and Finance 
+   
+   <mark>Minor Courses</mark>
+   
+   International Economics, Financial Markets, Fundamentals of Mangement, History of Economics, Economic Cycles, Commercial Law, Business Law, Java, MySQL, VBA, Excel, Access, Economic English
