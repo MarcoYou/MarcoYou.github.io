@@ -1,11 +1,47 @@
 - layout: left
   name: Apprenticeship Report
-  link: github.com/sproogen
+  link: github.com/MarcoYou
   description: | # this will include new lines to allow paragraphs
     <mark>Title</mark>
-    
-    Comment doit réagir la compagnie d’assurance pour affronter des nouvelles contraintes qu’ajoute la situation des taux bas?
-    
-    How should insurance companies react in order to overcome the new constraints that stem from low benchmark rates?
+        
+    How should insurance companies react in order to overcome the new constraints that stem from current low benchmark rates? (2020)
     
     <mark>Contents</mark>
+    
+    Upcoming
+    
+- layout: left
+  name: Ethics Report
+  link: github.com/MarcoYou
+  description: | # this will include new lines to allow paragraphs
+    <mark>Title</mark>
+        
+    AXA Corporate Social Responsability and Ethics Policy Analysis Report (2020)
+    
+    <mark>Contents</mark>
+    
+    Upcoming
+    
+- layout: left
+  name: Excel Pricer
+  link: github.com/MarcoYou
+  description: | # this will include new lines to allow paragraphs
+    <mark>Title</mark>
+        
+    Excel Bond Valuation and Swap Pricer (2020)
+    
+    <mark>Contents</mark>
+    
+    Upcoming
+    
+- layout: left
+  name: BFS Algorithm Practice
+  link: github.com/MarcoYou
+  description: | # this will include new lines to allow paragraphs
+    <mark>Title</mark>
+        
+    Seoul Metro Itinerary Searching Programme (2019)
+    
+    <mark>Contents</mark>
+    
+    Upcoming    
