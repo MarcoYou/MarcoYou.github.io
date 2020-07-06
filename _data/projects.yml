@@ -23,12 +23,12 @@
     Upcoming
     
 - layout: left
-  name: Excel Pricer
+  name: Excel Swap Pricer
   link: github.com/MarcoYou
   description: | # this will include new lines to allow paragraphs
     <mark>Title</mark>
         
-    Excel Bond Valuation and Swap Pricer (2020)
+    Excel Swap Pricer and Bond Valuation Calculator (2020)
     
     <mark>Contents</mark>
     
