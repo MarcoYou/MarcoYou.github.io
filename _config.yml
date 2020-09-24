@@ -1,8 +1,8 @@
-title: Hamilton
-description: A minimal and beautiful Jekyll theme best for writing and note-taking.
-author: Shangzhi Huang
+title: Notebook
+description: Marco's personal notes
+author: Marco You
 avatar: /logo.png
-email: ngzhio@gmail.com
+email: gunhoqw20@gmail.com
 
 plugins:
   - jekyll-seo-tag
@@ -13,12 +13,10 @@ plugins:
 paginate: 10
 
 # Uncomment the below line and set the tracking ID for enabling Google Analytics
-# 
-# google_analytics: 
+google_analytics: 
 
 # Uncomment the below lines and set the Disqus shortname for enabling Disqus
-# 
-# disqus:
+disqus:
 
 # Jekyll
 # ======
@@ -41,3 +39,4 @@ social:
     - https://github.com/ngzhio
 google_site_verification: u4WXQl0Eu66rsQo2kRdCNx
 lang: en
+skin: sunrise
