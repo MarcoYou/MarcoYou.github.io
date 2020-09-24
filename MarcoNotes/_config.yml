@@ -1,0 +1,43 @@
+title: NoteTheme
+description: You cannot remember everything.
+baseurl: "/notetheme"
+url: ""
+repository: dinhanhthi/notetheme
+paginate: 28
+
+banner: "/assets/res/banner.png" # site banner (load when someone share your page url)
+favicon: "/assets/res/favicon.png" # site's favicon (icon left side of your page)
+
+# MatJek specific configurations
+user: 
+  name: "Math2IT"
+  email: "dinhanhthimail@gmail.com"
+  website: "math2it.com"
+  avatar: "/assets/res/user.png"
+  github: "dinhanhthi"
+google_tracking_id: ""
+google_site_verification: ""
+disqus_shortname: this-site
+
+# Build settings
+markdown: kramdown
+highlighter: rouge
+permalink: /:title
+
+
+gems:
+  - jekyll-feed
+  - jekyll-paginate
+  - jekyll-seo-tag
+  - jekyll-sitemap
+  - jekyll-archives
+  - jekyll-redirect-from
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
+
+sass:
+  style: compressed
+
+  future: true
