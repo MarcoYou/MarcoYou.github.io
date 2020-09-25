@@ -34,13 +34,13 @@ $$ A^T = A' = \begin{bmatrix} 1 & 4 \\ 2 & 5 \\ 3 & 6 \end{bmatrix} $$
 
 $$ D = \begin{bmatrix} 1 & 0 & 0 \\ 0 & 1 & 0 \\ 0 & 0 & 1 \end{bmatrix} $$
 
-- D is a diagonal matrix and (1 1 1) is the diagonal (or diagonal elements) of D ;
-- D is an identity matrix which has to contain only 1 as its diagonal elements values. An identity matrix is often denoted as I ;
-- D is a square matrix (number of rows = number of columns) ;
+- D is a **diagonal matrix** and (1 1 1) is the diagonal (or diagonal elements) of D ;
+- D is an **identity matrix** which has to contain only 1 as its diagonal elements values. An identity matrix is often denoted as I ;
+- D is a **square matrix** (number of rows = number of columns) ;
 
 $$ S = \begin{bmatrix} a & 2 & 3 \\ 2 & b & 4 \\ 3 & 4 & c \end{bmatrix} = S^T$$
 
-- S is a symetric matrix which has identical elememnts across the diagonal (elements in the diagnoal do not matter) ;
+- S is a **symetric matrix** which has identical elememnts across the diagonal (elements in the diagnoal do not matter) ;
 - A symetric is necessarily a square matrix ;
 - Transpose of a symetric matrix is equal to its original matrix \\(S^T = S\\) ;
 
