@@ -64,7 +64,7 @@ example)
 
 A first order equation system (***FOES***) is another way to express and solve a matrix problem. Reciprocally, we can also express a FOSE in terms of matrix and solve it with matrices through two different ways. The first method is **Gauss-Jordan elimination method**,
 
-#### Gauss-Jordan Elimination Method
+### 2.1.1 Gauss-Jordan Elimination Method
 
 First we express the given FOES as an **augmented matrix**,
 
@@ -81,9 +81,11 @@ $$ \begin{bmatrix} 1 & 2 & 5 \\ 0 & -1 & -2 \end{bmatrix} \implies (- r_2) \impl
 
 $$ \begin{bmatrix} 1 & 2 & 5 \\ 0 & 1 & 2 \end{bmatrix} \implies (r_1 - 2r_2) \implies \begin{bmatrix} 1 & 0 & 1 \\ 0 & 1 & 2 \end{bmatrix} $$
 
-The final matrix is called **reduced row echelon matrix** due to its form. With Gauss-Jordan elimination method, we are supposed to simplify all the elements to zeros, ones or if impossible, to prime numbers. The final matrix then can be expressed in FOES as below
+The final matrix is called **reduced row echelon matrix** due to its form. With Gauss-Jordan elimination method, we are supposed to simplify all the elements to zeros, ones or if impossible, to prime numbers.
 
 ![echelon](https://abidshafee.files.wordpress.com/2018/04/row-ecolon-form-of-matrix.png)
+
+The final matrix then can be expressed in FOES as below
 
 $$ \begin{bmatrix} 1 & 0 & 1 \\ 0 & 1 & 2 \end{bmatrix} \implies 
 \begin{cases} 1x + 0y = 1 \\ 0x + 1y = 2 \end{cases} \implies
@@ -93,11 +95,19 @@ The solutions that this method found are \\(x = 1\\) and \\( y = 2\\).
 
 the second method is **Inverse matrix method**.
 
-#### Inverse Matrix Method
+### 2.1.2 Inverse Matrix Method
 
-With this method, there are two questions to answer. ***"How do we know if the inverse matrix exists ?"*** and then ***"If it does, how do we compute it ?"***.
+Before applying this method, there are two questions to answer. ***"How do we know if the inverse matrix exists ?"*** and then ***"If it does, how do we compute it ?"***. These questions will be answered in the section 3. However the computation is done as following
 
 For a matrix equation \\(AX = B\\), if \\(A\\)'s inverse matrix \\(A^{-1}\\) exists, then \\(X = A^{-1}B\\),
+
+(coefficient matrix) x (variable vector/matrix) = (solution vector/constant matrix)
+$$ \begin{bmatrix} 1 & 2 \\ 3 & 4 \end{bmatrix} 
+\begin{bmatrix} x \\ y \end{bmatrix} = 
+\begin{bmatrix} 5 \\ 8 \end{bmatrix} \iff 
+\begin{bmatrix} x \\ y \end{bmatrix} = 
+\begin{bmatrix} 1 & 2 \\ 3 & 4 \end{bmatrix}^{-1}
+\begin{bmatrix} 5 \\ 8 \end{bmatrix}$$
 
 
 
