@@ -16,7 +16,7 @@ paginate: 10
 google_analytics: UA-179021471-1
 
 # Uncomment the below lines and set the Disqus shortname for enabling Disqus
-disqus:
+disqus: marcoyou
 
 # Jekyll
 # ======
