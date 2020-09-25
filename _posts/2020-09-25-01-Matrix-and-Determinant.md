@@ -101,7 +101,8 @@ Before applying this method, there are two questions to answer. ***"How do we kn
 
 For a matrix equation \\(AX = B\\), if \\(A\\)'s inverse matrix \\(A^{-1}\\) exists, then \\(X = A^{-1}B\\),
 
-(coefficient matrix) x (variable vector/matrix) = (solution vector/constant matrix)
+(coefficient matrix)(variable vector/matrix) = (solution vector/constant matrix)
+
 $$ \begin{bmatrix} 1 & 2 \\ 3 & 4 \end{bmatrix} 
 \begin{bmatrix} x \\ y \end{bmatrix} = 
 \begin{bmatrix} 5 \\ 8 \end{bmatrix} \iff 
