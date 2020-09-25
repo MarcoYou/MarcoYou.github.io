@@ -156,7 +156,17 @@ A cofactor is an **element** that constitues an inverse matrix. It can be comput
 
 $$ c_{ij} = (-1)^{i+j}M_{ij} $$
 
+### 3.2 Inverse Matrix
 
+For a matrix A, its inverse matrix is defined as below :
+
+$$
+A^{-1} = \frac{1}{det(A)}\begin{bmatrix}
+c_{11} & c_{21} & \ldots \\
+c_{11} & c_{22} & \ldots \\
+\vdots & \vdots & \ddots
+\end{bmatrix}
+$$
 
 ### Tables
 
