@@ -20,8 +20,8 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce bibendum neque eg
 
 $$ A = \begin{bmatrix} 1 & 2 & 3 \\ 4 & 5 & 6 \end{bmatrix} $$
 
-- \\(\begin{bmatrix} 1 & 2 & 3 \end{bmatrix}\\) and \\(\begin{bmatrix} 4 & 5 & 6 \end{bmatrix}\\) are called rows ;
-- \\(\begin{bmatrix} 1 \\ 4  \end{bmatrix}\\), \\(\begin{bmatrix} 2 \\ 5 \end{bmatrix}\\), \\(\begin{bmatrix} 3 \\ 6 \end{bmatrix}\\) are columns.
+\\(\begin{bmatrix} 1 & 2 & 3 \end{bmatrix}\\) and \\(\begin{bmatrix} 4 & 5 & 6 \end{bmatrix}\\) are called rows ;
+\\(\begin{bmatrix} 1 \\ 4  \end{bmatrix}\\), \\(\begin{bmatrix} 2 \\ 5 \end{bmatrix}\\), \\(\begin{bmatrix} 3 \\ 6 \end{bmatrix}\\) are columns.
 
 ### Some great subheading (h3)
 
