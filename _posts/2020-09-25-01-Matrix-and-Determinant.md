@@ -167,6 +167,9 @@ c_{11} & c_{22} & \ldots \\
 \vdots & \vdots & \ddots
 \end{bmatrix}
 $$
+(note that cofactor indexes are transposed)
+
+This definition answers two questions in the section 2. By the property of fraction, \\(det(A)\\) cannot be 0. So if \\(det(A)\\) is not equal to 0, then we can compute \\(A^{-1}\\), therefore we can know if \\(A^{-1}\\) exists or not by checking the value of \\(det(A)\\). Once it is verified, we can compute the definition formula of \\(A^{-1}\\).
 
 ### Tables
 
