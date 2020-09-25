@@ -12,7 +12,7 @@ author:
 [comment]: <> (mathjax block  > $$...$$   )
 ---
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce bibendum neque eget nunc mattis eu sollicitudin enim tincidunt. Vestibulum lacus tortor, ultricies id dignissim ac, bibendum in velit. \\(\begin{bmatrix} 1 & 2 & 3 \\ 4 & 5 & 6 \end{bmatrix}\\)
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce bibendum neque eget nunc mattis eu sollicitudin enim tincidunt. Vestibulum lacus tortor, ultricies id dignissim ac, bibendum in velit.
 
 ## 1. Matrix
 
@@ -20,9 +20,8 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce bibendum neque eg
 
 $$ A = \begin{bmatrix} 1 & 2 & 3 \\ 4 & 5 & 6 \end{bmatrix} $$
 
-\\(\begin{bmatrix} 1 & 2 & 3 \end{bmatrix}\\) and \\(\begin{bmatrix} 4 & 5 & 6 \end{bmatrix}\\) are called rows ;
-
-\\(\begin{bmatrix} 1 \\ 4  \end{bmatrix}\\), \\(\begin{bmatrix} 2 \\ 5 \end{bmatrix}\\), \\(\begin{bmatrix} 3 \\ 6 \end{bmatrix}\\) are columns.
+- (1 2 3) and (4 5 6) are called rows (there are 2 rows) ;
+- (1 4), (2 5), and (3 6) are called columns (there are 3 columns).
 
 ### Some great subheading (h3)
 
