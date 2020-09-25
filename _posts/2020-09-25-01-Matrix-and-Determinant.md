@@ -93,13 +93,12 @@ the second method is **Inverse matrix method**.
 
 #### Inverse Matrix Method
 
-For a matrix equation \\(AX = B\\), if A's inverse matrix \\(A^{-1}\\) exists, then \\(X = A^{-1}B\\),
+With this method, there are two questions to answer. ***"How do we know if the inverse matrix exists ?"*** and then ***"If it does, how do we compute it ?"***.
 
-Proin eget nibh a massa vestibulum pretium. Suspendisse eu nisl a ante aliquet bibendum quis a nunc. Praesent varius interdum vehicula. Aenean risus libero, placerat at vestibulum eget, ultricies eu enim. Praesent nulla tortor, malesuada adipiscing adipiscing sollicitudin, adipiscing eget est.
+For a matrix equation \\(AX = B\\), if \\(A\\)'s inverse matrix \\(A^{-1}\\) exists, then \\(X = A^{-1}B\\),
 
-Praesent nulla tortor, malesuada adipiscing adipiscing sollicitudin, adipiscing eget est.
 
-Proin eget nibh a massa vestibulum pretium. Suspendisse eu nisl a ante aliquet bibendum quis a nunc.
+
 
 ### Tables
 
