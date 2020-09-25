@@ -1,7 +1,7 @@
 ---
 layout: post
 toc: true
-title: "This post demonstrates post content styles"
+title: "Demo"
 categories: junk
 tags: [markdown, css, html]
 math: true
@@ -14,7 +14,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce bibendum neque eg
 
 ## Some great heading (h2)
 
-Proin convallis mi ac felis pharetra aliquam. Curabitur dignissim accumsan rutrum. In arcu magna, aliquet vel pretium et, molestie et arcu. $ a^2_i $
+Proin convallis mi ac felis pharetra aliquam. Curabitur dignissim accumsan rutrum. In arcu magna, aliquet vel pretium et, molestie et arcu. `a^2_i` and \(\lim{math_jax}\) 
 
 $$ \sum{a_i} $$
 
