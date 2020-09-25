@@ -20,8 +20,9 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce bibendum neque eg
 
 $$ A = \begin{bmatrix} 1 & 2 & 3 \\ 4 & 5 & 6 \end{bmatrix} $$
 
-- (1 2 3) and (4 5 6) are called rows (there are 2 rows) ;
-- (1 4), (2 5), and (3 6) are called columns (there are 3 columns).
+- --row-- : (1 2 3) and (4 5 6) are called rows (there are m = 2 rows) ;
+- --column-- : (1 4), (2 5), and (3 6) are called columns (there are n = 3 columns) ;
+- --matrix size-- : A is a m(= 2) by n(= 3) matrix denoted as \\( A(m \times n) = A(2 \times 3)\\) ;
 
 ### Some great subheading (h3)
 
