@@ -6,8 +6,8 @@ categories: Linear Algebra
 tags: [linear algebra, matrix, maths]
 math: true
 author:
-  - Bart Simpson
-  - Nelson Mandela Muntz
+  - Marco You
+  - [Sangyup Lee](https://www.youtube.com/channel/UC-7H7ZImLfGF97Y_EJ0vZzA)
 [comment]: <> (mathjax inline > \\(...\\) )
 [comment]: <> (mathjax block  > $$...$$   )
 ---
