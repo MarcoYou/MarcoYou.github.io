@@ -7,7 +7,7 @@ tags: [linear algebra, matrix, maths]
 math: true
 author:
   - Marco You
-  - [Sangyup Lee](https://www.youtube.com/channel/UC-7H7ZImLfGF97Y_EJ0vZzA)
+  - Sangyup Lee
 [comment]: <> (mathjax inline > \\(...\\) )
 [comment]: <> (mathjax block  > $$...$$   )
 ---
