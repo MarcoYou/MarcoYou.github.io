@@ -44,13 +44,22 @@ $$ S = \begin{bmatrix} a & 2 & 3 \\ 2 & b & 4 \\ 3 & 4 & c \end{bmatrix} = S^T$$
 - A symetric is necessarily a square matrix ;
 - Transpose of a symetric matrix is equal to its original matrix \\(S^T = S\\) ;
 
+### 1.2 Matrix Computation
+
+For \\(A(m \times n) = (a_{ij} \\) and \\(B(m \times n) = (b_{ij}) \\), following computations are valid
+
+- Addition and Substration : \\( A ± B = (a_{ij} ± b_{ij}) \\) ;
+- Constant factor multiplication : \\( c\dot A = (ca_{ij}) \\) (c is a constant) ;
+
+For \\(A(m \times n) = (a_{ij} \\) and \\(B(n \times r) = (b_{jk}) \\), following computations are valid
+
+- Matrix multiplication : \\( A(m \times n) \times B(n \times r) = AB(m \times r) = (c_{ik}) = \sum_{j=1}^n{a_{ij}n_{jk}} \\) ;
+- Matrix multiplication computation is not commutative. Which means AB ≠ BA:
+
+example)
 
 
-### Some great subheading (h3)
 
-Proin convallis mi ac felis pharetra aliquam. Curabitur dignissim accumsan rutrum. In arcu magna, aliquet vel pretium et, molestie et arcu. Mauris lobortis nulla et felis ullamcorper bibendum.
-
-Phasellus et hendrerit mauris. Proin eget nibh a massa vestibulum pretium. Suspendisse eu nisl a ante aliquet bibendum quis a nunc.
 
 ### Some great subheading (h3)
 
