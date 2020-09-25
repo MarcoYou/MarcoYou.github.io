@@ -87,6 +87,14 @@ $$ \begin{bmatrix} 1 & 0 & 1 \\ 0 & 1 & 2 \end{bmatrix} \implies
 \begin{cases} 1x + 0y = 1 \\ 0x + 1y = 2 \end{cases} \implies
 \begin{cases} x = 1 \\ y = 2 \end{cases} $$
 
+The solutions that this method found are \\(x = 1\\) and \\( y = 2\\).
+
+the second method is **Inverse matrix method**.
+
+#### Inverse Matrix Method
+
+For a matrix equation \\(AX = B\\), if A's inverse matrix \\(A^{-1}\\) exists, then \\(X = A^{-1}B\\),
+
 Proin eget nibh a massa vestibulum pretium. Suspendisse eu nisl a ante aliquet bibendum quis a nunc. Praesent varius interdum vehicula. Aenean risus libero, placerat at vestibulum eget, ultricies eu enim. Praesent nulla tortor, malesuada adipiscing adipiscing sollicitudin, adipiscing eget est.
 
 Praesent nulla tortor, malesuada adipiscing adipiscing sollicitudin, adipiscing eget est.
