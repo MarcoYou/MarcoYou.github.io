@@ -58,9 +58,6 @@ For \\(A(m \times n) = (a_{ij} \\) and \\(B(n \times r) = (b_{jk}) \\), followin
 
 example)
 
-
-
-
 ### Some great subheading (h3)
 
 Praesent varius interdum vehicula. Aenean risus libero, placerat at vestibulum eget, ultricies eu enim. Praesent nulla tortor, malesuada adipiscing adipiscing sollicitudin, adipiscing eget est.
@@ -124,7 +121,17 @@ In arcu magna, aliquet vel pretium et, molestie et arcu. Mauris lobortis nulla e
 
 
 
-## Headings are cool! (h2)
+## 2. First Order Equation System
+
+### 2.1 Another way to express a matrix
+
+A first order equation system (***FOES***) is another way to express and solve a matrix problem. Reciprocally, we can also express a FOSE in terms of matrix and solve it with matrices through two different ways. For example, with \\( \begin{cases} x + 2y = 5 \\ 2x + 3y = 8 \end{cases} \\), the first method is **Gauss-Jordan elimination method**,
+
+#### Gauss-Jordan Elimination Method
+
+First we express the given FOES as an **augmented matrix**,
+
+$$ \begin{cases} x + 2y = 5 \\ 2x + 3y = 8 \end{cases} \iff \begin{bmatrix} 1 & 2 & 5 \\ 2 & 3 & 8 \end{bmatrix} $$
 
 Proin eget nibh a massa vestibulum pretium. Suspendisse eu nisl a ante aliquet bibendum quis a nunc. Praesent varius interdum vehicula. Aenean risus libero, placerat at vestibulum eget, ultricies eu enim. Praesent nulla tortor, malesuada adipiscing adipiscing sollicitudin, adipiscing eget est.
 
