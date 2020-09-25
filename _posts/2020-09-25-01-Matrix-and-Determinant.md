@@ -2,7 +2,7 @@
 layout: post
 toc: true
 title: "01. Matrix and Determinant"
-categories: Linear Algebra
+categories: Linear_Algebra
 tags: [linear algebra, matrix, maths]
 math: true
 author:
