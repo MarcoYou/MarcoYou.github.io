@@ -72,14 +72,8 @@ $$ \begin{cases} x + 2y = 5 \\ 2x + 3y = 8 \end{cases} \iff \begin{bmatrix} 1 & 
 
 then we use one of or a combination of following operations to simplify the matrix as much as possible in a echelon shape :
 1. multiply a constant to a row ;
-2. add/substract the result of (1) to/from another row \\((\begin{smallmatrix}
-  a & b\\
-  c & d
-\end{smallmatrix})\\;
-3. switch rows \\(\big(\begin{smallmatrix}
-  a & b\\
-  c & d
-\end{smallmatrix}\big)\\) ;
+2. add/substract the result of (1) to/from another row ;
+3. switch rows ;
 
 $$ \begin{bmatrix} 1 & 2 & 5 \\ 2 & 3 & 8 \end{bmatrix} \implies (r_2 - 2r_1) \implies \begin{bmatrix} 1 & 2 & 5 \\ 0 & -1 & -2 \end{bmatrix} $$
 
