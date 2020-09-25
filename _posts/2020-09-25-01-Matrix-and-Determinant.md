@@ -77,6 +77,12 @@ then we use one of or a combination of following operations to simplify the matr
 
 $$ \begin{bmatrix} 1 & 2 & 5 \\ 2 & 3 & 8 \end{bmatrix} \implies (r_2 - 2r_1) \implies \begin{bmatrix} 1 & 2 & 5 \\ 0 & -1 & -2 \end{bmatrix} $$
 
+$$ \begin{bmatrix} 1 & 2 & 5 \\ 0 & -1 & -2 \end{bmatrix} \implies (- r_2) \implies \begin{bmatrix} 1 & 2 & 5 \\ 0 & 1 & 2 \end{bmatrix} $$
+
+$$ \begin{bmatrix} 1 & 2 & 5 \\ 0 & 1 & 2 \end{bmatrix} \implies (r_1 - 2r_2) \implies \begin{bmatrix} 1 & 0 & 1 \\ 0 & 1 & 2 \end{bmatrix} $$
+
+
+
 Proin eget nibh a massa vestibulum pretium. Suspendisse eu nisl a ante aliquet bibendum quis a nunc. Praesent varius interdum vehicula. Aenean risus libero, placerat at vestibulum eget, ultricies eu enim. Praesent nulla tortor, malesuada adipiscing adipiscing sollicitudin, adipiscing eget est.
 
 Praesent nulla tortor, malesuada adipiscing adipiscing sollicitudin, adipiscing eget est.
