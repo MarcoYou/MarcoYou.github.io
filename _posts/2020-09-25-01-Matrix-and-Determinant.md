@@ -8,7 +8,8 @@ math: true
 author:
   - Bart Simpson
   - Nelson Mandela Muntz
-[comment]: <> (This is a comment, it will not be included)
+[comment]: <> (mathjax inline > \\(...\\) )
+[comment]: <> (mathjax block  > $$...$$   )
 ---
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce bibendum neque eget nunc mattis eu sollicitudin enim tincidunt. Vestibulum lacus tortor, ultricies id dignissim ac, bibendum in velit.
