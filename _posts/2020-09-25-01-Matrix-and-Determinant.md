@@ -18,11 +18,28 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce bibendum neque eg
 
 ### 1.1 Notions and Definitions
 
+#### Basics
+
 $$ A = \begin{bmatrix} 1 & 2 & 3 \\ 4 & 5 & 6 \end{bmatrix} $$
 
+- **elements** : \\(a_{ij}\\) is used to denote a certain element in a matrix. Here, for example, \\(a_{12}\\) = 2 ;
 - **row** : (1 2 3) and (4 5 6) are called rows (there are m = 2 rows) ;
 - **column** : (1 4), (2 5), and (3 6) are called columns (there are n = 3 columns) ;
 - **matrix size** : A is a m(= 2) by n(= 3) matrix denoted as \\( A(m \times n) = A(2 \times 3)\\) ;
+- **transposition** : the notation for transpose of the matrix A is \\(A^T\\) or \\(A'\\) and is expressed as below
+
+$$ A^T = \begin{bmatrix} 1 & 4 \\ 2 & 5 \\ 3 & 6 \end{bmatrix} $$
+
+#### Further details
+
+$$ D = \begin{bmatrix} 1 & 0 & 0 \\ 0 & 1 & 0 \\ 0 & 0 & 1 \end{bmatrix} $$
+
+- D is a diagonal matrix and (1 1 1) is the diagonal (or diagonal elements) of D ;
+- D is an identity matrix which contains only 1 as its diagonal elements. An identity matrix is often denoted as I ;
+- D is a square matrix (number of rows = number of columns) ;
+- D is a symetric matrix 
+
+
 
 ### Some great subheading (h3)
 
