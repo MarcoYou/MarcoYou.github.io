@@ -9,7 +9,7 @@ author:
   - Bart Simpson
   - Nelson Mandela Muntz
 ---
-[//]: "킹아"
+[comment]: <> (This is a comment, it will not be included)
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce bibendum neque eget nunc mattis eu sollicitudin enim tincidunt. Vestibulum lacus tortor, ultricies id dignissim ac, bibendum in velit.
 
