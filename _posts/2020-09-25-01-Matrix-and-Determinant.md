@@ -125,7 +125,7 @@ In arcu magna, aliquet vel pretium et, molestie et arcu. Mauris lobortis nulla e
 
 ### 2.1 Another way to express a matrix
 
-A first order equation system (***FOES***) is another way to express and solve a matrix problem. Reciprocally, we can also express a FOSE in terms of matrix and solve it with matrices through two different ways. For example, with \\( \begin{cases} x + 2y = 5 \\ 2x + 3y = 8 \end{cases} \\), the first method is **Gauss-Jordan elimination method**,
+A first order equation system (***FOES***) is another way to express and solve a matrix problem. Reciprocally, we can also express a FOSE in terms of matrix and solve it with matrices through two different ways. The first method is **Gauss-Jordan elimination method**,
 
 #### Gauss-Jordan Elimination Method
 
