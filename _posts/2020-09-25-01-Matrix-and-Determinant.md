@@ -49,12 +49,12 @@ $$ S = \begin{bmatrix} a & 2 & 3 \\ 2 & b & 4 \\ 3 & 4 & c \end{bmatrix} = S^T$$
 For \\(A(m \times n) = (a_{ij} \\) and \\(B(m \times n) = (b_{ij}) \\), following computations are valid
 
 - Addition and Substration : \\( A ± B = (a_{ij} ± b_{ij}) \\) ;
-- Constant factor multiplication : \\( c\dot A = (ca_{ij}) \\) (c is a constant) ;
+- Constant factor multiplication : \\( cA = (ca_{ij}) \\) (c is a constant) ;
 
 For \\(A(m \times n) = (a_{ij} \\) and \\(B(n \times r) = (b_{jk}) \\), following computations are valid
 
-- Matrix multiplication : \\( A(m \times n) \times B(n \times r) = AB(m \times r) = (c_{ik}) = \sum_{j=1}^n{a_{ij}n_{jk}} \\) ;
-- Matrix multiplication computation is not commutative. Which means AB ≠ BA:
+- Matrix multiplication : \\( A(m \times n) \times B(n \times r) = AB(m \times r) = (c_{ik}) = \sum_{j=1}^n{a_{ij}b_{jk}} \\) ;
+- Matrix multiplication computation is not commutative. Which means \\(AB ≠ BA\\) ;
 
 example)
 
