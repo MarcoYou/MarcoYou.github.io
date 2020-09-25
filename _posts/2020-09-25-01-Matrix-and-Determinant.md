@@ -101,7 +101,7 @@ Before applying this method, there are two questions to answer. ***"How do we kn
 
 For a matrix equation \\(AX = B\\), if \\(A\\)'s inverse matrix \\(A^{-1}\\) exists, then \\(X = A^{-1}B\\),
 
-(coefficient matrix)(variable vector/matrix) = (solution vector/constant matrix)
+(coefficient matrix)(variable vector/matrix) = (solution vector/constant matrix) :
 
 $$ \begin{bmatrix} 1 & 2 \\ 3 & 4 \end{bmatrix} 
 \begin{bmatrix} x \\ y \end{bmatrix} = 
@@ -110,8 +110,35 @@ $$ \begin{bmatrix} 1 & 2 \\ 3 & 4 \end{bmatrix}
 \begin{bmatrix} 1 & 2 \\ 3 & 4 \end{bmatrix}^{-1}
 \begin{bmatrix} 5 \\ 8 \end{bmatrix}$$
 
+## 3. Determinant
 
+### 3.1 Definition
 
+A determinant is a **function** that transforms a matrix into a constant : \\(det(A) = |A|\\).
+
+For a matrix A, determinant is computeted differently according to A's matrix size :
+- \\( A(0 \times 0) \\) : \\( det(A) = 0 \\)
+- \\( A(1 \times 1) \\) : \\( det(A) = a \\)
+- \\( A(2 \times 2) \\) : \\( det(A) = a_{11}a_{22} - a_{12}a_{21} \\)
+- \\( A(3 \times 3) \\) : \\( det(A) = a_{11}M_{11} - a_{12}M_{12} + a_{13}M_{13} \\)
+- \\( A(4 \times 4) \\) : \\( det(A) = a_{11}M_{11} - a_{12}M_{12} + a_{13}M_{13} - a_{14}M_{14} \\)
+
+#### Minor Matrix
+
+A minor matrix \\(M_{ij}\\) is a **determinant** of a submatrix from a matrix \\(A(n \times n)\\) where \\(n>i,j\\). The submatrix concerning \\(M\\) is matrix \\(A\\) without \\(i^{th}\\) row and \\(n^{th}\\) column.
+
+example)
+
+$$ A = \begin{bmatrix}
+a_{11} & a_{12} & a_{13} \\
+a_{21} & a_{22} & a_{23} \\
+a_{31} & a_{32} & a_{33}
+\end{bmatrix} ~~~~~~~~~~ 
+M_{11} = \begin{vmatrix}
+a_{22} & a_{23} \\
+a_{32} & a_{33}
+\end{vmatrix}
+$$
 
 ### Tables
 
