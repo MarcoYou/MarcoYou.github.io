@@ -1,9 +1,9 @@
 ---
 layout: post
 toc: true
-title: "Demo"
-categories: junk
-tags: [markdown, css, html]
+title: "01. Matrix and Determinant"
+categories: Linear Algebra
+tags: [linear algebra, matrix, maths]
 math: true
 author:
   - Bart Simpson
@@ -14,17 +14,14 @@ author:
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce bibendum neque eget nunc mattis eu sollicitudin enim tincidunt. Vestibulum lacus tortor, ultricies id dignissim ac, bibendum in velit.
 
-## Some great heading (h2)
+## 1. Matrix
 
-Proin convallis mi ac felis pharetra aliquam. Curabitur dignissim accumsan rutrum. In arcu magna, aliquet vel pretium et, molestie et arcu. `a^2_i` and \\( \lim{math_jax} \\) .
+### 1.1 Notions and Definitions
 
-$$ \sum{a_i} $$
+$$ A = \begin{bmatrix} 1 & 2 & 3 \\ 4 & 5 & 6 \end{bmatrix} $$
 
-Mauris lobortis nulla et felis ullamcorper bibendum. Phasellus et hendrerit mauris. Proin eget nibh a massa vestibulum pretium. Suspendisse eu nisl a ante aliquet bibendum quis a nunc. Praesent varius interdum vehicula. Aenean risus libero, placerat at vestibulum eget, ultricies eu enim. Praesent nulla tortor, malesuada adipiscing adipiscing sollicitudin, adipiscing eget est.
-
-## Another great heading (h2)
-
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce bibendum neque eget nunc mattis eu sollicitudin enim tincidunt. Vestibulum lacus tortor, ultricies id dignissim ac, bibendum in velit.
+- \\(\begin{matrix} 1 & 2 & 3 \end{matrix}\\) and \\(\begin{matrix} 4 & 5 & 6 \end{matrix}\\) are called rows ;
+- \\(\begin{matrix} 1 \\ 4  \end{matrix}\\), \\(\begin{matrix} 2 \\ 5 \end{matrix}\\), \\(\begin{matrix} 3 \\ 6 \end{matrix}\\) are columns.
 
 ### Some great subheading (h3)
 
