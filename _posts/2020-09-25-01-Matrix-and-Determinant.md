@@ -72,8 +72,11 @@ $$ \begin{cases} x + 2y = 5 \\ 2x + 3y = 8 \end{cases} \iff \begin{bmatrix} 1 & 
 
 then we use one of or a combination of following operations to simplify the matrix as much as possible in a echelon shape :
 1. multiply a constant to a row ;
-2. add/substract the result of (1) to/from another row ;
-3. switch rows \\(big(\begin{smallmatrix}
+2. add/substract the result of (1) to/from another row \\((\begin{smallmatrix}
+  a & b\\
+  c & d
+\end{smallmatrix})\\;
+3. switch rows \\(\big(\begin{smallmatrix}
   a & b\\
   c & d
 \end{smallmatrix}\big)\\) ;
