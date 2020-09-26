@@ -124,7 +124,6 @@ For a matrix A, determinant is computeted differently according to matrix size :
 - \\( A(4 \times 4) \\) : \\( det(A) = a_{11}M_{11} - a_{12}M_{12} + a_{13}M_{13} - a_{14}M_{14} \\)
 
 #### Minor Matrix
-
 A minor matrix \\(M_{ij}\\) is a **determinant** of a submatrix from a matrix \\(A(n \times n)\\) where \\(n>i,j\\). The submatrix concerning \\(M\\) is matrix \\(A\\) without \\(i^{th}\\) row and \\(n^{th}\\) column.
 
 example)
@@ -141,7 +140,6 @@ a_{32} & a_{33}
 $$
 
 #### Sarrus Rule
-
 Sarrus Rule is a mnemonic device for computing the determinant of \\(3 \times 3\\) matrix named after French mathematician Pierre Frédéric Sarrus. Consider \\(A(3\times 3)\\). \\(det(A)\\) is computeted by the following rule :
 
 ![Sarrus](https://upload.wikimedia.org/wikipedia/commons/thumb/2/2d/Schema_sarrus-regel.png/440px-Schema_sarrus-regel.png)
