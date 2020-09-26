@@ -122,11 +122,11 @@ $$ \begin{bmatrix} 1 & 2 \\ 3 & 4 \end{bmatrix}
 A **determinant** is a function that transforms a matrix into a constant.
 
 For a matrix A, determinant is computeted differently according to matrix size :
-- \\( A(0 \times 0) \\) : \\( det(A) = 0 \\)
-- \\( A(1 \times 1) \\) : \\( det(A) = a \\)
-- \\( A(2 \times 2) \\) : \\( det(A) = a_{11}a_{22} - a_{12}a_{21} \\)
-- \\( A(3 \times 3) \\) : \\( det(A) = a_{11}M_{11} - a_{12}M_{12} + a_{13}M_{13} \\)
-- \\( A(4 \times 4) \\) : \\( det(A) = a_{11}M_{11} - a_{12}M_{12} + a_{13}M_{13} - a_{14}M_{14} \\)
+- \\( A(0 \times 0) \\) : \\( \det(A) = 0 \\)
+- \\( A(1 \times 1) \\) : \\( \det(A) = a \\)
+- \\( A(2 \times 2) \\) : \\( \det(A) = a_{11}a_{22} - a_{12}a_{21} \\)
+- \\( A(3 \times 3) \\) : \\( \det(A) = a_{11}M_{11} - a_{12}M_{12} + a_{13}M_{13} \\)
+- \\( A(4 \times 4) \\) : \\( \det(A) = a_{11}M_{11} - a_{12}M_{12} + a_{13}M_{13} - a_{14}M_{14} \\)
 
 #### Minor Matrix
 A minor matrix \\(M_{ij}\\) is a **determinant** of a submatrix from a matrix \\(A(n \times n)\\) where \\(n>i,j\\). The submatrix concerning \\(M\\) is matrix \\(A\\) without \\(i^{th}\\) row and \\(n^{th}\\) column.
@@ -145,13 +145,13 @@ a_{32} & a_{33}
 $$
 
 #### Sarrus Rule
-Sarrus Rule is a mnemonic device for computing the determinant of \\(3 \times 3\\) matrix named after French mathematician Pierre Frédéric Sarrus. Consider \\(A(3\times 3)\\). \\(det(A)\\) is computeted by the following rule :
+Sarrus Rule is a mnemonic device for computing the determinant of \\(3 \times 3\\) matrix named after French mathematician Pierre Frédéric Sarrus. Consider \\(A(3\times 3)\\). \\(\det(A)\\) is computeted by the following rule :
 
 <p align="center">
     <img src="/image/sarrus-rule.png" alt="sarrus-rule" width="340" height="200" />
 </p>
 
-$$ det(A) = (a_{11} a_{22} a_{33}) + (a_{12} a_{23} a_{31}) + (a_{13} a_{21} a_{32}) \\ 
+$$ \det(A) = (a_{11} a_{22} a_{33}) + (a_{12} a_{23} a_{31}) + (a_{13} a_{21} a_{32}) \\ 
 - (a_{31} a_{22} a_{13}) - (a_{32} a_{23} a_{11}) - (a_{33} a_{21} a_{12})
 $$
 
@@ -166,7 +166,7 @@ $$ c_{ij} = (-1)^{i+j}M_{ij} $$
 For a matrix A, its inverse matrix is defined as below :
 
 $$
-A^{-1} = \frac{1}{det(A)}\begin{bmatrix}
+A^{-1} = \frac{1}{\det(A)}\begin{bmatrix}
 c_{11} & c_{21} & \ldots \\
 c_{11} & c_{22} & \ldots \\
 \vdots & \vdots & \ddots
@@ -175,7 +175,7 @@ $$
 
 (note that cofactor indexes are transposed)
 
-This definition answers two questions in the section 2. By the property of fraction, \\(det(A)\\) cannot be 0. So if \\(det(A)\\) is not equal to 0, then we can compute \\(A^{-1}\\), therefore we can know if \\(A^{-1}\\) exists or not by checking the value of \\(det(A)\\). Once it is verified, we can compute the definition formula of \\(A^{-1}\\).
+This definition answers two questions in the section 2. By the property of fraction, \\(\det(A)\\) cannot be 0. So if \\(\det(A)\\) is not equal to 0, then we can compute \\(A^{-1}\\), therefore we can know if \\(A^{-1}\\) exists or not by checking the value of \\(\det(A)\\). Once it is verified, we can compute the definition formula of \\(A^{-1}\\).
 
 #### Why the inverse matrix is defined as above ?
 
@@ -212,7 +212,6 @@ c_{1n} & c_{2n} & \ldots & c_{nn} \\
 \end{bmatrix}
 $$
 
-test: \\( \det \\)
 Just like \\(a \cdot a^{-1} = 1 \\), for matrix, \\(A \cdot A^{-1} = I \\). 
 
 $$ \begin{bmatrix} 1 & 2 \\ 3 & 4 \end{bmatrix} $$
