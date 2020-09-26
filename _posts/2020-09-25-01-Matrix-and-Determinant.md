@@ -181,12 +181,7 @@ $$ A \cdot adj(A) = |A| \iff
 \begin{bmatrix} |A| & 0 \\ 0 & |A| \end{bmatrix}
 $$
 
-$$ \begin{bmatrix} 1 & 2 \\ 3 & 4 \end{bmatrix} $$
-
-
-
-
-Just like \\(a \cdot a^{-1} = 1 \\), for matrix, \\(A \cdot A^{-1} = I \\). 
+more generally,
 
 $$
 \begin{bmatrix}
@@ -209,3 +204,8 @@ c_{1n} & c_{2n} & \ldots & c_{nn} \\
      0 &      0 & \ldots & |A| \\
 \end{bmatrix}
 $$
+
+
+Just like \\(a \cdot a^{-1} = 1 \\), for matrix, \\(A \cdot A^{-1} = I \\). 
+
+$$ \begin{bmatrix} 1 & 2 \\ 3 & 4 \end{bmatrix} $$
