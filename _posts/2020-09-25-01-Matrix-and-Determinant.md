@@ -179,9 +179,11 @@ This definition answers two questions in the section 2. By the property of fract
 
 #### Why the inverse matrix is defined as above ?
 
+Just like \\(a \cdot a^{-1} = 1 \\), for any matrix, \\(A \cdot A^{-1} = I \\). The demonstration is as following :
+
 Consider a matrix \\(A(2,2)\\).
 
-$$ A \cdot adj(A) = |A| \iff 
+$$
 \begin{bmatrix} a_{11} & a_{12} \\ a_{21} & a_{22} \end{bmatrix}
 \begin{bmatrix} c_{11} & c_{21} \\ c_{12} & c_{22} \end{bmatrix}
 =
@@ -212,6 +214,12 @@ c_{1n} & c_{2n} & \ldots & c_{nn} \\
 \end{bmatrix}
 $$
 
-Just like \\(a \cdot a^{-1} = 1 \\), for matrix, \\(A \cdot A^{-1} = I \\). 
+$$
+\iff A \cdot adj(A) = |A| \\
+\iff A \cdot \frac{1}{|A|} \cdot adj(A) = I \\
+\iff A \cdot A^{-1} = I
+$$
+
+
 
 $$ \begin{bmatrix} 1 & 2 \\ 3 & 4 \end{bmatrix} $$
