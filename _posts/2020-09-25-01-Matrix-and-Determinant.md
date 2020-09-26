@@ -87,7 +87,7 @@ The final matrix is called **reduced row echelon matrix** due to its form. With 
     <img src="/image/echelon.png" alt="ecehlon" width="160" height="100">
 </p>
 <p align="center">
-    <img src="/image/row-echelon.png" alt="row-echelon"/>
+    <img src="/image/row-echelon.png" alt="row-echelon" width="160" height="122"/>
 </p>
 
 The final matrix then can be expressed in FOES as below
