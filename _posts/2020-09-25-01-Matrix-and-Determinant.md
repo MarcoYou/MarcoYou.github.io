@@ -84,7 +84,7 @@ $$ \begin{bmatrix} 1 & 2 & 5 \\ 0 & 1 & 2 \end{bmatrix} \implies (r_1 - 2r_2) \i
 The final matrix is called **reduced row echelon matrix** due to its form. With Gauss-Jordan elimination method, we are supposed to simplify all the elements to zeros, ones or if impossible, to prime numbers.
 
 <img src="/image/echelon.png" width="160" height="100" />
-<img src="https://abidshafee.files.wordpress.com/2018/04/row-ecolon-form-of-matrix.png" width="160" height="160" />
+<img src="https://abidshafee.files.wordpress.com/2018/04/row-ecolon-form-of-matrix.png" />
 
 The final matrix then can be expressed in FOES as below
 
