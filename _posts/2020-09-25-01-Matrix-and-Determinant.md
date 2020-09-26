@@ -83,8 +83,6 @@ $$ \begin{bmatrix} 1 & 2 & 5 \\ 0 & 1 & 2 \end{bmatrix} \implies (r_1 - 2r_2) \i
 
 The final matrix is called **reduced row echelon matrix** due to its form. With Gauss-Jordan elimination method, we are supposed to simplify all the elements to zeros, ones or if impossible, to prime numbers.
 
-![echelon1](/image/echelon.png)
-
 <p align="center">
     <img src="/image/echelon.png" width="170" height="110">
 </p>
