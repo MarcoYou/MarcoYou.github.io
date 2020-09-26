@@ -147,7 +147,9 @@ $$
 #### Sarrus Rule
 Sarrus Rule is a mnemonic device for computing the determinant of \\(3 \times 3\\) matrix named after French mathematician Pierre Frédéric Sarrus. Consider \\(A(3\times 3)\\). \\(det(A)\\) is computeted by the following rule :
 
-![Sarrus](https://upload.wikimedia.org/wikipedia/commons/thumb/2/2d/Schema_sarrus-regel.png/440px-Schema_sarrus-regel.png)
+<p align="center">
+    <img src="/image/sarrus-rule.png" alt="sarrus-rule" width="340" height="200"/>
+</p>
 
 $$ det(A) = (a_{11} a_{22} a_{33}) + (a_{12} a_{23} a_{31}) + (a_{13} a_{21} a_{32}) \\
 - (a_{31} a_{22} a_{13}) - (a_{32} a_{23} a_{11}) - (a_{33} a_{21} a_{12})
