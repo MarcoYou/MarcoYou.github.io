@@ -86,10 +86,10 @@ The final matrix is called **reduced row echelon matrix** due to its form. With 
 ![echelon1](/image/echelon.png)
 
 <p align="center">
-  <img src="/image/echelon.png" width="170" height="110">
+    <img src="/image/echelon.png" width="170" height="110">
 </p>
 <p align="center">
-<img src="https://abidshafee.files.wordpress.com/2018/04/row-ecolon-form-of-matrix.png" />
+    <img src="https://abidshafee.files.wordpress.com/2018/04/row-ecolon-form-of-matrix.png" />
 </p>
 
 The final matrix then can be expressed in FOES as below
