@@ -176,8 +176,11 @@ This definition answers two questions in the section 2. By the property of fract
 
 Consider a matrix \\(A(2,2)\\) and compute :
 
-$$ A \cdot adj(A) = |A| \iff \begin{bmatrix} a_{11} & a_{12} \\ a_{21} & a_{22} \end{bmatrix}
+$$ A \cdot adj(A) = |A| \iff 
 \begin{bmatrix} a_{11} & a_{12} \\ a_{21} & a_{22} \end{bmatrix}
+\begin{bmatrix} c_{11} & c_{21} \\ c_{12} & c_{22} \end{bmatrix}
+=
+\begin{bmatrix} |A| & 0 \\ 0 & |A| \end{bmatrix}
 $$
 
 $$ \begin{bmatrix} 1 & 2 \\ 3 & 4 \end{bmatrix} $$
