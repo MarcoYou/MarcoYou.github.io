@@ -221,6 +221,7 @@ $$ \begin{align}
 \end{align}
 $$
 
+This demonstration gives us the definition of the inverse matrix \\( A^{-1} = \frac{1}{|A|}adj(A) \\). In the definition, we can see that \\(|A|\\) is in the denominator. Therefore, \\( \det(A) \equiv |A| \\) cannot be equal to 0. As a corollary, we can say that **if \\( \det(A) \\) is equal to 0, then \\(A\\) doesn't have the inverse matrix**.
 
 
 $$ \begin{bmatrix} 1 & 2 \\ 3 & 4 \end{bmatrix} $$
