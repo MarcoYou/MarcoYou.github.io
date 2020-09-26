@@ -174,6 +174,19 @@ This definition answers two questions in the section 2. By the property of fract
 
 #### Why the inverse matrix is defined as above ?
 
+Consider a matrix \\(A(2,2)\\) and compute :
+
+$$ A \cdot adj(A) = |A| \iff \begin{bmatrix} a_{11} & a_{12} \\ a_{21} & a_{22} \end{bmatrix}
+\begin{bmatrix} a_{11} & a_{12} \\ a_{21} & a_{22} \end{bmatrix}
+$$
+
+$$ \begin{bmatrix} 1 & 2 \\ 3 & 4 \end{bmatrix} $$
+
+
+
+
+Just like \\(a \cdot a^{-1} = 1 \\), for matrix, \\(A \cdot A^{-1} = I \\). 
+
 $$
 \begin{bmatrix}
 a_{11} & a_{12} & \ldots & a_{1n} \\
@@ -195,22 +208,3 @@ c_{1n} & c_{2n} & \ldots & c_{nn} \\
      0 &      0 & \ldots & |A| \\
 \end{bmatrix}
 $$
-
-Just like \\(a \cdot a^{-1} = 1 \\), for matrix, \\(A \cdot A^{-1} = I \\). 
-
-### Tables
-
-Title 1               | Title 2               | Title 3               | Title 4
---------------------- | --------------------- | --------------------- | ---------------------
-lorem                 | lorem ipsum           | lorem ipsum dolor     | lorem ipsum dolor sit
-lorem ipsum dolor sit | lorem ipsum dolor sit | lorem ipsum dolor sit | lorem ipsum dolor sit
-lorem ipsum dolor sit | lorem ipsum dolor sit | lorem ipsum dolor sit | lorem ipsum dolor sit
-lorem ipsum dolor sit | lorem ipsum dolor sit | lorem ipsum dolor sit | lorem ipsum dolor sit
-
-
-Title 1 | Title 2 | Title 3 | Title 4
---- | --- | --- | ---
-lorem | lorem ipsum | lorem ipsum dolor | lorem ipsum dolor sit
-lorem ipsum dolor sit amet | lorem ipsum dolor sit amet consectetur | lorem ipsum dolor sit amet | lorem ipsum dolor sit
-lorem ipsum dolor | lorem ipsum | lorem | lorem ipsum
-lorem ipsum dolor | lorem ipsum dolor sit | lorem ipsum dolor sit amet | lorem ipsum dolor sit amet consectetur
