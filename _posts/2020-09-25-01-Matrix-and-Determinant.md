@@ -114,7 +114,7 @@ $$ \begin{bmatrix} 1 & 2 \\ 3 & 4 \end{bmatrix}
 
 ### 3.1 Definition
 
-A determinant is a **function** that transforms a matrix into a constant : \\(det(A) = |A|\\).
+A determinant is a **function** that transforms a matrix into a constant : \\( det(A) = |A| \\).
 
 For a matrix A, determinant is computeted differently according to A's matrix size :
 - \\( A(0 \times 0) \\) : \\( det(A) = 0 \\)
