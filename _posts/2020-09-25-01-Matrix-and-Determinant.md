@@ -215,9 +215,9 @@ c_{1n} & c_{2n} & \ldots & c_{nn} \\
 $$
 
 $$ \begin{align} 
-  \iff A \cdot adj(A) = |A| \\
-& \iff A \cdot \frac{1}{|A|} \cdot adj(A) = I \\
-& \iff A \cdot A^{-1} = I 
+ \iff A \cdot adj(A) = |A| \\
+ \iff A \cdot \frac{1}{|A|} \cdot adj(A) = I \\
+ \iff A \cdot A^{-1} = I 
 \end{align}
 $$
 
