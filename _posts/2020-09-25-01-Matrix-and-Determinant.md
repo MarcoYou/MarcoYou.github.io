@@ -25,7 +25,7 @@ $$ A = \begin{bmatrix} 1 & 2 & 3 \\ 4 & 5 & 6 \end{bmatrix} $$
 - **elements** : \\(a_{ij}\\) is a certain element located in i-th row and j-th column in a matrix. Here, for example, \\(a_{12}\\) = 2 ;
 - **row** : (1 2 3) and (4 5 6) are called rows (there are m = 2 rows) ;
 - **column** : (1 4), (2 5), and (3 6) are called columns (there are n = 3 columns) ;
-- **matrix size** : A is a m(= 2) by n(= 3) matrix denoted as \\( A(2 \times 3) \\) or in general \\( A(m \times n) \\) ;
+- **matrix size** : A is a m(= 2) by n(= 3) matrix denoted as \\( A(2 \times 3) \\) or in general \\( A(m \times n) \\). It could also be denoted as \\( A(2, 3) \\) and \\( A(m, n) \\) ;
 - **transposition** : the notation for transpose of the matrix A is \\(A^T\\) or \\(A'\\) and is expressed as below
 
 $$ A^T = A' = \begin{bmatrix} 1 & 4 \\ 2 & 5 \\ 3 & 6 \end{bmatrix} $$
@@ -151,7 +151,7 @@ Sarrus Rule is a mnemonic device for computing the determinant of \\(3 \times 3\
     <img src="/image/sarrus-rule.png" alt="sarrus-rule" width="340" height="200" />
 </p>
 
-$$ det(A) = (a_{11} a_{22} a_{33}) + (a_{12} a_{23} a_{31}) + (a_{13} a_{21} a_{32}) \\
+$$ det(A) = (a_{11} a_{22} a_{33}) + (a_{12} a_{23} a_{31}) + (a_{13} a_{21} a_{32}) \\ 
 - (a_{31} a_{22} a_{13}) - (a_{32} a_{23} a_{11}) - (a_{33} a_{21} a_{12})
 $$
 
@@ -179,7 +179,7 @@ This definition answers two questions in the section 2. By the property of fract
 
 #### Why the inverse matrix is defined as above ?
 
-Consider a matrix \\(A(2,2)\\) and compute :
+Consider a matrix \\(A(2,2)\\).
 
 $$ A \cdot adj(A) = |A| \iff 
 \begin{bmatrix} a_{11} & a_{12} \\ a_{21} & a_{22} \end{bmatrix}
@@ -188,7 +188,7 @@ $$ A \cdot adj(A) = |A| \iff
 \begin{bmatrix} |A| & 0 \\ 0 & |A| \end{bmatrix}
 $$
 
-more generally,
+or more generally for a matrix \\(A(n,n)\\),
 
 $$
 \begin{bmatrix}
@@ -212,7 +212,7 @@ c_{1n} & c_{2n} & \ldots & c_{nn} \\
 \end{bmatrix}
 $$
 
-
+test: \\( \det \\)
 Just like \\(a \cdot a^{-1} = 1 \\), for matrix, \\(A \cdot A^{-1} = I \\). 
 
 $$ \begin{bmatrix} 1 & 2 \\ 3 & 4 \end{bmatrix} $$
