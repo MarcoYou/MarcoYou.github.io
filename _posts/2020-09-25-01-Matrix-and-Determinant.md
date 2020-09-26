@@ -193,25 +193,25 @@ $$
 or more generally for a matrix \\(A(n,n)\\),
 
 $$
-\begin{bsmallmatrix}
+\begin{smallmatrix}
 a_{11} & a_{12} & \ldots & a_{1n} \\
 a_{21} & a_{22} & \ldots & a_{2n} \\
 \vdots & \vdots & \ddots & \vdots \\
 a_{n1} & a_{n2} & \ldots & a_{nn} \\
-\end{bsmallmatrix}
-\begin{bsmallmatrix}
+\end{smallmatrix}
+\begin{smallmatrix}
 c_{11} & c_{21} & \ldots & c_{n1} \\
 c_{12} & c_{22} & \ldots & c_{n2} \\
 \vdots & \vdots & \ddots & \vdots \\
 c_{1n} & c_{2n} & \ldots & c_{nn} \\
-\end{bsmallmatrix}
+\end{smallmatrix}
 =
-\begin{bsmallmatrix}
+\begin{smallmatrix}
    |A| &      0 & \ldots & 0 \\
      0 &    |A| & \ldots & 0 \\
 \vdots & \vdots & \ddots & \vdots \\
      0 &      0 & \ldots & |A| \\
-\end{bsmallmatrix}
+\end{smallmatrix}
 $$
 
 $$ \begin{align} 
