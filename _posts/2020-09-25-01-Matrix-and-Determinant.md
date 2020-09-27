@@ -271,3 +271,23 @@ a_{21} & \ldots &    a_{2j} & \ldots & a_{2n} \\
 a_{n1} & \ldots &    a_{nj} & \ldots & a_{nn}
 \end{vmatrix}}
 $$
+
+where \\(A_j\\) is a matrix A whose \\(j^{th}\\) column is replaced by the vector B.
+
+#### example
+
+$$
+\begin{cases} 5x + 3y = -2 \\ 4x - y = -5 \end{cases}
+\iff
+\begin{bmatrix} 5 & 3 \\ 4 & -1 \end{bmatrix}_A
+\begin{bmatrix} x \\ y \end{bmatrix}_X
+=
+\begin{bmatrix} -2 \\ -5 \end{bmatrix}_B
+
+$$
+x = \frac{1}{\det A}\begin{vmatrix} -2 & 3 \\ -5 & -1 \end{vmatrix} = -\frac{1}{17}(2 + 15) = -1
+$$
+
+$$
+y = \frac{1}{\det A}\begin{vmatrix} 5 & -2 \\ 4 & -5 \end{vmatrix} = -\frac{1}{17}(-25 + 8) = 1
+$$
