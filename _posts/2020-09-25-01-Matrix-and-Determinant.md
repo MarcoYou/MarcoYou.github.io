@@ -243,6 +243,4 @@ $$ \begin{align}
 \end{align}
 $$
 
-<br>
-
 $$ \implies A^{-1} = \frac{1}{-2} \cdot \begin{bmatrix} 4 & -2 \\ -3 & 1 \end{bmatrix} $$
