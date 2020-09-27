@@ -3,11 +3,11 @@ layout: post
 toc: true
 title: "01. Matrix and Determinant"
 categories: Linear_Algebra
-tags: [linear algebra, matrix, maths]
+tags: [linear algebra, matrix, maths, regression, vector]
 math: true
 author:
   - Marco You
-  - Sangyup Lee
+  - Sangyup Lee (수학의 신)
 [comment]: <> (mathjax inline > \\(...\\) )
 [comment]: <> (mathjax block  > $$...$$   )
 ---
@@ -56,7 +56,7 @@ For \\(A(m \times n) = (a_{ij} \\) and \\(B(n \times r) = (b_{jk}) \\), followin
 - Matrix multiplication : \\( A(m \times n) \times B(n \times r) = AB(m \times r) = (c_{ik}) = \sum_{j=1}^n{a_{ij}b_{jk}} \\) ;
 - Matrix multiplication computation is not commutative. Which means \\(AB ≠ BA\\) ;
 
-example)
+#### Example : to be updated
 
 ## 2. First Order Equation System
 
@@ -217,7 +217,7 @@ This demonstration gives the definition of the inverse matrix \\( A^{-1} = \frac
 In the definition, we can see that \\( |A| \\) is in the denominator. Therefore, \\( \det(A) \equiv |A| \\) cannot be equal to 0.
 As a corollary, we can say that **if \\( \det(A) \\) is equal to 0, then \\( A \\) doesn't have the inverse matrix**. So this becomes the very first thing to verify before proceeding to compute the inverse matrix of any matrix.
 
-#### example
+#### Example : inverse matrix
 
 Consider a matrix \\( A(2,2) \\) :
 
@@ -274,7 +274,7 @@ $$
 
 where \\(A_j\\) is a matrix A whose \\(j^{th}\\) column is replaced by the vector B.
 
-#### example
+#### Example : Cramer rule
 
 $$
 \begin{cases} 5x + 3y = -2 \\ 4x - y = -5 \end{cases}
