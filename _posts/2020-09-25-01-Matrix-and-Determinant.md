@@ -259,15 +259,15 @@ $$
 x_j = \frac{\det (A_j)}{\det (A)} 
 = 
 \frac{\begin{vmatrix}
-a_{11} & \ldots &   \b_1 & \ldots & a_{1n} \\
-a_{21} & \ldots &   \b_2 & \ldots & a_{2n} \\
+a_{11} & \ldots &    b_1 & \ldots & a_{1n} \\
+a_{21} & \ldots &    b_2 & \ldots & a_{2n} \\
 \vdots &        & \vdots &        & \vdots \\
-a_{n1} & \ldots &   \b_n & \ldots & a_{nn}
+a_{n1} & \ldots &    b_n & \ldots & a_{nn}
 \end{vmatrix}}
 {\begin{vmatrix}
-a_{11} & \ldots &   \a_{1j} & \ldots & a_{1n} \\
-a_{21} & \ldots &   \a_{2j} & \ldots & a_{2n} \\
+a_{11} & \ldots &    a_{1j} & \ldots & a_{1n} \\
+a_{21} & \ldots &    a_{2j} & \ldots & a_{2n} \\
 \vdots &        &    \vdots &        & \vdots \\
-a_{n1} & \ldots &   \a_{nj} & \ldots & a_{nn}
+a_{n1} & \ldots &    a_{nj} & \ldots & a_{nn}
 \end{vmatrix}}
 $$
