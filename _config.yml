@@ -3,6 +3,7 @@ description: Marco's personal notes
 author: Marco You
 avatar: /CV Pic-white.jpeg
 email: gunhoqw20@gmail.com
+location: Paris, France
 
 plugins:
   - jekyll-seo-tag
