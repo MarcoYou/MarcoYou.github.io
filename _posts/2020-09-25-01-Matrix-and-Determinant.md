@@ -247,6 +247,27 @@ $$ \implies A^{-1} = \frac{1}{-2} \cdot \begin{bmatrix} 4 & -2 \\ -3 & 1 \end{bm
 
 ### 3.2.1 Conclusion
 
-Now we know how to verify if \\( A^{-1} \\) exists and how to compute it. But we really have to know in the end is \\( X = A^{-1}B \\). Computing X is just same as computing any matrix multiplication. But **what if we only wanna know a certain element of X ?**. For instance, what if we only wanna know \\( x_{12} \\) from \\( X \\) ?
+Now we know how to verify if \\( A^{-1} \\) exists and how to compute it. But what we really have to know in the end is \\( X = A^{-1}B \\). Computing \\( X \\) is just same as computing any matrix multiplication. But **what if we only wanna know a certain element of X ?**. For instance, what if we only wanna know \\( x_{12} \\) from \\( X \\) ?
 
 In this case, we use **Cramer Rule**, also called Carmer's algorithm.
+
+### 3.3 Cramer Rule
+
+For a matrix equation \\( AX = B \\) in which A has a non null determinant, \\( j = 1, \ldots, n \\)
+
+$$
+x_j = \frac{\det (A_j)}{\det (A)} 
+= 
+\frac{\begin{vmatrix}
+a_{11} & \ldots &   \b_1 & \ldots & a_{1n} \\
+a_{21} & \ldots &   \b_2 & \ldots & a_{2n} \\
+\vdots &        & \vdots &        & \vdots \\
+a_{n1} & \ldots &   \b_n & \ldots & a_{nn}
+\end{vmatrix}}
+{\begin{vmatrix}
+a_{11} & \ldots &   \a_{1j} & \ldots & a_{1n} \\
+a_{21} & \ldots &   \a_{2j} & \ldots & a_{2n} \\
+\vdots &        &    \vdots &        & \vdots \\
+a_{n1} & \ldots &   \a_{nj} & \ldots & a_{nn}
+\end{vmatrix}}
+$$
