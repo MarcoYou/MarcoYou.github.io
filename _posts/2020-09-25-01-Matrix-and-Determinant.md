@@ -243,4 +243,31 @@ $$ \begin{align}
 \end{align}
 $$
 
+$$ \begin{align}
+& \iff
+\begin{bmatrix} a_{11} & a_{12} \\ a_{21} & a_{22} \end{bmatrix}
+\begin{bmatrix} c_{11} & c_{21} \\ c_{12} & c_{22} \end{bmatrix}
+=
+\begin{bmatrix} |A| & 0 \\ 0 & |A| \end{bmatrix} 
+\end{align}
+$$
+
+$$
+& \iff
+\begin{bmatrix} 1 & 2 \\ 3 & 4 \end{bmatrix} 
+\begin{bmatrix} 4 & -2 \\ -3 & 1 \end{bmatrix}
+=
+\begin{bmatrix} -2 & 0 \\ 0 & -2 \end{bmatrix}
+$$
+
+\\
+& \iff
+\begin{bmatrix} 1 & 2 \\ 3 & 4 \end{bmatrix}
+\frac{1}{-2}
+\begin{bmatrix} 4 & -2 \\ -3 & 1 \end{bmatrix}
+=
+\begin{bmatrix} 1 & 0 \\ 0 & 1 \end{bmatrix}
+\end{align}
+$$
+
 $$ \implies A^{-1} = \frac{1}{-2} \cdot \begin{bmatrix} 4 & -2 \\ -3 & 1 \end{bmatrix} $$
