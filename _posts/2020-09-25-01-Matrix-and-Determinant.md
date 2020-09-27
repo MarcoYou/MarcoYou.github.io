@@ -283,6 +283,7 @@ $$
 \begin{bmatrix} x \\ y \end{bmatrix}_X
 =
 \begin{bmatrix} -2 \\ -5 \end{bmatrix}_B
+$$
 
 $$
 x = \frac{1}{\det A}\begin{vmatrix} -2 & 3 \\ -5 & -1 \end{vmatrix} = -\frac{1}{17}(2 + 15) = -1
