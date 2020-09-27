@@ -236,11 +236,11 @@ $$ \begin{align}
 \begin{bmatrix} -2 & 0 \\ 0 & -2 \end{bmatrix} \\
 & \iff
 \begin{bmatrix} 1 & 2 \\ 3 & 4 \end{bmatrix}
-\frac{1}{|A|}
+\frac{1}{-2}
 \begin{bmatrix} 4 & -2 \\ -3 & 1 \end{bmatrix}
 =
-\begin{bmatrix} 1 & 0 \\ 0 & 1 \end{bmatrix} 
+\begin{bmatrix} 1 & 0 \\ 0 & 1 \end{bmatrix} \\
+& \implies
+A^{-1} = \frac{1}{-2} \cdot \begin{bmatrix} 4 & -2 \\ -3 & 1 \end{bmatrix}
 \end{align}
 $$
-
-$$ \implies A^{-1} = \frac{1}{|A|} \cdot \begin{bmatrix} 4 & -2 \\ -3 & 1 \end{bmatrix} $$
