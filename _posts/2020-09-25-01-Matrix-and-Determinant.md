@@ -217,7 +217,7 @@ This demonstration gives the definition of the inverse matrix \\( A^{-1} = \frac
 In the definition, we can see that \\( |A| \\) is in the denominator. Therefore, \\( \det(A) \equiv |A| \\) cannot be equal to 0.
 As a corollary, we can say that **if \\( \det(A) \\) is equal to 0, then \\( A \\) doesn't have the inverse matrix**. So this becomes the very first thing to verify before proceeding to compute the inverse matrix of any matrix.
 
-**example**
+#### example
 
 Consider a matrix \\( A(2,2) \\) :
 
@@ -244,3 +244,9 @@ $$ \begin{align}
 $$
 
 $$ \implies A^{-1} = \frac{1}{-2} \cdot \begin{bmatrix} 4 & -2 \\ -3 & 1 \end{bmatrix} $$
+
+### 3.2.1 Conclusion
+
+Now we know how to verify if \\( A^{-1} \\) exists and how to compute it. But we really have to know in the end is \\( X = A^{-1}B \\). Computing X is just same as computing any matrix multiplication. But **what if we only wanna know a certain element of X ?**. For instance, what if we only wanna know \\( x_{12} \\) from \\( X \\) ?
+
+In this case, we use **Cramer Rule**, also called Carmer's algorithm.
