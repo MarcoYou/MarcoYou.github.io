@@ -181,16 +181,7 @@ This definition answers two questions in the section 2. By the property of fract
 
 Just like \\(a \cdot a^{-1} = 1 \\), for any matrix, \\(A \cdot A^{-1} = I \\). The demonstration is as following :
 
-Consider a matrix \\(A(2,2)\\).
-
-$$
-\begin{bmatrix} a_{11} & a_{12} \\ a_{21} & a_{22} \end{bmatrix}
-\begin{bmatrix} c_{11} & c_{21} \\ c_{12} & c_{22} \end{bmatrix}
-=
-\begin{bmatrix} |A| & 0 \\ 0 & |A| \end{bmatrix}
-$$
-
-or more generally for a matrix \\(A(n,n)\\),
+Consider a matrix \\(A(n,n)\\).
 
 $$
 \begin{bmatrix}
@@ -226,5 +217,22 @@ This demonstration gives us the definition of the inverse matrix \\( A^{-1} = \f
 In the definition, we can see that \\( |A| \\) is in the denominator. Therefore, \\( \det(A) \equiv |A| \\) cannot be equal to 0.
 As a corollary, we can say that **if \\( \det(A) \\) is equal to 0, then \\( A \\) doesn't have the inverse matrix**. So this becomes the very first thing to verify before proceeding to compute the inverse matrix of any matrix.
 
+**example**
 
-$$ \begin{bmatrix} 1 & 2 \\ 3 & 4 \end{bmatrix} $$
+Consider a matrix \\( A(2,2) \\) :
+
+$$ A \cdot adj(A) = |A| $$
+
+$$ \begin{align}
+&
+\begin{bmatrix} a_{11} & a_{12} \\ a_{21} & a_{22} \end{bmatrix}
+\begin{bmatrix} c_{11} & c_{21} \\ c_{12} & c_{22} \end{bmatrix}
+=
+\begin{bmatrix} |A| & 0 \\ 0 & |A| \end{bmatrix}
+&
+\begin{bmatrix} 1 & 2 \\ 3 & 4 \end{bmatrix} 
+\begin{bmatrix} 4 & -2 \\ -3 & 1 \end{bmatrix}
+=
+\begin{bmatrix} -2 & 0 \\ 0 & -2 \end{bmatrix}
+\end{align}
+$$
