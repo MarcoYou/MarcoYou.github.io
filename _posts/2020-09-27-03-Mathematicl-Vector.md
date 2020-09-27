@@ -16,4 +16,4 @@ author:
 
 ### 1.1 Definition
 
-Algebraic structure isa mathematical object that encompasses a certain set of numbers, replacements of numbers (e.g x y z), all the mathematical operations assigned to such numbers ans replacements, and all the axioms assigned to the latters. In simple definition, we could also say that it is a set assigned with series of operations.
+Algebraic structure isa mathematical object that encompasses a certain set of numbers, replacements of numbers (e.g. x y z), all the mathematical operations assigned to such numbers ans replacements, and all the axioms assigned to the latters. In simple definition, we could also say that it is a set assigned with series of operations.
