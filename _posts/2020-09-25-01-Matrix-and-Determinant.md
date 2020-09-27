@@ -213,7 +213,7 @@ $$ \begin{align}
 \end{align}
 $$
 
-This demonstration gives us the definition of the inverse matrix \\( A^{-1} = \frac{1}{|A|}adj(A) \\).
+This demonstration gives the definition of the inverse matrix \\( A^{-1} = \frac{1}{|A|}adj(A) \\).
 In the definition, we can see that \\( |A| \\) is in the denominator. Therefore, \\( \det(A) \equiv |A| \\) cannot be equal to 0.
 As a corollary, we can say that **if \\( \det(A) \\) is equal to 0, then \\( A \\) doesn't have the inverse matrix**. So this becomes the very first thing to verify before proceeding to compute the inverse matrix of any matrix.
 
@@ -224,12 +224,12 @@ Consider a matrix \\( A(2,2) \\) :
 $$ A \cdot adj(A) = |A| $$
 
 $$ \begin{align}
-&
+& \implies
 \begin{bmatrix} a_{11} & a_{12} \\ a_{21} & a_{22} \end{bmatrix}
 \begin{bmatrix} c_{11} & c_{21} \\ c_{12} & c_{22} \end{bmatrix}
 =
-\begin{bmatrix} |A| & 0 \\ 0 & |A| \end{bmatrix}
-&
+\begin{bmatrix} |A| & 0 \\ 0 & |A| \end{bmatrix} \\
+& \iff
 \begin{bmatrix} 1 & 2 \\ 3 & 4 \end{bmatrix} 
 \begin{bmatrix} 4 & -2 \\ -3 & 1 \end{bmatrix}
 =
