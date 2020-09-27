@@ -239,8 +239,10 @@ $$ \begin{align}
 \frac{1}{-2}
 \begin{bmatrix} 4 & -2 \\ -3 & 1 \end{bmatrix}
 =
-\begin{bmatrix} 1 & 0 \\ 0 & 1 \end{bmatrix} \\
-& \implies
-A^{-1} = \frac{1}{-2} \cdot \begin{bmatrix} 4 & -2 \\ -3 & 1 \end{bmatrix}
+\begin{bmatrix} 1 & 0 \\ 0 & 1 \end{bmatrix}
 \end{align}
 $$
+
+<br>
+
+$$ \implies A^{-1} = \frac{1}{-2} \cdot \begin{bmatrix} 4 & -2 \\ -3 & 1 \end{bmatrix} $$
