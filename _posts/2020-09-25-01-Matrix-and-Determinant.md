@@ -285,10 +285,8 @@ $$
 \begin{bmatrix} -2 \\ -5 \end{bmatrix}_B
 $$
 
-$$
-x = \frac{1}{\det A}\begin{vmatrix} -2 & 3 \\ -5 & -1 \end{vmatrix} = -\frac{1}{17}(2 + 15) = -1
-$$
-
-$$
-y = \frac{1}{\det A}\begin{vmatrix} 5 & -2 \\ 4 & -5 \end{vmatrix} = -\frac{1}{17}(-25 + 8) = 1
+$$ \begin{align}
+& x = \frac{1}{\det A}\begin{vmatrix} -2 & 3 \\ -5 & -1 \end{vmatrix} = -\frac{1}{17}(2 + 15) = -1 \\
+& y = \frac{1}{\det A}\begin{vmatrix} 5 & -2 \\ 4 & -5 \end{vmatrix} = -\frac{1}{17}(-25 + 8) = 1
+\end{align}
 $$
