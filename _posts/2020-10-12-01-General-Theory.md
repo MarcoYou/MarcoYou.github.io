@@ -21,8 +21,11 @@ In the General Theory of risk, known as Expected Utility Theory developed by Von
 Two types of information are necessary to describe a risky environment :
 
 - **enumeration of all possible outcomes**
-  - \\( C \\) : set of all possible outcomes (often monetary consequences) that affect the well-being of the decision maker
-  - \\( C \\) is assumed to be finite.
+  - Set of all possible outcomes (often monetary consequences) that affect the well-being of the decision maker
+  - Such set is assumed to be finite ;
+- **characterization of the risky environment**
+  - Probability vector of the possible outcomes,
+  - \\( p_s \\) = probability of outcome \\( s \\) occurring, with \\( \sum{p_s} = 1\\) ;
 
 ### 1.2 Axioms
 ### 1.3 Theorem
