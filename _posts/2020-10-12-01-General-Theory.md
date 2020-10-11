@@ -26,3 +26,14 @@ Two types of information are necessary to describe a risky environment :
 
 ### 1.2 Axioms
 ### 1.3 Theorem
+
+## 2. Risk Aversion
+
+### 2.1 Characterization
+### 2.2 Comparison in Risk Aversion
+
+## 3. Changes in Risk
+
+### 3.1 Second Order Stochastic Dominance (SOSD)
+### 3.2 First Order Stochastic Dominance (FOSD)
+### 3.3 Other Risk Measures
