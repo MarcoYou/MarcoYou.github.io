@@ -12,11 +12,11 @@ author:
 [comment]: <> (mathjax block  > $$...$$   )
 ---
 
-## 0. Introduction
-## 1. General Theory
-## 2. Demand for Insurance
-## 3. Risk Sharing
-## 4. Asymmetric Information
-## 5. Modelling Risk Aversion
-## 6. Intertemporal Decision Making
-## 7. Investment Decisions' Timing
+### 0. Introduction
+### 1. General Theory
+### 2. Demand for Insurance
+### 3. Risk Sharing
+### 4. Asymmetric Information
+### 5. Modelling Risk Aversion
+### 6. Intertemporal Decision Making
+### 7. Investment Decisions' Timing
