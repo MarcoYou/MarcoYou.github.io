@@ -12,6 +12,17 @@ author:
 [comment]: <> (mathjax block  > $$...$$   )
 ---
 
-In the General Theory of risk, known as Expected Utility Theory introduced by Von Neumann and Morgenstern, only consequences matter (the process and the framing do not matter). The choices made by the agent may affect consequences that are often monetary consequences.
+In the General Theory of risk, known as Expected Utility Theory developed by Von Neumann and Morgenstern in 1947 (***Theory of Games and Economic Behavior***), only consequences matter (the process and the framing do not matter). The choices made by the agent may affect consequences that are often monetary consequences.
 
-## 1. General Theory
+## 1. Expected Utility Model
+
+### 1.1 Lotteries
+
+Two types of information are necessary to describe a risky environment :
+
+- **enumeration of all possible outcomes**
+  - \\( C \\) : set of all possible outcomes (often monetary consequences) that affect the well-being of the decision maker
+  - \\( C \\) is assumed to be finite.
+
+### 1.2 Axioms
+### 1.3 Theorem
