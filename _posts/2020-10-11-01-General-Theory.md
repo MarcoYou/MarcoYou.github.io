@@ -2,7 +2,7 @@
 layout: post
 toc: true
 title: "00. Introduction to Risk Theory"
-categories: Risk
+categories: Risk_Theory
 tags: [risk, probability, statistics, utility, insurance, information]
 math: true
 author:
