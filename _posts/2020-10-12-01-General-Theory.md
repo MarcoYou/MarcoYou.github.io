@@ -27,7 +27,7 @@ Two types of information are necessary to describe a **risky environment** :
   - Probability vector of the possible outcomes,
   - \\( p_s \\) = probability of outcome \\( s \\) occurring, with \\( \sum{p_s} = 1\\) ;
 
-A lottery \\(L\\) is a vector of probabilities \\( (p_1, \dots, p_s) \\). A lottery can aslo be written as a real random variable X, in other words, it is a function that maps the states of the world into \\( \Bbb{R} \\).
+A lottery \\(L\\) is a vector of probabilities \\( (p_1, \dots, p_s) \\). A lottery can aslo be written as a real random variable X, in other words, it is a function that maps the states of the world into \\( \mathbb{R} \\).
 
 ### 1.2 Axioms
 ### 1.3 Theorem
