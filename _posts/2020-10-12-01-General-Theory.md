@@ -35,6 +35,8 @@ The **utility function** \\( U:\mathcal{L} \rightarrow \Bbb{R} \\) has, under th
 
 $$ U(L) = u_1p_1 + \dots + u_np_n $$ 
 
+A utility function U with the expected utility form is called a **VNM Expected Utility Function**. (VNM for Von Neumann-Morgenstern)
+
 ### 1.2 Axioms
 ### 1.3 Theorem
 
