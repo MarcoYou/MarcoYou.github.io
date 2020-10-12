@@ -51,7 +51,12 @@ The underlying assumption behind the VNM Expected Utlity Theory is "***if a pers
 - **Axiom 3 (Continuity)** : For any lotteries X, Y, and Z,
   - If \\( X \succ Y \succ Z \\), then there is a unique probability \\(p \in ]0;1[ \\) such that \\(pX + (1-p)Z \sim Y \\) : (small probability of best outcome) + (big probability of worst outcome) is indifferent to sure middle outcome,
   - or, if \\( X \succ Y \succ Z \\), then there is a unique probability \\(\pi \in ]0;1[ \\) such that \\((1-\pi)X + \pi Z \succ Y \succ \pi X + (1-\pi) Z\\) : this is called Archimedean property.
-  - only one of two properties above needs to ber assumed in order to support the VNM-EUT.
+  - only one of two properties above needs to be assumed in order to support the VNM-EUT.
+- **Axiom 4 (Independence)** : For any lottery X,Y, and Z and probability \\( p \in ]0;1[\\),
+  - If \\( X \succ Y \\), then \\(pX + (1-p)Z \succ pY + (1-p)Z \\) : (better outcome + unknown outcome) is preferred to (worse outcome + same unknown outcome)
+  - This axiom implies that we can always express a simple lottery as a compound lottery and vice versa
+  - This axiom also implies that the preference function U must be linear in probabilities : \\( U(L) = \sum_{i=1}^n{p_i u_i} \\)
+  - This axiom is the most controversial point of EUT and the most violated axiom of the EUT.
 
 ### 1.3 Theorem
 
