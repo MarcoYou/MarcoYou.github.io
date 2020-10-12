@@ -14,7 +14,7 @@ author:
 
 In the General Theory of risk, known as Expected Utility Theory developed by Von Neumann and Morgenstern in 1947 (***Theory of Games and Economic Behavior***), only consequences matter (the process and the framing do not matter). The choices made by the agent may affect consequences that are often monetary consequences.
 
-## 1. Expected Utility Model
+## 1. Expected Utility Model (EUT)
 
 ### 1.1 Lotteries
 
@@ -31,13 +31,28 @@ Two types of information are necessary to describe a **risky environment** :
 A **lottery** \\(L\\) is a vector of probabilities \\( (p_1, \dots, p_s) \\). A lottery can aslo be written as a real random variable X, in other words, it is a function that maps the states of the world into \\( \Bbb{R} \\).
 
 #### Definition
-The **utility function** \\( U:\mathcal{L} \rightarrow \Bbb{R} \\) has, under the Expected Utility Theory, an expected utility form if there is an assignment of numbers \\( (u_1, dots, u_n) \\) to the n outcomes such that for every simple lottery \\( L = (p_1, \dots, p_n) \in \mathcal{L} \\) we have :
+The **utility function** \\( U:\mathcal{L} \rightarrow \Bbb{R} \\) has, under the Expected Utility Theory, an expected utility form if there is an assignment of numbers \\( (u_1, \dots, u_n) \\) to the n outcomes such that for every simple lottery \\( L = (p_1, \dots, p_n) \in \mathcal{L} \\) we have :
 
 $$ U(L) = u_1p_1 + \dots + u_np_n $$ 
 
-A utility function U with the expected utility form is called a **VNM Expected Utility Function**. (VNM for Von Neumann-Morgenstern)
+A utility function U with the expected utility form is called a **VNM Expected Utility Function**. (***VNM for Von Neumann-Morgenstern***)
 
 ### 1.2 Axioms
+
+The underlying assumption behind the VNM Expected Utlity Theory is "***if a person's preferences satisfy the following axioms, then he or she should choose between lotteries by using the expected utility criterion***."
+
+- **Axiom 1 (Completeness)** : For any lotteries X and Y, one of the following three binary relations should be held :
+  - \\( X \succ Y \\) : X is preferred over Y,
+  - \\( Y \succ X \\) : Y is preferred over X,
+  - \\( X \sim Y \\) : indifferent between X and Y ;
+- **Axiom 2 (Transitivity)** : For any lotteries X, Y, and Z, the preference over these lotteries is well-ordered :
+  - If \\( X \succ Y \\) and \\( Y \succ Z \\) then \\( X \succ Z \\),
+  - If \\( X \sim Y \\) and \\( X \sim Y \\) then \\( X \sim Y \\) ;
+- **Axiom 3 (Continuity)** : For any lotteries X, Y, and Z,
+  - If \\( X \succ Y \succ Z \\), then there is a unique probability \\(p \in ]0;1[ \\) such that \\(pX + (1-p)Z \sim Y \\) : (small probability of best outcome) + (big probability of worst outcome) is indifferent to sure middle outcome,
+  - or, if \\( X \succ Y \succ Z \\), then there is a unique probability \\(\pi \in ]0;1[ \\) such that \\((1-\pi)X + \pi Z \succ Y \succ \pi X + (1-\pi) Z\\) : this is called Archimedean property.
+  - only one of two properties above needs to ber assumed in order to support the VNM-EUT.
+
 ### 1.3 Theorem
 
 ## 2. Risk Aversion
