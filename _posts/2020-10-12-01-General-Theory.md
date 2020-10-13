@@ -62,7 +62,8 @@ The underlying assumption behind the VNM Expected Utlity Theory is "***if a pers
 
 #### Expected Utility Theorem
 
-For any lotteries X and Y, \\( X \succeq Y \implies \sum{p^x_iu_i} ≥ \sum{p^y_iu_i}  \\)
+For any lotteries X and Y, 
+$$ X \succeq Y \iff \sum{p^x_iu_i} ≥ \sum{p^y_iu_i} $$
 
 ## 2. Risk Aversion
 
