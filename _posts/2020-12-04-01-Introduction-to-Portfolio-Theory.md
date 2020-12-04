@@ -25,25 +25,21 @@ The title seems it has a relation with Pr Markowitz's Portfolio Selection Theory
 
 - Returns of \\(R_A\\) and \\(R_B\\) are determined by:
 
-  $$\begin{matrix} R_A = V_A - 1 \\ R_B = V_B -1 \end{matrix}$$
+  $$\begin{align} R_A &= V_A - 1 \\ R_B &= V_B -1 \end{align}$$
 
   Therfore, the return of entire portolio is:
 
-  $$\begin{matrix} R_P = (xV_P + (1-x)V_B) -1 \\ R_P = xR_A + (1-x)R_B \end{matrix}$$
+  $$\begin{align} R_P &= (xV_P + (1-x)V_B) -1 \\ R_P &= xR_A + (1-x)R_B \end{align}$$
 
 - Since \\(R_A\\) and \\(R_B\\) are both random variables, they both have fisrt-order moment (mean denoted as \\(\mu_i\\) or \\(E(R_i)\\)) and second-order moment (variance denoted as \\( \sigma ^2_i \\) or \\( V(R_i) \\)). In consequence, \\(R_P\\) is also a random variable that has mean, variance, and covariance (denoted as \\( \gamma _{ij} \\)):
 
 ### 1.1 Formula
 
-  $$ E(R_P) = xE(R_A) + (1-x)E(R_B) $$
-
-  $$ V(R_P) = x^2V(R_A) + (1-x)^2V(R_B) + 2x(1-x)Cov(R_A,R_B) $$
+  $$ \begin{align} E(R_P) &= xE(R_A) + (1-x)E(R_B) \\ V(R_P) &= x^2V(R_A) + (1-x)^2V(R_B) + 2x(1-x)Cov(R_A,R_B) \end{align} $$
 
   or
 
-  $$ \mu_P = x\mu_A + (1-x)\mu_B $$
-
-  $$ \sigma^2_P = x^2\sigma^2_A + (1-x)^2\sigma^2_B + 2x(1-x)\gamma_{AB} $$
+  $$\begin{align} \mu_P &= x\mu_A + (1-x)\mu_B \\ \sigma^2_P &= x^2\sigma^2_A + (1-x)^2\sigma^2_B + 2x(1-x)\gamma_{AB} \end{align}$$
 
 From these formulas, we can have two simple types of portfolio:
 
@@ -54,21 +50,16 @@ From these formulas, we can have two simple types of portfolio:
 
 Let A a risky asset and B a non-risky asset attached to a risk-free rate \\( r_f \\). If we apply such composition to previous formula, we get: (Don't forget that we are only investing 1$ still)
 
-$$ \begin{matrix} 
-E(R_P) = xE(R_A) + (1-x)r_f \\
-V(R_P) = \sigma^2_P = x^2 \sigma^2_A
-\end{matrix} $$
+$$ \begin{align}
+E(R_P) &= xE(R_A) + (1-x)r_f \\
+V(R_P) &= \sigma^2_P = x^2 \sigma^2_A
+\end{align} $$
 
 From \\(V(R_P)\\), we get the following allocation:
 
 $$ x = \frac{\sigma_P}{\sigma_A} $$
 
 from which we can rewrite the expected portfolio return formula as following:
-
-$$ \begin{align*} 
-E(R_P) &= \frac{\sigma_P}{\sigma_A} E(R_A) + (1-\frac{\sigma_P}{\sigma_A})r_f \\
-&= \frac{\sigma_P}{\sigma_A}(E(R_A)-r_f) + r_f
-\end{align*} $$
 
 $$ \begin{align} 
 E(R_P) &= \frac{\sigma_P}{\sigma_A} E(R_A) + (1-\frac{\sigma_P}{\sigma_A})r_f \\
