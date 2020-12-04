@@ -31,7 +31,7 @@ The title seems it has a relation with Pr Markowitz's Portfolio Selection Theory
 
   $$\begin{matrix} R_P = (xV_P + (1-x)V_B) -1 \\ R_P = xR_A + (1-x)R_B \end{matrix}$$
 
-- Since \\(R_A\\) and \\(R_B\\) are both random variables, they both have fisrt-order moment (mean denoted as \\(\mu_i\\) or \\(E(R_i)\\)) and second-order moment (variance denoted as \\( \sigma^2_i \\) or \\( V(R_i) \\)). In consequence, \\(R_P\\) is also a random variable that has mean, variance, and covariance (denoted as \\( \gamma_{ij} \\)):
+- Since \\(R_A\\) and \\(R_B\\) are both random variables, they both have fisrt-order moment (mean denoted as \\(\mu_i\\) or \\(E(R_i)\\)) and second-order moment (variance denoted as \\( \sigma ^2_i \\) or \\( V(R_i) \\)). In consequence, \\(R_P\\) is also a random variable that has mean, variance, and covariance (denoted as \\( \gamma _{ij} \\)):
 
   $$ E(R_P) = xE(R_A) + (1-x)E(R_B) $$
   $$ V(R_P) = x^2V(R_A) + (1-x)^2V(R_B) + 2x(1-x)Cov(R_A,R_B) $$
@@ -39,6 +39,7 @@ The title seems it has a relation with Pr Markowitz's Portfolio Selection Theory
   or
 
   $$ \mu_P = x\mu_A + (1-x)\mu_B $$
+  
   $$ \sigma^2_P = x^2\sigma^2_A + (1-x)^2\sigma^2_B + 2x(1-x)\gamma_{AB} $$
 
 ### 1. General Theory
