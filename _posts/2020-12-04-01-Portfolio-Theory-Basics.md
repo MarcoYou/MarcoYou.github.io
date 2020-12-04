@@ -31,9 +31,7 @@ The title seems it has a relation with Pr Markowitz's Portfolio Selection Theory
 
   $$\begin{align} R_P &= (xV_P + (1-x)V_B) -1 \\ R_P &= xR_A + (1-x)R_B \end{align}$$
 
-- Since \\(R_A\\) and \\(R_B\\) are both random variables, they both have fisrt-order moment (mean denoted as \\(\mu_i\\) or \\(E(R_i)\\)) and second-order moment (variance denoted as \\( \sigma ^2_i \\) or \\( V(R_i) \\)). In consequence, \\(R_P\\) is also a random variable that has mean, variance, and covariance (denoted as \\( \sigma _{ij} \\)). This gives the formulae below
-
-### 1.1 Formula
+- Since \\(R_A\\) and \\(R_B\\) are both random variables, they both have fisrt-order moment (mean denoted as \\(\mu_i\\) or \\(E(R_i)\\)) and second-order moment (variance denoted as \\( \sigma ^2_i \\) or \\( V(R_i) \\)). In consequence, \\(R_P\\) is also a random variable that has mean, variance, and covariance (denoted as \\( \sigma _{ij} \\)). This gives the formulae below:
 
 $$ \begin{align} E(R_P) &= xE(R_A) + (1-x)E(R_B) \\ V(R_P) &= x^2V(R_A) + (1-x)^2V(R_B) + 2x(1-x)Cov(R_A,R_B) \end{align} $$
 
@@ -66,8 +64,6 @@ E(R_P) &= \frac{\sigma_P}{\sigma_A} E(R_A) + (1-\frac{\sigma_P}{\sigma_A})r_f \\
 &= \frac{\sigma_P}{\sigma_A}(E(R_A)-r_f) + r_f
 \end{align} $$
 
-### 2.1 Formula
-
 Finally with some rearrangement, we get:
 
 $$ E(R_P) = \frac{E(R_A)-r_f}{\sigma_A}\sigma_P + r_f $$
@@ -80,8 +76,6 @@ We remark two things from this equation:
 
 Let A and B two different risky assets. We apply the same logic. Then the formula becomes (or stays as):
 
-### 3.1 Formula
-
 $$ \begin{align}
 E(R_P) &= xE(R_A) + (1-x)E(R_B) \\
 V(R_P) &= x^2\sigma^2_A + (1-x)^2\sigma^2_B + 2x(1-x)\sigma_{AB}
@@ -93,9 +87,9 @@ $$ \rho_{AB} = \frac{Cov(R_A,R_B)}{SD(A) \times SD(B)} = \frac{\sigma_{AB}}{\sig
 
 where \\(\sigma _{AB}\\) can be either negative or positive (nul is impossible in real life).
 
-We can find the optimal allocation proportion \\(x\\) by first-order condition of utility function of the portfolio which I will not discuss here. And from the optimal allocation \\(x\\), we generalise the portfolio to \\(n\\) risky assets then we should be able to draw tangent portfolio, efficient frontier, feasible set etc.
+We can find the optimal allocation proportion \\(x\\) by first-order condition of utility function of the portfolio which I will not discuss here. And from the optimal allocation \\(x\\), we generalise the portfolio to \\(n\\) risky assets then we should be able to draw tangent portfolio, efficient frontier (see the work of Eugene Fama), feasible set etc.
 
-## 4. Markowitz Problem
+## 4. Markowitz Optimisation Problem
 
 Let's assume we did a great job in analysing efficient frontier and feasible set ;D
 
@@ -114,3 +108,25 @@ $$\begin{cases}
 u/c: \sum^n_{i=1} x_i E(R_i) = \tilde{E}(R_P) \\
 u/c: \sum^n_{i=1}x_i = 1
 \end{cases}$$
+
+From this formulation of allocation optimisation problem (basically portfolio diversification problem), Sharpe, Mossin, and Lingtner start modelising the first version of CAPM called **Sharpe-Mossin-Lintner** CAPM.
+
+## 5. Sharpe-Mossin-Lintener CAPM
+
+This model, that I will call Sharpe CAPM from now on, allows us to determine the price of financial assets at any moment.
+
+### 5.1 Hypotheses of the model
+
+1. All investors are more or less averse to risk > kinda true
+2. All investors have the same time horizon for investment > unrealistic
+3. All investors are addressing to the same problem that is Markowitz Problem > true
+  - only way to diversify is to change the allocations
+  - all investors anticipate same expected return (gain) and same variance (risk) of portfolio
+4. Financial market is a perfect market:
+  - no tax
+  - no transaction cost
+  - no asymmetry of information
+  - there is a risk-free asset with \\(r_f\\) at which we can borrow and lend capital freely
+
+All these look quite heavy but what you gotto know are two things: **Markowitz problem is in the center**, and **there is a risk-free asset**.
+
