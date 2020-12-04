@@ -218,4 +218,15 @@ $$ E(R_i) - r_f = \frac{1}{\lambda_M} \sigma_{iM} $$
 
 - We replace \\(\lambda _M \\) by the result of the **First Big Step**:
 
-$$ E(R_i) - r_f = \frac{1}{\frac{\sigma^2_M}{E(R_M) - r_f}} \sigma_{iM} $$
+$$ \begin{align}
+E(R_i) - r_f &= \frac{1}{\frac{\sigma^2_M}{E(R_M) - r_f}} \sigma_{iM} \\
+&= \frac{E(R_M) - r_f}{sigma^2_M}\sigma_{iM}
+\end{align}$$
+
+### 5.3 Sharpe CAPM Formula
+
+With some arrangement we get
+
+$$ E(R_i) - r_f = \frac{\sigma_{iM}}{\sigma^2_M}(E(R_P)-r_f) $$
+
+We remark that it's a linear function. This equation is called **fundamental relation of CAPM**.
