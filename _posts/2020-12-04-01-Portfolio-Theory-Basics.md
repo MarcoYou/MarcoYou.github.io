@@ -147,3 +147,12 @@ $$ \begin{align}
 &E(R_P) - r_f = \sum x_i E(R_i) - r_f\sum x_i + r_f - r_f \\
 &E(R_P) - r_f = \sum x_i (E(R_i) - r_f)
 \end{align} $$
+
+The last equation means (excess or portfolio return) = sum of each expected return of risky asset diminshed by risk-free return. This result is quite intuitive yet hard to be proven arithematically. **The queation can be transformed into matrix as well**.
+
+$$  \R = \begin{bmatrix} R_1 \\ \vdots \\ R_n \end{bmatrix}
+~~~
+E = \begin{bmatrix} E(R_1) - r_0 \\ \vdots \\ E(R_n) - r_0 \end{bmatrix}
+~~~
+X = \begin{bmatrix} X_1  \\ \vdots \\ X_n \end{bmatrix}
+$$
