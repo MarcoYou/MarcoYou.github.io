@@ -246,4 +246,14 @@ $$ E(R_i) - r_f = \beta_{iM}(E(R_P)-r_f) $$
 
 We can expand the model from a single asset to a portfolio.
 
+For a portfolio (not the market portfolio), 
+
+$$ \beta_{PM} = \sum^n_{i=1}x_{Pi} \beta_{iM} = \frac{\sigma_{PM}}{\sigma^2_M} $$
+
+Therefore expected return of portfolio return is
+
+$$ E(R_P)-r_f = \beta_{PM}(E(R_M)-r_f) $$
+
+
+
 
