@@ -150,9 +150,40 @@ $$ \begin{align}
 
 The last equation means (excess or portfolio return) = sum of each expected return of risky asset diminshed by risk-free return. This result is quite intuitive yet hard to be proven arithematically. **The queation can be transformed into matrix as well**.
 
+Let \\(V\\), var-cov matrix of all returns of size (N,N) and all other terms are as below
+
 $$  \mathbb{R} = \begin{bmatrix} R_1 \\ \vdots \\ R_n \end{bmatrix}
 ~~~
 E = \begin{bmatrix} E(R_1) - r_0 \\ \vdots \\ E(R_n) - r_0 \end{bmatrix}
 ~~~
 X = \begin{bmatrix} X_1  \\ \vdots \\ X_n \end{bmatrix}
 $$
+
+Optimisation(minimisation) problem of investors can be written as
+
+$$\begin{cases}
+
+\min_X X^T V X \\
+u/c: X^T E = E(R_P) - r_f
+
+\end{cases}$$
+
+Lagrangian optimisation:
+
+$$ \mathcal{L}(X,\lambda) = X^T V X + \lamda(E(R_P)-r_f-X^TE) $$
+
+FOC:
+
+$$ \frac{\delta \mathcal{L}}{\delta X} = 0 ~~~ \iff ~~~ 2VX - \lamda E = 0 $$
+
+$$ X^* = \frac{1}{2}\lambda V^{-1} E $$
+
+This X matrix is the vector of all optimal allocations taking Sharpe ratio as its slope. This is true for all investors.
+
+And at **Equilibirum, the sum of all portfolios of investors must be equal to the market portfolio**. In other words, at equlibirum, the total demand of financial assets is equal to the total supply of financial assets on financial market. Given this parity, at equilibrium, the optimal allocation X can be summed up from both supply and demand thus can be rewritten as
+
+$$ X_M = \lamda_M V^{-1} E $$
+
+where \\(\lamda _M \\) is unknown.
+
+This relation containes both first-order moment and second-order moment anticipations of investors. We now have to determine what is this unknown \\(\lamda _M \\).
