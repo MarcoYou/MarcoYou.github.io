@@ -192,28 +192,28 @@ This relation containes both first-order moment and second-order moment anticipa
 
 **First Big Step:**
 
-1. Isolate E.
+- Isolate E.
 
 $$ E = \frac{1}{\lambda_M} V X_M $$
 
-2. Multiply \\(X^T\\) at both sides.
+- Multiply \\(X^T\\) at both sides.
 
 $$ X^T E = \frac{1}{\lambda_M} X^T_M V X_M $$
 
-3. Focus on the market return excess \\(E(R_M) - r_f \\). Also, \\(X^T_M X\\) will add up to 1. Therefore, \\(X^T_M V X_M \\) is equal to market volatility which is \\(\sigma ^2_M\\):
+- Focus on the market return excess \\(E(R_M) - r_f \\). Also, \\(X^T_M X\\) will add up to 1. Therefore, \\(X^T_M V X_M \\) is equal to market volatility which is \\(\sigma ^2_M\\):
 
 $$ E(R_M) - r_f = \frac{1}{\lambda_M} \sigma^2_M $$
 
-4. Finally we isolate \\(\lambda _M \\)
+- Finally we isolate \\(\lambda _M \\)
 
 $$ \lambda_M = \frac{\sigma^2_M}{E(R_M) - r_f} $$
 
 **Second Big Step:**
 
-1. Going back to the first step, we isolate E only for a single financial asset.
+- Going back to the first step, we isolate E only for a single financial asset.
 
 $$ E(R_i) - r_f = \frac{1}{\lambda_M} \sigma_{iM} $$
 
-2. We replace \\(\lambda _M \\) by the result of the **First Big Step**:
+- We replace \\(\lambda _M \\) by the result of the **First Big Step**:
 
 $$ E(R_i) - r_f = \frac{1}{\frac{\sigma^2_M}{E(R_M) - r_f}} \sigma_{iM} $$
