@@ -220,7 +220,7 @@ $$ E(R_i) - r_f = \frac{1}{\lambda_M} \sigma_{iM} $$
 
 $$ \begin{align}
 E(R_i) - r_f &= \frac{1}{\frac{\sigma^2_M}{E(R_M) - r_f}} \sigma_{iM} \\
-&= \frac{E(R_M) - r_f}{sigma^2_M}\sigma_{iM}
+&= \frac{E(R_M) - r_f}{\sigma^2_M}\sigma_{iM}
 \end{align}$$
 
 ### 5.3 Sharpe CAPM Formula
