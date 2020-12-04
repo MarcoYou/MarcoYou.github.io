@@ -20,11 +20,12 @@ Two steps:
 
 1. Suppose two financial assets (or let's just call them shares) A and B. They are in the same portfolio and being invested on the same arbitrary period generating stochastic (fancy word for random) returns \\(R_A\\) and \\(R_B\\).
 
-2. Suppose we invest a unit of investment \\(I\\) (=1) which has following allocations: \\(x\\), proportion for A, and \\((1-x)\\), proportion for B. Let's call future values of shares A and B as \\(V_A\\) and \\(V_B\\).
+2. Suppose we invest a unit of investment \\(I\\) (=1) which has following allocations: 
+  \\(x\\), proportion for A, and \\((1-x)\\), proportion for B. Let's call future values of shares A and B as \\(V_A\\) and \\(V_B\\).
 
 3. Returns of \\(R_A\\) and \\(R_B\\) are determined by:
 
-$$R_A = V_A - 1 \\ R_B = V_B -1 $$
+$$\begin{matrix} R_A = V_A - 1 \\ R_B = V_B -1 \end{matrix}$$
 
 5. Since \\(R_A\\) and \\(R_B\\) are random variables, they both have fisrt-order moment (mean) and second-order moment (variance)
 
