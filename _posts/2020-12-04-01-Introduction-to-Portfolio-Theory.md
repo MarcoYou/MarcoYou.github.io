@@ -31,7 +31,7 @@ The title seems it has a relation with Pr Markowitz's Portfolio Selection Theory
 
   $$\begin{align} R_P &= (xV_P + (1-x)V_B) -1 \\ R_P &= xR_A + (1-x)R_B \end{align}$$
 
-- Since \\(R_A\\) and \\(R_B\\) are both random variables, they both have fisrt-order moment (mean denoted as \\(\mu_i\\) or \\(E(R_i)\\)) and second-order moment (variance denoted as \\( \sigma ^2_i \\) or \\( V(R_i) \\)). In consequence, \\(R_P\\) is also a random variable that has mean, variance, and covariance (denoted as \\( \gamma _{ij} \\)):
+- Since \\(R_A\\) and \\(R_B\\) are both random variables, they both have fisrt-order moment (mean denoted as \\(\mu_i\\) or \\(E(R_i)\\)) and second-order moment (variance denoted as \\( \sigma ^2_i \\) or \\( V(R_i) \\)). In consequence, \\(R_P\\) is also a random variable that has mean, variance, and covariance (denoted as \\( \gamma _{ij} \\)). This gives the formulae below
 
 ### 1.1 Formula
 
@@ -41,7 +41,7 @@ or
 
 $$\begin{align} \mu_P &= x\mu_A + (1-x)\mu_B \\ \sigma^2_P &= x^2\sigma^2_A + (1-x)^2\sigma^2_B + 2x(1-x)\gamma_{AB} \end{align}$$
 
-From these formulas, we can have two simple types of portfolio:
+From these formulae, we can have two simple types of portfolio:
 
 - Portfolio containing a risky asset and a non-risky asset;
 - Portfolio containing two risky assets
@@ -65,3 +65,11 @@ $$ \begin{align}
 E(R_P) &= \frac{\sigma_P}{\sigma_A} E(R_A) + (1-\frac{\sigma_P}{\sigma_A})r_f \\
 &= \frac{\sigma_P}{\sigma_A}(E(R_A)-r_f) + r_f
 \end{align} $$
+
+### 2.1 Formula
+
+Finally with a small rearrangement, we get:
+
+$$ E(R_P) = \frac{E(R_A)-r_f}{\sigma_A}\sigma_P + r_f
+
+We remark one thing from this equation. \\(E(R_P)\\) is a **linear function** of risk(\\(\sigma_P\\)) with risk free rate \\(r_f\\) as y-intercept. The slope of this function is the **Sharpe ratio** which is interpreted as **excessive return of share A per each unit of risk undertakend by the share A**.
