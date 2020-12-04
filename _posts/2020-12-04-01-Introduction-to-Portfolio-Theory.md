@@ -89,7 +89,7 @@ V(R_P) &= x^2\sigma^2_A + (1-x)^2\sigma^2_B + 2x(1-x)\sigma_{AB}
 
 In this case, the capital allocation line is no longer linear except a particular case when A and B are perfectly and positively correlated. The correlation proxy \\(\rho _{AB}\\) is computed by:
 
-$$ \rho_{AB} = \frac{Cov(R_A,R_B)}{SD(A) \times \SD(B)} = \frac{\sigma_{AB}}{\sigma_A \sigma_B} $$
+$$ \rho_{AB} = \frac{Cov(R_A,R_B)}{SD(A) \times SD(B)} = \frac{\sigma_{AB}}{\sigma_A \sigma_B} $$
 
 where \\(\sigma _{AB}\\) can be either negative or positive (nul is impossible in real life).
 
@@ -99,5 +99,5 @@ We can find the optimal allocation proportion \\(x\\) by first-order condition o
 
 Let's assume we did a great job in analysing efficient frontier and feasible set ;D
 
-Then it rises the following problem proposed by Harry Markowitz: agents want to maximize their expected return of portolio composed by \\(n\\) different shares hence \\(n\\) different allocation \\(x_i\\) such that \\(\sum^n_{i=1}x_i = 1\\), with a target level of risk \\(\tilde{\sigma}^2_P\\)
+Then it rises the following problem proposed by Harry Markowitz: agents want to maximize their expected return of portolio composed by \\(n\\) different shares hence \\(n\\) different allocations \\(x_i\\) such that \\(\sum^n_{i=1}x_i = 1\\), with a target level of risk \\(\tilde{\sigma}^2_P\\) such that \\(\sum^n_{i=1}\sum^n_{j=1}x_ix_i\sigma_{ij} = 1\\). Mathematical formulation:
 
