@@ -33,7 +33,7 @@ The title seems it has a relation with Pr Markowitz's Portfolio Selection Theory
 
 - Since \\(R_A\\) and \\(R_B\\) are both random variables, they both have fisrt-order moment (mean denoted as \\(\mu_i\\) or \\(E(R_i)\\)) and second-order moment (variance denoted as \\( \sigma ^2_i \\) or \\( V(R_i) \\)). In consequence, \\(R_P\\) is also a random variable that has mean, variance, and covariance (denoted as \\( \gamma _{ij} \\)):
 
-### Formula
+### 1.1 Formula
 
   $$ E(R_P) = xE(R_A) + (1-x)E(R_B) $$
 
@@ -55,6 +55,22 @@ From these formulas, we can have two simple types of portfolio:
 Let A a risky asset and B a non-risky asset attached to a risk-free rate \\( r_f \\). If we apply such composition to previous formula, we get: (Don't forget that we are only investing 1$ still)
 
 $$ \begin{matrix} 
-E(R_P) = xE(R_A) + (1-x)r_0 \\
+E(R_P) = xE(R_A) + (1-x)r_f \\
 V(R_P) = \sigma^2_P = x^2 \sigma^2_A
 \end{matrix} $$
+
+From \\(V(R_P)\\), we get the following allocation:
+
+$$ x = \frac{\sigma_P}{\sigma_A} $$
+
+from which we can rewrite the expected portfolio return formula as following:
+
+$$ \begin{align*} 
+E(R_P) &= \frac{\sigma_P}{\sigma_A} E(R_A) + (1-\frac{\sigma_P}{\sigma_A})r_f \\
+&= \frac{\sigma_P}{\sigma_A}(E(R_A)-r_f) + r_f
+\end{align*} $$
+
+$$ \begin{align} 
+E(R_P) &= \frac{\sigma_P}{\sigma_A} E(R_A) + (1-\frac{\sigma_P}{\sigma_A})r_f \\
+&= \frac{\sigma_P}{\sigma_A}(E(R_A)-r_f) + r_f
+\end{align} $$
