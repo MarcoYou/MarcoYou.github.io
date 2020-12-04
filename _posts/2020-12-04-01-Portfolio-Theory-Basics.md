@@ -170,11 +170,11 @@ u/c: X^T E = E(R_P) - r_f
 
 Lagrangian optimisation:
 
-$$ \mathcal{L}(X,\lambda) = X^T V X + \lamda(E(R_P)-r_f-X^TE) $$
+$$ \mathcal{L}(X,\lambda) = X^T V X + \lambda(E(R_P)-r_f-X^TE) $$
 
 FOC:
 
-$$ \frac{\delta \mathcal{L}}{\delta X} = 0 ~~~ \iff ~~~ 2VX - \lamda E = 0 $$
+$$ \frac{\delta \mathcal{L}}{\delta X} = 0 ~~~ \iff ~~~ 2VX - \lambda E = 0 $$
 
 $$ X^* = \frac{1}{2}\lambda V^{-1} E $$
 
@@ -182,8 +182,38 @@ This X matrix is the vector of all optimal allocations taking Sharpe ratio as it
 
 And at **Equilibirum, the sum of all portfolios of investors must be equal to the market portfolio**. In other words, at equlibirum, the total demand of financial assets is equal to the total supply of financial assets on financial market. Given this parity, at equilibrium, the optimal allocation X can be summed up from both supply and demand thus can be rewritten as
 
-$$ X_M = \lamda_M V^{-1} E $$
+$$ X_M = \lambda_M V^{-1} E $$
 
-where \\(\lamda _M \\) is unknown.
+where \\(\lambda _M \\) is unknown.
 
-This relation containes both first-order moment and second-order moment anticipations of investors. We now have to determine what is this unknown \\(\lamda _M \\).
+This relation containes both first-order moment and second-order moment anticipations of investors. We now have to determine what is this unknown \\(\lambda _M \\). 
+
+### 5.2 CAPM Formula Induction
+
+**First Big Step:**
+
+1. Isolate E.
+
+$$ E = \frac{1}{\lambda_M} V X_M $$
+
+2. Multiply \\(X^T\\) at both sides.
+
+$$ X^T E = \frac{1}{\lambda_M} X^T_M V X_M $$
+
+3. Focus on the market return excess \\(E(R_M) - r_f \\). Also, \\(X^T_M X\\) will add up to 1. Therefore, \\(X^T_M V X_M \\) is equal to market volatility which is \\(\sigma ^2_M\\):
+
+$$ E(R_M) - r_f = \frac{1}{\lambda_M} \sigma^2_M $$
+
+4. Finally we isolate \\(\lambda _M \\)
+
+$$ \lambda_M = \frac{\sigma^2_M}{E(R_M) - r_f} $$
+
+**Second Big Step:**
+
+1. Going back to the first step, we isolate E only for a single financial asset.
+
+$$ E(R_i) - r_f = \frac{1}{\lambda_M} \sigma_{iM} $$
+
+2. We replace \\(\lambda _M \\) by the result of the **First Big Step**:
+
+$$ E(R_i) - r_f = \frac{1}{\frac{\sigma^2_M}{E(R_M) - r_f}} \sigma_{iM} $$
