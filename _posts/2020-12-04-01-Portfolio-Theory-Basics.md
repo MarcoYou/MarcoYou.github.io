@@ -113,16 +113,16 @@ From this formulation of allocation optimisation problem (basically portfolio di
 
 ## 5. Sharpe-Mossin-Lintener CAPM
 
-This model, that I will call Sharpe CAPM from now on, allows us to determine the price of financial assets at any moment.
+This model, that I will call **Sharpe CAPM** from now on, allows us to determine the price of financial assets at any moment.
 
 ### 5.1 Hypotheses of the model
 
 1. All investors are more or less averse to risk > kinda true
 2. All investors have the same time horizon for investment > unrealistic
-3. All investors are addressing to the same problem that is Markowitz Problem > true
+3. All investors are addressing to the same problem that is **Markowitz Problem**:
   - only way to diversify is to change the allocations
   - all investors anticipate same expected return (gain) and same variance (risk) of portfolio
-4. Financial market is a perfect market:
+4. Financial market is a **perfect market**:
   - no tax
   - no transaction cost
   - no asymmetry of information
@@ -130,3 +130,20 @@ This model, that I will call Sharpe CAPM from now on, allows us to determine the
 
 All these look quite heavy but what you gotto know are two things: **Markowitz problem is in the center**, and **there is a risk-free asset**.
 
+Let's bring back the Markowitz problem but **with a risk-free rate \\(r_f\\). The problem is now written as below:
+
+$$\begin{cases}
+\min_{x_i} \sigma^2_P = \sum^n_{i=1}\sum^n_{j=1}x_ix_i\sigma_{ij} \\
+u/c: \sum^n_{i=1} x_i E(R_i) + x_0r_f = E(R_P) \\
+u/c: \sum^n_{i=1}x_i + x_0 = 1
+\end{cases}$$
+
+We combine two constraints into one:
+
+from the second constraint, we get \\( x_0 = 1 - \sum x_i \\). Put it into the first contraint:
+
+$$ \begin{align}
+&E(R_P) = \sum x_i E(R_i) + (1-\sum x_i)r_f \\
+&E(R_P) - r_f = \sum x_i E(R_i) - r_f\sum x_i + r_f - r_f \\
+&E(R_P) - r_f = \sum x_i (E(R_i) - r_f)
+\end{align} $$
