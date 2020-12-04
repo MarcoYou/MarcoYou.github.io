@@ -16,30 +16,30 @@ This is a note which includes simplified steps before getting to Black-Scholes-M
 
 The title seems it has a relation with Pr Markowitz's Portfolio Selection Theory but well... it does not (slightly yes because he basically founded everything).
 
-Two steps:
+4 steps:
 
-1. Suppose two financial assets (or let's just call them shares) A and B. They are in the same portfolio and being invested on the same arbitrary period generating stochastic (fancy word for random) returns \\(R_A\\) and \\(R_B\\).
+- Suppose two financial assets (or let's just call them shares) A and B. They are in the same portfolio and being invested on the same arbitrary period generating stochastic (fancy word for random) returns \\(R_A\\) and \\(R_B\\).
 
-2. Suppose we invest a unit of investment \\(I\\) (=1) which has following allocations: 
+- Suppose we invest a unit of investment \\(I\\) (=1) which has following allocations: 
   \\(x\\), proportion for A, and \\((1-x)\\), proportion for B. Let's call future values of shares A and B as \\(V_A\\) and \\(V_B\\).
 
-3. Returns of \\(R_A\\) and \\(R_B\\) are determined by:
+- Returns of \\(R_A\\) and \\(R_B\\) are determined by:
 
-$$\begin{matrix} R_A = V_A - 1 \\ R_B = V_B -1 \end{matrix}$$
+  $$\begin{matrix} R_A = V_A - 1 \\ R_B = V_B -1 \end{matrix}$$
 
-Therfore, the return of entire portolio is:
+  Therfore, the return of entire portolio is:
 
-$$\begin{matrix} R_P = (xV_P + (1-x)V_B) -1 \\ R_P = xR_A + (1-x)R_B \end{matrix}$$
+  $$\begin{matrix} R_P = (xV_P + (1-x)V_B) -1 \\ R_P = xR_A + (1-x)R_B \end{matrix}$$
 
-4. Since \\(R_A\\) and \\(R_B\\) are both random variables, they both have fisrt-order moment (mean denoted as \\(\mu_i\\) or \\(E(R_i)\\)) and second-order moment (variance denoted as \\( \sigma^2_i \\) or \\( V(R_i) \\)). In consequence, \\(R_P\\) is also a random variable that has mean, variance, and covariance (denoted as \\( \gamma_{ij} \\)):
+- Since \\(R_A\\) and \\(R_B\\) are both random variables, they both have fisrt-order moment (mean denoted as \\(\mu_i\\) or \\(E(R_i)\\)) and second-order moment (variance denoted as \\( \sigma^2_i \\) or \\( V(R_i) \\)). In consequence, \\(R_P\\) is also a random variable that has mean, variance, and covariance (denoted as \\( \gamma_{ij} \\)):
 
-$$ E(R_P) = xE(R_A) + (1-x)E(R_B) $$
-$$ V(R_P) = x^2V(R_A) + (1-x)^2V(R_B) + 2x(1-x)Cov(R_A,R_B) $$
+  $$ E(R_P) = xE(R_A) + (1-x)E(R_B) $$
+  $$ V(R_P) = x^2V(R_A) + (1-x)^2V(R_B) + 2x(1-x)Cov(R_A,R_B) $$
 
-or
+  or
 
-$$ \mu_P = x\mu_A + (1-x)\mu_B $$
-$$ \sigma^2_P = x^2\sigma^2_A + (1-x)^2\sigma^2_B + 2x(1-x)\gamma_{AB} $$
+  $$ \mu_P = x\mu_A + (1-x)\mu_B $$
+  $$ \sigma^2_P = x^2\sigma^2_A + (1-x)^2\sigma^2_B + 2x(1-x)\gamma_{AB} $$
 
 ### 1. General Theory
 ### 2. Demand for Insurance
