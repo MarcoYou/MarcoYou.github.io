@@ -208,9 +208,11 @@ $$ E(R_M) - r_f = \frac{1}{\lambda_M} \sigma^2_M $$
 
 $$ \lambda_M = \frac{\sigma^2_M}{E(R_M) - r_f} $$
 
+We found an expression for \\(\lambda _M \\).
+
 **Second Big Step:**
 
-- Going back to the first step, we isolate E only for a single financial asset.
+- Going back to the first step, we isolate E only for a single financial asset \\(i\\).
 
 $$ E(R_i) - r_f = \frac{1}{\lambda_M} \sigma_{iM} $$
 
