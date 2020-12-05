@@ -342,3 +342,97 @@ This is the optimal allocation matrix. This time, we got two unknown paramteres 
 
 **First Big Step**
 
+- Isolate E.
+
+$$ E = \frac{1}{\lambda_M} V X_M - \frac{\gamma_M}{\lambda_M}\mathbb{1}$$
+
+- Multiply \\(X^T_M \\) at both sides.
+
+$$ X^T_M E = \frac{1}{\lambda_M} X^T_M V X_M - \frac{\gamma_M}{\lambda_M} X^T_M \mathbb{1}$$
+
+where \\( X^T_M \mathbb{1} = 1 \\)
+
+- Focus on the market return \\(E(R_M)\\). Also, \\(X^T_M X\\) will add up to 1. Therefore, \\(X^T_M V X_M \\) is equal to market volatility which is \\(\sigma ^2_M\\). Given these, we get:
+
+$$ E(R_M) = \frac{1}{\lambda_M}(\sigma^2_M - \gamma_M) $$
+
+Remark: we have (marginal market revenue) = (marginal cost) relation
+
+- We can reduce the size of equation from market to a portfolio
+
+$$ \lambda_M E(R_P) = \sigma_{PM} - \gamma_M $$
+
+- This step is the key part. Black introduces a particular case of a portfolio whose beta is zero. **Zero-beta portfolio** can be expressed as such
+
+$$ \sigma_{ZM} = (0;r_Z) $$
+
+With the same intution used in the step right before, the expected return of zero-beta portfolio Z can be written as
+
+$$ \begin{align} \lambda_M E(R_Z) &= \sigma_{ZM} - \gamma_M \\ &= - \gamma_M \end{align}$$
+
+$$ D \equiv MR = \lambda_M E(R_Z) + \gamma_M = 0 $$
+
+This is the marginal revenue of investors(consumers) in this particular portfolio. Allow me to remind you that in economics, in a competitive market, marginal revenue is equal to the total demand curve. Also, in the same type of market, marginal cost is equal to the total supply curve. As we saw two steps before, marginal cost is
+
+$$ S \equiv MC = \lambda_M E(R_M) - \sigma^2_M + \gamma_M = 0 $$
+
+- Let's now establish the equilibrium between D and S:
+
+$$
+\begin{align}
+D = S &\iff \lambda_M E(R_Z) + \gamma_M = \lambda_M E(R_M) - \sigma^2_M + \gamma_M \\
+      &\iff \lambda_M E(R_Z) + \gamma_M - \lambda_M E(R_M) - \gamma_M = - \sigma^2_M \\
+      &\iff \sigma^2_M = \lambda_M(E(R_M) - E(R_Z))
+\end{align}$$
+
+**Result 1**
+
+$$ \sigma^2_M = \lambda_M(E(R_M) - E(R_Z)) $$
+
+- Let's recall the following relation:
+
+$$ \lambda_M E(R_P) = \sigma_{PM} - \gamma_M $$
+
+We can reduce this to a single asset,
+
+$$\begin{align}
+&\lambda_M E(R_i) = \sigma_{iM} - \gamma_M  \\
+\iff~~~& \lambda_M E(R_i) - \sigma_{iM} + \gamma_M = 0
+\iff~~~& \lambda_M E(R_i) - (\sigma_{iM} - \gamma_M) = 0
+\end{align}$$
+
+At equilibrium, the result above should be equal to the result with the entire market,
+
+$$ \begin{align}
+&         \lambda_M E(R_i) - (\sigma_{iM} - \gamma_M) = \lambda_M E(R_M) - (\sigma^2_{M} - \gamma_M) \\
+\iff~~~&  (\sigma^2_{M} - \sigma_{iM}) = \lambda_M (E(R_M) - E(R_i)) \\
+\iff~~~&  \frac{1}{\lambda_M} = \frac{E(R_M) - E(R_i)}{\sigma^2_{M} - \sigma_{iM}}
+\end{align}$$
+
+**Result 2**
+
+$$ \frac{1}{\lambda_M} = \frac{E(R_M) - E(R_i)}{\sigma^2_{M} - \sigma_{iM}} $$
+
+At this stage, we have successfully removed \\(\gamma_M\\) and found an expression for \\(\lambda_M \\).
+
+- Plug in the **Result 1** into the **Result 2**:
+
+Result 1: \\( \sigma^2_M = \lambda_M(E(R_M) - E(R_Z)) \\)
+Result 2: \\( \frac{1}{\lambda_M} = \frac{E(R_M) - E(R_i)}{\sigma^2_{M} - \sigma_{iM}} \\)
+
+We get
+
+\frac{E(R_M) - E(R_i)}{\sigma^2_{M} - \sigma_{iM}} = E(R_M) - E(R_Z)
+
+**Second Big Step:**
+
+- Going back to the first big step, we isolate E only for a single financial asset \\(i\\).
+
+$$ E(R_i) = \frac{1}{\lambda_M} \sigma_{iM} $$
+
+- We replace \\(\lambda _M \\) by the result of the **First Big Step**:
+
+$$ \begin{align}
+E(R_i) - r_f &= \frac{1}{\frac{\sigma^2_M}{E(R_M) - r_f}} \sigma_{iM} \\
+&= \frac{E(R_M) - r_f}{\sigma^2_M}\sigma_{iM}
+\end{align}$$
