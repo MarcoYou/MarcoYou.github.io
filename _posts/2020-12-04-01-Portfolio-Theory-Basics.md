@@ -93,7 +93,9 @@ We can find the optimal allocation proportion \\(x\\) by first-order condition o
 
 Let's assume we did a great job in analysing efficient frontier and feasible set ;D
 
-Then it rises the following problem proposed by Harry Markowitz: agents want to maximize their expected return of portolio composed by \\(n\\) different shares hence \\(n\\) different allocations \\(x_i\\) such that \\( \sum^n_{i=1} x_i = 1 \\), with a target level of risk \\( \tilde{\sigma} ^2_P \\) such that \\( \sum^n_{i=1} \sum^n_{j=1} x_i x_j \sigma_{ij} = \tilde{\sigma} ^2_P \\). Mathematical formulation: (u/c means under constraint)
+Then it rises the following problem proposed by Harry Markowitz: agents want to maximize their expected return of portolio composed by \\(n\\) different shares hence \\(n\\) different allocations \\(x_i\\) such that \\( \sum^n_{i=1} x_i = 1 \\), with a target level of risk \\( \tilde{\sigma}^2_P \\). 
+
+Mathematical formulation of the problem: (u/c means under constraint)
 
 $$\begin{cases}
 \max_{x_i} E(R_P) = \sum^n_{i=1} x_i E(R_i) \\
@@ -130,7 +132,7 @@ This model, that I will call **Sharpe CAPM** from now on, allows us to determine
 
 All these look quite heavy but what you gotto know are two things: **Markowitz problem is in the center**, and **there is a risk-free asset**.
 
-Let's bring back the Markowitz problem but **with a risk-free rate \\(r_f\\). The problem is now written as below:
+Let's bring back the Markowitz problem but **with a risk-free rate** \\(r_f\\). The problem is now written as below:
 
 $$\begin{cases}
 \min_{x_i} \sigma^2_P = \sum^n_{i=1}\sum^n_{j=1}x_ix_i\sigma_{ij} \\
@@ -148,7 +150,7 @@ $$ \begin{align}
 &E(R_P) - r_f = \sum x_i (E(R_i) - r_f)
 \end{align} $$
 
-The last equation means (excess or portfolio return) = sum of each expected return of risky asset diminshed by risk-free return. This result is quite intuitive yet hard to be proven arithematically. **The queation can be transformed into matrix as well**.
+The last equation means (excess of portfolio return) = sum of each expected return of risky asset diminshed by risk-free return. This result is quite intuitive yet hard to be proven arithematically. **The queation can be transformed into matrix as well**.
 
 Let \\(V\\), var-cov matrix of all returns of size (N,N) and all other terms are as below
 
@@ -172,7 +174,7 @@ Lagrangian optimisation:
 
 $$ \mathcal{L}(X,\lambda) = X^T V X + \lambda(E(R_P)-r_f-X^TE) $$
 
-FOC:
+First Order Condition:
 
 $$ \frac{\delta \mathcal{L}}{\delta X} = 0 ~~~ \iff ~~~ 2VX - \lambda E = 0 $$
 
@@ -233,7 +235,7 @@ or we can also write
 
 $$ E(R_i) = \frac{\sigma_{iM}}{\sigma^2_M}(E(R_P)-r_f) + r_f $$
 
-There is no difference between the two formlae above. Conventionally people tend to use more the first one because it is simpler to draw a graph since there is no y-intercept whereas the second formula does have y-intercept which is \\(r_f\\). It is although the same.
+There is no difference between the two formlae above. Conventionally people tend to use more the first one. One of few reasons is that it is simpler to draw a graph since there is no y-intercept whereas the second formula does have y-intercept which is \\(r_f\\). It is although the same.
 
 Most importantly from the formula, we remark that it's a linear function. And this equality relation (or equation) is called **fundamental relation of CAPM**.
 
@@ -262,6 +264,10 @@ $$ \beta_{PM} = \sum^n_{i=1}x_{Pi} \beta_{iM} = \frac{\sigma_{PM}}{\sigma^2_M} $
 Therefore expected return of portfolio return is
 
 $$ E(R_P)-r_f = \beta_{PM}(E(R_M)-r_f) $$
+
+### 5.6 Limits
+
+We said
 
 ## 6. Black-Scholes-Merton CAPM
 
