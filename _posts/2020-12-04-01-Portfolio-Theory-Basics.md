@@ -132,6 +132,10 @@ This model, that I will call **Sharpe CAPM** from now on, allows us to determine
 
 All these look quite heavy but what you gotto know are two things: **Markowitz problem is in the center**, and **there is a risk-free asset**.
 
+### 5.2 Sharpe-CAPM Formula Induction
+
+**Preliminary Step**
+
 Let's bring back the Markowitz problem but **with a risk-free rate** \\(r_f\\). The problem is now written as below:
 
 $$\begin{cases}
@@ -189,8 +193,6 @@ $$ X_M = \lambda_M V^{-1} E $$
 where \\(\lambda _M \\) is unknown.
 
 This relation containes both first-order moment and second-order moment anticipations of investors. We now have to determine what is this unknown \\(\lambda _M \\). 
-
-### 5.2 Sharpe-CAPM Formula Induction
 
 **First Big Step:**
 
@@ -290,6 +292,8 @@ Black starts constructing his new model by assuming that investors may take long
 
 ### 6.3 Black-CAPM Formula Induction
 
+**Preliminary Step**
+
 Since there is no risk-free asset, Markowitz problem in this situation writes as
 
 $$\begin{cases}
@@ -329,4 +333,12 @@ $$ \begin{align}
 &\iff ~~~ X^* = \frac{1}{2} \lambda V^{-1} E + \frac{1}{2} \gamma V^{-1} \mathbb{1}
 \end{align}
 $$
+
+Again, at equilibrium, we get
+
+$$ X_M = \lambda_M V^{-1} E + \gamma_M V^{-1} \mathbb{1} $$
+
+This is the optimal allocation matrix. This time, we got two unknown paramteres \\(\lambda_M\\)  and  \\(\gamma_M\\)
+
+**First Big Step**
 
