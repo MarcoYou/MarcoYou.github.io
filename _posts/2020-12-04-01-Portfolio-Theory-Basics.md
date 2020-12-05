@@ -336,7 +336,7 @@ Again, at equilibrium, we get
 
 $$ X_M = \lambda_M V^{-1} E + \gamma_M V^{-1} \mathbb{1} $$
 
-This is the optimal allocation matrix. This time, we got two unknown paramteres \\(\lambda_M\\)  and  \\(\gamma_M\\)
+This is the optimal allocation matrix. This time, we got two unknown paramters \\(\lambda_M\\)  and  \\(\gamma_M\\)
 
 **First Big Step**
 
@@ -354,7 +354,7 @@ where \\( X^T_M \mathbb{1} = 1 \\)
 
 $$ E(R_M) = \frac{1}{\lambda_M}(\sigma^2_M - \gamma_M) $$
 
-Remark: we have (marginal market revenue) = (marginal cost) relation
+**Remark**: we have (marginal market revenue) = (marginal cost) relation
 
 - We can reduce the size of equation from market to a portfolio
 
@@ -397,7 +397,7 @@ We can reduce this to a single asset,
 
 $$\begin{align}
 &\lambda_M E(R_i) = \sigma_{iM} - \gamma_M  \\
-\iff~~~& \lambda_M E(R_i) - \sigma_{iM} + \gamma_M = 0
+\iff~~~& \lambda_M E(R_i) - \sigma_{iM} + \gamma_M = 0 \\
 \iff~~~& \lambda_M E(R_i) - (\sigma_{iM} - \gamma_M) = 0
 \end{align}$$
 
