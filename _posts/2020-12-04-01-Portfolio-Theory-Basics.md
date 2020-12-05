@@ -459,7 +459,7 @@ Here, we see that the introduction of a riskless asset simply replaces \\(E(R_Z)
 
 **Reminder**:
 
-$$ CML_f: E(R_{p})= \frac{E(R_M)-R_f}{\sigma _M}\sigma _{p} + R_f $$
+$$ CML_f:~ E(R_{p})= \frac{E(R_M)-R_f}{\sigma _M}\sigma _{p} + R_f $$
 
 
 In theory, people can borrow money at safe rate \\(r_f\\) (capital R in the picture). Riskless asset's tangent portfolio at \\(M_f\\) is the best way to borrow and invest for those agents who borrowed money at \\(r_f\\). But in reality, there is no such thing as safe rate nor the risk free loan. That is why zero-Beta asset's capital market line (CML) is above the riskless asset's CML and is less steeper. We can also see that zero-Beta asset's tangent portfolio \\(M_Z\\) is located on the right-hand side of riskless tangent portfolio on the same efficient frontier. This simply means it has more risk (x-axis is \\(\sigma\\) which means risk) hence greater expected return. In the presence of both assets (zero-Beta and riskless), all rational investors (borrowers) should choose any protfolio between \\(M_f\\) and \\(M_Z\\), depending on their degree of risk aversion.
