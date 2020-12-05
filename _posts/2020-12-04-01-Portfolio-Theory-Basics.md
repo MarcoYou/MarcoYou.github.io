@@ -113,7 +113,7 @@ u/c: \sum^n_{i=1}x_i = 1
 
 From this formulation of allocation optimisation problem (basically portfolio diversification problem), Sharpe, Mossin, and Lingtner start modelising the first version of CAPM called **Sharpe-Mossin-Lintner** CAPM.
 
-## 5. Sharpe-Mossin-Lintener CAPM
+## 5. Sharpe-Mossin-Lintner CAPM
 
 This model, that I will call **Sharpe CAPM** from now on, allows us to determine the price of financial assets at any moment.
 
