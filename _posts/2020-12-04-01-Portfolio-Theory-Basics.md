@@ -248,14 +248,14 @@ $$ E(R_i) - r_f = \beta_{iM}(E(R_P)-r_f) $$
   - sensivity of asset \\(i\\) in regards to market:
     If Beta of share \\(i\\) is 2,00 then when market value goes up by 1,00%, share value of \\(i\\) will go up by 2,00%. This means \\(i\\) is positively very sensitive to market.
   - contribution of asset \\(i\\) to risk of the market:
-    - If \\(\sigma_{iM}\\) > \\( \sigma ^2_{M} \\), then owning the share accelerates the risk of the market ;
-    - If \\(\sigma_{iM}\\) < \\( \sigma ^2_{M}\ \), then owning the share slows down the risk of the market.
+    - If \\(\sigma_{iM}\\) > \\( \sigma ^2_{M} \\), then owning the share accelerates the risk of the market;
+    - If \\(\sigma_{iM}\\) < \\( \sigma ^2_{M} \\), then owning the share slows down the risk of the market.
 
 ### 5.5 Model Expansion
 
 We can expand the model from a single asset to a portfolio.
 
-For a portfolio (not the market portfolio), 
+For a portfolio \\(P\\), 
 
 $$ \beta_{PM} = \sum^n_{i=1}x_{Pi} \beta_{iM} = \frac{\sigma_{PM}}{\sigma^2_M} $$
 
