@@ -447,3 +447,7 @@ $$ E(R_i) - E(R_Z) = \beta_i(E(R_M) - E(R_i)) $$
 Quoting from Black's interpretation, this is **"the expected return on every asset, even when there is no riskless asset and riskless borrowing is not allowed, is a linear function of its \\(\beta\\)."** 
 
 Here, we see that the introduction of a riskless asset simply replaces \\(E(R_Z)\\) with \\(r_f\\).
+
+<p align="center">
+    <img src="/image/Efficient Frontier.png" alt="Efficient Frontier" width="160" height="100">
+</p>
