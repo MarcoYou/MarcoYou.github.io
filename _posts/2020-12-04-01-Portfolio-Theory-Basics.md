@@ -466,7 +466,7 @@ $$ CML_f:~ E(R_{P})= \frac{E(R_M)-R_f}{\sigma _M}\sigma _{P} + R_f $$
 - We call CML that is tangent to efficient frontier, Capital Allocation Line (CAL)
 - We can also draw a Security Market Line: 
 
-$$ SML:~ E(R_i)=\beta_{i}(E(R_M)-R_f) + R_f $$
+$$ SML_f:~ E(R_i)=\beta_{i}(E(R_M)-R_f) + R_f $$
 
   This is not any sort of CML. It is completely different. It takes beta as x-axis.
 
