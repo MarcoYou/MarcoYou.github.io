@@ -237,7 +237,7 @@ $$ E(R_i) = \frac{\sigma_{iM}}{\sigma^2_M}(E(R_P)-r_f) + r_f $$
 
 There is no difference between the two formlae above. Conventionally people tend to use more the first one. One of few reasons is that it is simpler to draw a graph since there is no y-intercept whereas the second formula does have y-intercept which is \\(r_f\\). It is although the same.
 
-Most importantly from the formula, we remark that it's a linear function. And this equality relation (or equation) is called **fundamental relation of CAPM**.
+Most importantly from the formula, we remark that it's a linear function. And this equality relation (or equation) is called **fundamental relation of CAPM**, or **fundamental equation of CAPM**.
 
 ### 5.4 Interpretation
 
@@ -278,4 +278,16 @@ Fischer Black himself identifies four key assumptions in Sharp-Mossin-Lintner CA
 3. Investors choose portfolios that maximize their expected end-of-period utility of wealth, and all investors are risk averse. (Every investor's utility function on end-of-period wealth increases at a decreasing rate as his wealth increases.)
 4. An investor may take a long or short position of any size in any asset, including the riskless asset. **Any investor may borrow or lend any amount he wants at the riskless rate of interest.**
 
-He finds the 4th assumption the most restrictive amongst all.
+Lintner has shown that removing the first assumption does not change the structure of capital asset prices in any significant way, and second and third assumptions are generally regarded as acceptable approximations to reality. Nevertheless, Black finds the 4th assumption the most restrictive amongst all, and is not a very good approximation for many investors, and one feels that the model would be changed substantially if this assumption were dropped.
+
+Also, Black, Jensen, and Scholes analyzed the returns on portfolios of stocks at different levels of \\(\beta_i\\) in the 1926-1966 period. They found that the average returns on these portfolios are not consistent wieth the fundemental equation of CAPM developed by Sharpe.
+
+Black starts constructing his new model by assuming that investors may take long or short positions of any size in any risky asset, but that **there is no riskless asset and that no borrowing or lending at the riskless rate of interest is allowed**.
+
+Since there is no risk-free asset, Markowitz problem in this situation writes as
+
+$$\begin{cases}
+\min_{x_i} \sigma^2_P = \sum^n_{i=1}\sum^n_{j=1}x_ix_i\sigma_{ij} \\
+u/c: \sum^n_{i=1} x_i E(R_i) = E(R_P) \\
+u/c: \sum^n_{i=1}x_i = 1
+\end{cases}$$
