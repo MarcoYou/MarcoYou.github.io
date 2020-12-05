@@ -20,7 +20,7 @@ The title seems it has a relation with Pr Markowitz's Portfolio Selection Theory
 
 - Suppose two financial assets (shares, bonds etc) A and B. They are in the same portfolio and being invested on the same arbitrary period generating stochastic (fancy word for random) returns \\(R_A\\) and \\(R_B\\).
 
-- Suppose we invest a unit of investment \\(I\\) (for instance, 1$) which has following allocations: 
+- Suppose we invest a unit of investment \\(I\\) (let's say I = 1$) which has following allocations: 
   \\(x\\), proportion for A, and \\((1-x)\\), proportion for B. Let's call future values of shares A and B as \\(V_A\\) and \\(V_B\\).
 
 - Returns of \\(R_A\\) and \\(R_B\\) are determined by:
