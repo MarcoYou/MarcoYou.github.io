@@ -451,6 +451,6 @@ Here, we see that the introduction of a riskless asset simply replaces \\(E(R_Z)
 ### 6.5 Graphical Illustration
 
 <p align="center">
-    <img src="/image/Efficient Frontier.png" alt="Efficient Frontier" width="560" height="320">
+    <img src="/image/Efficient Frontier.png" alt="Efficient Frontier" width="560" height="360">
 </p>
 
