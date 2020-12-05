@@ -376,6 +376,8 @@ This is the marginal revenue of investors(consumers) in this particular portfoli
 
 $$ S \equiv MC = \lambda_M E(R_M) - \sigma^2_M + \gamma_M = 0 $$
 
+**Second Big Step:**
+
 - Let's now establish the equilibrium between D and S:
 
 $$
@@ -422,17 +424,26 @@ Result 2: \\( \frac{1}{\lambda_M} = \frac{E(R_M) - E(R_i)}{\sigma^2_{M} - \sigma
 
 We get
 
-\frac{E(R_M) - E(R_i)}{\sigma^2_{M} - \sigma_{iM}} = E(R_M) - E(R_Z)
+$$ 
+\frac{E(R_M) - E(R_i)}{\sigma^2_{M} - \sigma_{iM}} = \frac{E(R_M) - E(R_Z)}{\sigma^2_M}
+$$
 
-**Second Big Step:**
+After multiple arrangements, we shall get
 
-- Going back to the first big step, we isolate E only for a single financial asset \\(i\\).
+$$ E(R_i) - E(R_Z) = \frac{\sigma_{iM}}{\sigma^2_M}(E(R_M) - E(R_i)) $$
 
-$$ E(R_i) = \frac{1}{\lambda_M} \sigma_{iM} $$
+Now we have the formula.
 
-- We replace \\(\lambda _M \\) by the result of the **First Big Step**:
+### 6.4 Black-CAPM Formula
 
-$$ \begin{align}
-E(R_i) - r_f &= \frac{1}{\frac{\sigma^2_M}{E(R_M) - r_f}} \sigma_{iM} \\
-&= \frac{E(R_M) - r_f}{\sigma^2_M}\sigma_{iM}
-\end{align}$$
+We found
+
+$$ E(R_i) - E(R_Z) = \frac{\sigma_{iM}}{\sigma^2_M}(E(R_M) - E(R_i)) $$
+
+Which can be again simplified again with Beta ratio
+
+$$ E(R_i) - E(R_Z) = \beta_i(E(R_M) - E(R_i)) $$
+
+Quoting from Black's interpretation, this is **"the expected return on every asset, even when there is no riskless asset and riskless borrowing is not allowed, is a linear function of its \\(\beta\\)."** 
+
+Here, we see that the introduction of a riskless asset simply replaces \\(E(R_Z)\\) with \\(r_f\\).
