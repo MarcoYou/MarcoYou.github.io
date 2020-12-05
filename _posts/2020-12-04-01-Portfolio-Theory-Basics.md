@@ -93,7 +93,7 @@ We can find the optimal allocation proportion \\(x\\) by first-order condition o
 
 Let's assume we did a great job in analysing efficient frontier and feasible set ;D
 
-Then it rises the following problem proposed by Harry Markowitz: agents want to maximize their expected return of portolio composed by \\(n\\) different shares hence \\(n\\) different allocations \\(x_i\\) such that \\(\sum^n_{i=1}x_i = 1\\), with a target level of risk \\(\tilde{\sigma}^2_P\\) such that \\(\sum^n_{i=1}\sum^n_{j=1}x_ix_i\sigma_{ij} = \tilde{\sigma}^2_P\\). Mathematical formulation: (u/c means under constraint)
+Then it rises the following problem proposed by Harry Markowitz: agents want to maximize their expected return of portolio composed by \\(n\\) different shares hence \\(n\\) different allocations \\(x_i\\) such that \\( \sum^n_{i=1} x_i = 1 \\), with a target level of risk \\( \tilde{\sigma} ^2_P \\) such that \\( \sum^n_{i=1} \sum^n_{j=1} x_i x_j \sigma_{ij} = \tilde{\sigma} ^2_P \\). Mathematical formulation: (u/c means under constraint)
 
 $$\begin{cases}
 \max_{x_i} E(R_P) = \sum^n_{i=1} x_i E(R_i) \\
