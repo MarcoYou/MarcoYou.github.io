@@ -144,9 +144,7 @@ u/c: \sum^n_{i=1} x_i E(R_i) + x_0r_f = E(R_P) \\
 u/c: \sum^n_{i=1}x_i + x_0 = 1
 \end{cases}$$
 
-We combine two constraints into one:
-
-from the second constraint, we get \\( x_0 = 1 - \sum x_i \\). Put it into the first contraint:
+We combine two constraints into one. From the second constraint, we get \\( x_0 = 1 - \sum x_i \\). Put it into the first contraint:
 
 $$ \begin{align}
 &E(R_P) = \sum x_i E(R_i) + (1-\sum x_i)r_f \\
