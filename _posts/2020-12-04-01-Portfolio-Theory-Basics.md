@@ -190,7 +190,7 @@ $$ X_M = \lambda_M V^{-1} E $$
 
 where \\(\lambda _M \\) is unknown.
 
-This relation containes both first-order moment and second-order moment anticipations of investors. We now have to determine what is this unknown \\(\lambda _M \\). 
+This relation contains both first-order moment and second-order moment anticipations of investors. We now have to determine what is this unknown \\(\lambda _M \\). 
 
 **First Big Step:**
 
@@ -214,7 +214,7 @@ We found an expression for \\(\lambda _M \\).
 
 **Second Big Step:**
 
-- Going back to the first step, we isolate E only for a single financial asset \\(i\\).
+- Going back to the first big step, we isolate E, but only for a single financial asset \\(i\\).
 
 $$ E(R_i) - r_f = \frac{1}{\lambda_M} \sigma_{iM} $$
 
@@ -267,7 +267,7 @@ $$ E(R_P)-r_f = \beta_{P}(E(R_M)-r_f) $$
 
 ### 5.6 Limits
 
-We said two key assumptions of Shar-CAPM are "Markowitz Problem" and "Existence of risk-free asset at which **agents can lend and borrow**". The latter is actually unrealistic well... impossible! We need another model that does not need that second assumption.
+We said two key assumptions of Sharpe-CAPM are "Markowitz Problem" and "Existence of risk-free asset at which **agents can lend and borrow**". The latter is actually unrealistic well... impossible! We need another model that does not need that second assumption.
 
 ## 6. Black-Scholes CAPM
 
@@ -284,7 +284,7 @@ Fischer Black himself identifies four key assumptions in Sharp-Mossin-Lintner CA
 
 Lintner has shown that removing the first assumption does not change the structure of capital asset prices in any significant way, and second and third assumptions are generally regarded as acceptable approximations to reality. Nevertheless, Black finds the 4th assumption the most restrictive amongst all, and is not a very good approximation for many investors, and one feels that the model would be changed substantially if this assumption were dropped.
 
-Also, Black, Jensen, and Scholes analyzed the returns on portfolios of stocks at different levels of \\(\beta_i\\) in the 1926-1966 period. They found that the average returns on these portfolios are not consistent wieth the fundemental equation of CAPM developed by Sharpe.
+Also, Black, Jensen, and Scholes analyzed the returns on portfolios of stocks at different levels of \\(\beta_i\\) in the 1926-1966 period. They found that the average returns on these portfolios are not consistent with the fundamental equation of CAPM developed by Sharpe.
 
 Black starts constructing his new model by assuming that investors may take long or short positions of any size in any risky asset, but that **there is no riskless asset and that no borrowing or lending at the riskless rate of interest is allowed**.
 
@@ -314,8 +314,8 @@ $$
 The problem then can be rewritten as
 
 $$\begin{cases}
-\min_X X^TVX\\
-u/c: X^TE = E(R_P)
+\min_X X^TVX \\
+u/c: X^TE = E(R_P) \\
 u/c: X^T \mathbb{1} = 1
 \end{cases}$$
 
