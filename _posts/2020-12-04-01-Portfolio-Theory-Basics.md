@@ -243,10 +243,10 @@ We can simplify the formula once more by replacing the slope by Beta ratio.
 
 $$ E(R_i) - r_f = \beta_{iM}(E(R_P)-r_f) $$
 
-- \\( E(R_P)-r_f \\) can be interpreted as risk premium proportional to \\(beta _{iM}\\).
-- \\(\beta_{iM} = \frac{\sigma_{iM}}{\sigma^2_M} \\) can be interpreted in 2 ways:
+- \\( E(R_P)-r_f \\) can be interpreted as risk premium proportional to \\(\beta _{iM}\\).
+- \\(\beta_{iM} = \frac{\sigma_{iM}}{\sigma^2_M} \\) can be interpreted in two ways:
   - sensivity of asset \\(i\\) in regards to market: If Beta of share \\(i\\) is 2,00 then when market cap goes up by 1,00%, share value of \\(i\\) will go up by 2,00%. This means \\(i\\) is positively very sensitive to market.
-  - contribution of asset \\(i\\) to risk of the market: If \\(\sigma _{iM}\\) > \\(\sigma ^2_{M}\\), then owning the share accelerates the risk of the market. And if \\(\sigma_{iM}\\) < \\(\sigma^2_{M}\\), then owning the share slows down the risk of the market.
+  - contribution of asset \\(i\\) to risk of the market: If \\(\sigma_{iM}\\) > \\(\sigma^2_{M}\\), then owning the share accelerates the risk of the market. And if \\(\sigma_{iM}\\) < \\(\sigma^2_{M}\\), then owning the share slows down the risk of the market.
 
 ### 5.5 Model Expansion
 
