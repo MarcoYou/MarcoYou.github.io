@@ -243,10 +243,10 @@ Most importantly from the formula, we remark that it's a linear function. And th
 
 We can simplify the formula once more by replacing the slope by Beta ratio.
 
-$$ E(R_i) - r_f = \beta_{iM}(E(R_P)-r_f) $$
+$$ E(R_i) - r_f = \beta_i(E(R_P)-r_f) $$
 
-- \\( E(R_P)-r_f \\) can be interpreted as risk premium proportional to \\(\beta _{iM}\\).
-- \\(\beta_{iM} = \frac{\sigma_{iM}}{\sigma^2_M} \\) can be interpreted in two ways:
+- \\( E(R_P)-r_f \\) can be interpreted as risk premium proportional to \\(\beta _{i}\\).
+- \\(\beta_{i} = \frac{\sigma_{iM}}{\sigma^2_M} \\) can be interpreted in two ways:
   - sensivity of asset \\(i\\) in regards to market:
     If Beta of share \\(i\\) is 2,00 then when market value goes up by 1,00%, share value of \\(i\\) will go up by 2,00%. This means \\(i\\) is positively very sensitive to market.
   - contribution of asset \\(i\\) to risk of the market:
@@ -259,19 +259,23 @@ We can expand the model from a single asset to a portfolio.
 
 For a portfolio \\(P\\), 
 
-$$ \beta_{PM} = \sum^n_{i=1}x_{Pi} \beta_{iM} = \frac{\sigma_{PM}}{\sigma^2_M} $$
+$$ \beta_{P} = \sum^n_{i=1}x_{Pi} \beta_{iM} = \frac{\sigma_{PM}}{\sigma^2_M} $$
 
 Therefore expected return of portfolio return is
 
-$$ E(R_P)-r_f = \beta_{PM}(E(R_M)-r_f) $$
+$$ E(R_P)-r_f = \beta_{P}(E(R_M)-r_f) $$
 
 ### 5.6 Limits
 
-We said
+We said two key assumptions of Shar-CAPM are "Markowitz Problem" and "Existence of risk-free asset at which **agents can lend and borrow**". The latter is actually unrealistic well... impossible! We need another model that does not need that second assumption.
 
 ## 6. Black-Scholes-Merton CAPM
 
+Fischer Black himself identifies four key assumptions in Sharp-Mossin-Lintner CAPM in his paper "Capital Market Equilibrium with Restricted Borrowing" on JSTOR journal:
 
+1. All investors have the same opinions about the possibilities of various end-of-period values for all assets. They have a common joint probability distribution for the returns on the available assets.
+2. The common probability distribution describing the possible returns on the available assets is joint normal (or joint stable with a single characteristic exponent).
+3. Investors choose portfolios that maximize their expected end-of-period utility of wealth, and all investors are risk averse. (Every investor's utility function on end-of-period wealth increases at a decreasing rate as his wealth increases.)
+4. An investor may take a long or short position of any size in any asset, including the riskless asset. **Any investor may borrow or lend any amount he wants at the riskless rate of interest.**
 
-
-
+He finds the 4th assumption the most restrictive amongst all.
