@@ -229,7 +229,13 @@ With some arrangement we get
 
 $$ E(R_i) - r_f = \frac{\sigma_{iM}}{\sigma^2_M}(E(R_P)-r_f) $$
 
-We remark that it's a linear function. This equation is called **fundamental relation of CAPM**.
+or we can also write
+
+$$ E(R_i) = \frac{\sigma_{iM}}{\sigma^2_M}(E(R_P)-r_f) + r_f $$
+
+There is no difference between the two formlae above. Conventionally people tend to use more the first one because it is simpler to draw a graph since there is no y-intercept whereas the second formula does have y-intercept which is \\(r_f\\). It is although the same.
+
+Monst importantly from the formula, we remark that it's a linear function. And this equality relation (or quation) is called **fundamental relation of CAPM**.
 
 ### 5.4 Interpretation
 
@@ -253,6 +259,9 @@ $$ \beta_{PM} = \sum^n_{i=1}x_{Pi} \beta_{iM} = \frac{\sigma_{PM}}{\sigma^2_M} $
 Therefore expected return of portfolio return is
 
 $$ E(R_P)-r_f = \beta_{PM}(E(R_M)-r_f) $$
+
+## 6. Black-Scholes-Merton CAPM
+
 
 
 
