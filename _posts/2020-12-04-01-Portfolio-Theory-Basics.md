@@ -190,7 +190,7 @@ where \\(\lambda _M \\) is unknown.
 
 This relation containes both first-order moment and second-order moment anticipations of investors. We now have to determine what is this unknown \\(\lambda _M \\). 
 
-### 5.2 CAPM Formula Induction
+### 5.2 Sharpe-CAPM Formula Induction
 
 **First Big Step:**
 
@@ -273,16 +273,22 @@ We said two key assumptions of Shar-CAPM are "Markowitz Problem" and "Existence 
 
 Fischer Black himself identifies four key assumptions in Sharp-Mossin-Lintner CAPM in his paper "Capital Market Equilibrium with Restricted Borrowing" on JSTOR journal:
 
+### 6.1 Previous Hypotheses
+
 1. All investors have the same opinions about the possibilities of various end-of-period values for all assets. They have a common joint probability distribution for the returns on the available assets.
 2. The common probability distribution describing the possible returns on the available assets is joint normal (or joint stable with a single characteristic exponent).
 3. Investors choose portfolios that maximize their expected end-of-period utility of wealth, and all investors are risk averse. (Every investor's utility function on end-of-period wealth increases at a decreasing rate as his wealth increases.)
 4. An investor may take a long or short position of any size in any asset, including the riskless asset. **Any investor may borrow or lend any amount he wants at the riskless rate of interest.**
+
+### 6.2 Black-Scholes-Merton CAPM Hypotheses
 
 Lintner has shown that removing the first assumption does not change the structure of capital asset prices in any significant way, and second and third assumptions are generally regarded as acceptable approximations to reality. Nevertheless, Black finds the 4th assumption the most restrictive amongst all, and is not a very good approximation for many investors, and one feels that the model would be changed substantially if this assumption were dropped.
 
 Also, Black, Jensen, and Scholes analyzed the returns on portfolios of stocks at different levels of \\(\beta_i\\) in the 1926-1966 period. They found that the average returns on these portfolios are not consistent wieth the fundemental equation of CAPM developed by Sharpe.
 
 Black starts constructing his new model by assuming that investors may take long or short positions of any size in any risky asset, but that **there is no riskless asset and that no borrowing or lending at the riskless rate of interest is allowed**.
+
+### 6.3 Black-CAPM Formula Induction
 
 Since there is no risk-free asset, Markowitz problem in this situation writes as
 
@@ -291,3 +297,14 @@ $$\begin{cases}
 u/c: \sum^n_{i=1} x_i E(R_i) = E(R_P) \\
 u/c: \sum^n_{i=1}x_i = 1
 \end{cases}$$
+
+In matrix form, we get
+
+$$  \mathbb{R} = \begin{bmatrix} R_1 \\ \vdots \\ R_n \end{bmatrix}
+~~~
+E = \begin{bmatrix} E(R_1) \\ \vdots \\ E(R_n) \end{bmatrix}
+~~~
+X = \begin{bmatrix} X_1  \\ \vdots \\ X_n \end{bmatrix}
+~~~
+\mathds{1} \mathbb{1}
+$$
