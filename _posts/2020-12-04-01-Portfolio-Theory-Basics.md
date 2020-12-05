@@ -10,7 +10,7 @@ author:
 [comment]: <> (mathjax inline > \\(...\\) )
 [comment]: <> (mathjax block  > $$...$$   )
 ---
-This is a note which includes simplified steps before getting to Black-Scholes-Merton Capital Asset Pricing Model (CAPM) and CAPM itself as well. Since I am very lazy, I am skipping important graphical illustration parts and examples. If you find any algebraic error, please do let me know at **gunhoqw20@gmail.com**.
+This is a note for simplified steps before getting to Black-Scholes-Merton Capital Asset Pricing Model (BSM-CAPM) and for BSM-CAPM itself as well. Since I am very lazy, I am skipping important demonstrations and graphical illustration parts. If you find any error, please do let me know at **gunhoqw20@gmail.com**.
 
 ## 1. Portfolio Composition
 
