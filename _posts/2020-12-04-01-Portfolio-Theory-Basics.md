@@ -235,7 +235,7 @@ $$ E(R_i) = \frac{\sigma_{iM}}{\sigma^2_M}(E(R_P)-r_f) + r_f $$
 
 There is no difference between the two formlae above. Conventionally people tend to use more the first one because it is simpler to draw a graph since there is no y-intercept whereas the second formula does have y-intercept which is \\(r_f\\). It is although the same.
 
-Monst importantly from the formula, we remark that it's a linear function. And this equality relation (or quation) is called **fundamental relation of CAPM**.
+Most importantly from the formula, we remark that it's a linear function. And this equality relation (or equation) is called **fundamental relation of CAPM**.
 
 ### 5.4 Interpretation
 
