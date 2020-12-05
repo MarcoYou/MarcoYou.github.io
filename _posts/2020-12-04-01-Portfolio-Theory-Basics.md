@@ -401,7 +401,7 @@ $$\begin{align}
 \iff~~~& \lambda_M E(R_i) - (\sigma_{iM} - \gamma_M) = 0
 \end{align}$$
 
-At equilibrium, the result above should be equal to the result with the entire market,
+At equilibrium, the result above should be equal to the same result but sized up to the entire market,
 
 $$ \begin{align}
 &         \lambda_M E(R_i) - (\sigma_{iM} - \gamma_M) = \lambda_M E(R_M) - (\sigma^2_{M} - \gamma_M) \\
