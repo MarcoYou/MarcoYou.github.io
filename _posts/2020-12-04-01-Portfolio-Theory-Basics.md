@@ -95,7 +95,7 @@ Let's assume we did a great job in analysing efficient frontier and feasible set
 
 Then it rises the following problem proposed by Harry Markowitz: agents want to maximize their expected return of portolio composed by \\(n\\) different shares hence \\(n\\) different allocations \\(x_i\\) such that \\( \sum^n_{i=1} x_i = 1 \\), with a target level of risk \\( \tilde{\sigma}^2_P \\). 
 
-Mathematical formulation of the problem: (u/c means under constraint)
+Mathematical formulation of the problem: (u/c means under constraint, equally we say subject to)
 
 $$\begin{cases}
 \max_{x_i} E(R_P) = \sum^n_{i=1} x_i E(R_i) \\
@@ -306,5 +306,27 @@ E = \begin{bmatrix} E(R_1) \\ \vdots \\ E(R_n) \end{bmatrix}
 ~~~
 X = \begin{bmatrix} X_1  \\ \vdots \\ X_n \end{bmatrix}
 ~~~
-\mathds{1} \mathbb{1}
+\mathbb{1} = \begin{bmatrix} 1  \\ \vdots \\ 1 \end{bmatrix}
 $$
+
+The problem then can be rewritten as
+
+$$\begin{cases}
+\min_X X^TVX\\
+u/c: X^TE = E(R_P)
+u/c: X^T \mathbb{1} = 1
+\end{cases}$$
+
+Langrangian Optimisation:
+
+$$ \mathcal{L}(X,\lambda,\gamma) = X^T V X + \lambda(E(R_P)-X^TE) + \gamma(1-X^T\mathbb{1} )$$
+
+First Order Condition:
+
+$$ \begin{align}
+\frac{\delta \mathcal{L}}{\delta X} = 0 ~~~ &\iff ~~~ 2VX - \lambda E - \gamma \mathbb{1} = 0 \\
+&\iff ~~~ X = \frac{1}{2} V^{-1} (\lambda E + \gamma \mathbb{1}) \\
+&\iff ~~~ X^* = \frac{1}{2} \lambda V^{-1} E + \frac{1}{2} \gamma V^{-1} \mathbb{1}
+\end{align}
+$$
+
