@@ -154,7 +154,7 @@ $$ \begin{align}
 &E(R_P) - r_f = \sum x_i (E(R_i) - r_f)
 \end{align} $$
 
-The last equation means (excess of portfolio return) = sum of each expected return of risky asset diminshed by risk-free return. This result is quite intuitive yet hard to be proven arithematically. **The queation can be transformed into matrix as well**.
+The last equation means (excess of portfolio return) = (sum of each expected return of risky asset diminshed by risk-free return). This result is quite intuitive yet hard to be proven arithematically. **The queation can be transformed into matrix as well**.
 
 Let \\(V\\), var-cov matrix of all returns of size (N,N) and all other terms are as below
 
