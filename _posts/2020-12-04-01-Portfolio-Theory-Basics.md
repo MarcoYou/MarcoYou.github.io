@@ -417,8 +417,13 @@ At this stage, we have successfully removed \\(\gamma_M\\) and found an expressi
 
 - Plug in the **Result 1** into the **Result 2**:
 
-Result 1: \\( \sigma^2_M = \lambda_M(E(R_M) - E(R_Z)) \\)
-Result 2: \\( \frac{1}{\lambda_M} = \frac{E(R_M) - E(R_i)}{\sigma^2_{M} - \sigma_{iM}} \\)
+Result 1: 
+
+$$ \sigma^2_M = \lambda_M(E(R_M) - E(R_Z) $$
+
+Result 2: 
+
+$$ \frac{1}{\lambda_M} = \frac{E(R_M) - E(R_i)}{\sigma^2_{M} - \sigma_{iM}} $$
 
 We get
 
