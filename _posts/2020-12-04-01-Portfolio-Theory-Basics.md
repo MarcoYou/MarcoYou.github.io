@@ -448,6 +448,9 @@ Quoting from Black's interpretation, this is **"the expected return on every ass
 
 Here, we see that the introduction of a riskless asset simply replaces \\(E(R_Z)\\) with \\(r_f\\).
 
+### 6.5 Graphical Illustration
+
 <p align="center">
-    <img src="/image/Efficient Frontier.png" alt="Efficient Frontier" width="160" height="100">
+    <img src="/image/Efficient Frontier.png" alt="Efficient Frontier" width="560" height="320">
 </p>
+
