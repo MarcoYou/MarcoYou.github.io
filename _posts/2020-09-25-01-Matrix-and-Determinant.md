@@ -7,12 +7,11 @@ tags: [linear algebra, matrix, maths, regression, vector]
 math: true
 author:
   - Marco You
-  - Sangyup Lee (수학의신.com)
 [comment]: <> (mathjax inline > \\(...\\) )
 [comment]: <> (mathjax block  > $$...$$   )
 ---
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce bibendum neque eget nunc mattis eu sollicitudin enim tincidunt. Vestibulum lacus tortor, ultricies id dignissim ac, bibendum in velit.
+Reference: 수학의신.com (이상엽 선생님)
 
 ## 1. Matrix
 
