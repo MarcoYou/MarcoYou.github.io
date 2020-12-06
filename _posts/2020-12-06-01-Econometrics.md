@@ -40,12 +40,12 @@ In formal mathematical terms, we can also say that a random variable is a functi
   - Probability measure \\(\equiv \mathbb{P}\\) is a function that maps from \\(\sigma\\)-algebra to a probability \\(p \in \[0,1\]\\).
 
 $$ \begin{align}
-\Omega &= \{\omega_1, \omega_2 \} \\
-\mathcal{F} &= \{\emptyset, \{\omega_1\}, \{\omega_2\}, \{\omega_1, \omega_2\} \} \\
-\mathbb{P}(\emptyset) &= p_0 = 0 \\
-\mathbb{P}(\{\omega_1\}) &= p_1 = 0,50 \\
-\mathbb{P}(\{\omega_2\}) &= p_2 = 0,50 \\
-\mathbb{P}(\{\omega_1, \omega_2\}) &= \mathbb{P}(\Omega) = p_3 = 1,00
+&\Omega = \{\omega_1, \omega_2 \} \\
+&\mathcal{F} = \{\emptyset, \{\omega_1\}, \{\omega_2\}, \{\omega_1, \omega_2\} \} \\
+&\mathbb{P}(\emptyset) = p_0 = 0 \\
+&\mathbb{P}(\{\omega_1\}) = p_1 = 0,50 \\
+&\mathbb{P}(\{\omega_2\}) = p_2 = 0,50 \\
+&\mathbb{P}(\{\omega_1, \omega_2\}) = \mathbb{P}(\Omega) = p_3 = 1,00
 \end{align}$$
 
 **Random Variable Types**
