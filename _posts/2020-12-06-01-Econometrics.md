@@ -18,9 +18,19 @@ This is an introduction to master level Econometrics. It covers linear regressio
 
 ### 1.1 Random Variable (RV)
 
-**Definition**
+**Simple Definition**
 
-**Random variable** X is a variable whose value is determined by the outcome of a random experiment. This is the most simple and intuitive definition of a random variable. 
+**Random variable** X is a variable whose value is determined by the outcome of a random experiment.
+
+Therefore, a random variable X needs following elements:
+
+- \\( x_1, x_2, \cdots, x_k \\) (k possible outcomes)
+- \\( p_1, p_2, \cdots, p_k \\) (probability of each outcome)
+- \\( \{x_1, x_2, \cdots, x_k\} \\) (sample space)
+
+where \\(p_i ≥ 0 \\) and \\( \sum^k_{i=1} p_i = 1 \\).
+
+**Fancy Definition**
 
 In formal mathematical terms, we can also say that a random variable is a function defined on a probability space that maps from the sample space to the real numbers, where
 
@@ -37,14 +47,6 @@ $$ \begin{align}
 \mathbb{P}(\{\omega_2\}) &= p_2 = 0,50 \\
 \mathbb{P}(\{\omega_1, \omega_2\}) &= \mathbb{P}(\Omega) = p_3 = 1,00
 \end{align}$$
-
-Therefore, a random variable X needs following elements:
-
-- \\( x_1, x_2, \cdots, x_k \\) (k possible outcomes)
-- \\( p_1, p_2, \cdots, p_k \\) (probability of each outcome)
-- \\( \{x_1, x_2, \cdots, x_k\} \\) (sample space)
-
-where \\(p_i ≥ 0 \\) and \\( \sum^k_{i=1} p_i = 1 \\).
 
 **Random Variable Types**
 
