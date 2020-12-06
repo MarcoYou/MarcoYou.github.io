@@ -24,14 +24,18 @@ This is an introduction to master level Econometrics. It covers linear regressio
 
 In formal mathematical terms, we can also say that a random variable is a function defined on a probability space that maps from the sample space to the real numbers, where
 
-- Probability space\\(\equiv (\Omega, \mathcal{F}, \mathbb{P}) \\) where
-  - Sample sapce\\(\equiv \Omega \\) is a non-empty set of all possible outcomes (numbers) or results (not numbers) from a random experiment.
-  - \\(\sigma\\)-algebra\\(\equiv \mathcal{F}\\) is a set of all possible subsets of \\(\Omega\\), called events. 
-  - Probability measure\\(\equiv \mathbb{P}\\) is a function that maps from \\(\sigma\\)-algebra to a probability \\(\in \[0,1\]\\).
+- Probability space \\(\equiv (\Omega, \mathcal{F}, \mathbb{P}) \\) where
+  - Sample sapce \\(\equiv \Omega \\) is a non-empty set of all possible outcomes (numbers) or results (not numbers) from a random experiment.
+  - \\(\sigma\\)-algebra \\(\equiv \mathcal{F}\\) is a set of all possible subsets of \\(\Omega\\), called events. 
+  - Probability measure \\(\equiv \mathbb{P}\\) is a function that maps from \\(\sigma\\)-algebra to a probability \\(p \in \[0,1\]\\).
 
 $$ \begin{align}
 \Omega &= \{\omega_1, \omega_2 \} \\
-\mathcal{F} &= \{\emptyset, \{\omega_1\}, \{\omega_2\}, \{\omega_1, \omega_2\} \}
+\mathcal{F} &= \{\emptyset, \{\omega_1\}, \{\omega_2\}, \{\omega_1, \omega_2\} \} \\
+\mathbb{P}(\emptyset) &= p_0 = 0 \\
+\mathbb{P}(\{\omega_1\}) &= p_1 = 0,50 \\
+\mathbb{P}(\{\omega_2\}) &= p_2 = 0,50 \\
+\mathbb{P}(\{\omega_1, \omega_2\}) &= \mathbb{P}(\Omega) = p_3 = 1,00
 \end{align}$$
 
 Therefore, a random variable X needs following elements:
