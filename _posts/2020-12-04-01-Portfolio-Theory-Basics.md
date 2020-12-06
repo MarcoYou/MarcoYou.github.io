@@ -2,7 +2,7 @@
 layout: post
 toc: true
 title: "Portfolio Theory Basics"
-categories: Portfolio Theory
+categories: Portfolio_Theory
 tags: [finance, portfolio, CAPM, Markowitz, Black, Scholes, Sharpe, Capital Asset Pricing Model]
 math: true
 author:
