@@ -58,6 +58,6 @@ For any random variable X one can define its **Probability Distribution Function
 
 When X is a **discrete random variable**, we use **Probability Mass Function** (PMF). PMF is defined as such:
 
-  Let X be a discrete random variable defined as \\(X:\Omega \mapsto \mathbb{R} \\). Then the probability mass function of X is defined as:
+Let X be a discrete random variable defined as \\(X:\Omega \mapsto \mathbb{R} \\). Then the probability mass function of X is defined as:
 
-  $$ PMF(X) \equiv f_X(x) = P(X=x) = P(\{\omega \in \Omega: X(\omega) = x \} $$)
+$$ PMF(X) \equiv f_X(x) = P(X=x) = P(\{\omega \in \Omega: X(\omega) = x \} $$)
