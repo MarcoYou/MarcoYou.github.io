@@ -95,7 +95,7 @@ This gives the probability of X falling within the infinitesimal interval \\(\[a
 
 You now know how to compute probability of X on a certain point (pmf) or on a certain interval (pdf). In addition to that, we can think of computing the **sum of probabilities of X before a certain point or after a certain point**, by computing the **Cumulative Distribution Function** (cdf).
 
-### 3.1 Defini
+### 3.1 Definition
 
 #### Discrete random variable
 
