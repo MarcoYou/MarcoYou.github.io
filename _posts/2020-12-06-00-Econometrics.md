@@ -103,7 +103,8 @@ Let X be a discrete random vraiable defined on \\(\mathbb{N}\\). Cumulative dist
 
 $$\begin{align}
 cdf(X) \equiv F_X(x) &= P(X ≤ x) \\
-&= \sum^x_{x=0}P(X=x)
+&= \sum^x_{x=0}P(X=x) \\
+&= \sum_{i=0}p_i
 \end{align}$$
 
 #### Contiuous random variable
