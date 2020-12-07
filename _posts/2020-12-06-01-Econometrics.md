@@ -50,9 +50,14 @@ $$ \begin{align}
 
 **Random Variable Types**
 
-Outcomes of a random variable could either be **discrete** or **continuous**. In the first case, we call the RV, a **discrete random variable**. In the second case, we call the RV, a **continuous random variable**.
+Outcomes of a random variable could either be **discrete** or **continuous**. In the first case, the outcomes are numerable. In the second case, the outcomes are not numerable.
 
-- Discrete random variable example: Rolling a dice,
-- Contimnuous random variable example: We choose 
+### 1.2 Probability Distribution Function
 
-### 1.2 Probability 
+For any random variable X one can define its **Probability Distribution Function**. It is a function of stacked probabilities of each possible value of X when it occurs. There are two types of probability distribution function that are **Probability Mass Function** and **Probability Density Function**.
+
+When X is a **discrete random variable**, we use **Probability Mass Function** (PMF). PMF is defined as such:
+
+  Let X be a discrete random variable defined as \\(X:\Omega \mapsto \mathbb{R} \\). Then the probability mass function of X is defined as:
+
+  $$ PMF(X) \equiv f_X(x) = P(X=x) = P(\{\omega \in \Omega: X(\omega) = x \} $$)
