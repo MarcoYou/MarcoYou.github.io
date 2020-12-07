@@ -16,7 +16,7 @@ This is an introduction to master level Econometrics. It covers linear regressio
 
 ## 1. Reminder: Statistics 101
 
-### 1.1 Random Variable (RV)
+### 1.1 Random Variable
 
 **Simple Definition**
 
@@ -60,4 +60,7 @@ When X is a **discrete random variable**, we use **Probability Mass Function** (
 
 Let X be a discrete random variable defined as \\(X:\Omega \mapsto \mathbb{R} \\). Then the probability mass function of X is defined as:
 
-$$ \begin{align} PMF(X) \equiv f_X(x) &= P(X=x) \\ &= P(\{\omega \in \Omega: X(\omega) = x \} \end{align} $$)
+$$ \begin{align} 
+PMF(X) \equiv f_X(x) &= P(X=x) \\ 
+&= P(\{\omega \in \Omega: X(\omega) = x\})
+\end{align} $$
