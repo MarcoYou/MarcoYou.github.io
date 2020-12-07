@@ -6,7 +6,7 @@ permalink: /about/
 
 ## About me
 
-Hello, it is a great honour to have you on this site. My name is Marco, a graduate student in economics, from South Korea, currently living in Paris, France. This site is my notebook. Nothing more or nothing less than that. I wonder how you found my site and if my notes were helpful. If they were, please, leave a comment! Thank you!
+Hello, it is a great honour to have you on this site. My name is Marco, a graduate student in economics, from South Korea, currently living in Paris, France. This site is my notebook. I wonder how you found my site and if my notes were helpful. If they were, please, leave a comment! Thank you!
 
 ## Contents
 
