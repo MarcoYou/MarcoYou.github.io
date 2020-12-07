@@ -91,4 +91,5 @@ This gives the probability of X falling within the infinitesimal interval \\(\[a
 
 ### 1.3 Cumulative Distribution Function
 
-You now know how to compute probability of X on a certain point (pmf) or on a certain interval (pdf). 
+You now know how to compute probability of X on a certain point (pmf) or on a certain interval (pdf). In addition to that, we can think of computing the sum of probabilities of X before a certain point or after a certain point, by computing the **Cumulative Distribution Function** (cdf).
+
