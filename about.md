@@ -4,4 +4,24 @@ title: About
 permalink: /about/
 ---
 
-더 알고 싶다.
+## About me
+
+Hello, it is a great honour to have you on this site. My name is Marco, a graduate student in economics, from South Korea, currently living in Paris, France. This site is my notebook. Nothing more or nothing less than that. I wonder how you found my site and if my notes were helpful. If they were, please, leave a comment! Thank you!
+
+## Contents
+
+I will be posting everything I learend from:
+
+- Economics;
+- Econometrics;
+- Mathematics;
+- Statistics;
+- Finance;
+- Data Science;
+- Machine Learning & Deep Learning.
+
+I hope to post more things other than the sciences above in the future.
+
+## Others
+
+If you find any errors or lack of specification of any concept, please do let me know at gunhoqw20@gmail.com
