@@ -3,7 +3,7 @@ layout: post
 toc: true
 title: "00. Econometrics: Statistics 101"
 categories: Econometrics Statistics
-tags: [economics, econometrics, statistics, law of large numbers, central limit theorem, random variable, probability]
+tags: [economics, econometrics, statistics, probability]
 math: true
 author:
   - Marco You
