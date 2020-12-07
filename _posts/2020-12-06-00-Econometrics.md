@@ -116,6 +116,7 @@ By definition, cdf(X) is an increasing function of x that sums up each probabili
 Let X be a continuous random vraiable. Cumulative distribution function of X is defined as below:
 
 $$\begin{align}
-cdf(X) \equiv F_X(x) = P(X ≤ x)
+cdf(X) \equiv F_X(x) &= P(X ≤ x) = P(X < x) \\
+&= \int^x_{-\infty}{f_X(t)dt}
 \end{align}$$
 
