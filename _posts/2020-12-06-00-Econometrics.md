@@ -99,11 +99,11 @@ You now know how to compute probability of X on a certain point (pmf) or on a ce
 
 #### Discrete random variable
 
-Let X be a discrete random vraiable whose sample space is defined as \\(\{x_1, \cdots, x_n \} \in \mathbb{N}\\). Cumulative distribution function of X is defined as below:
+Let X be a discrete random vraiable defined on \\(\mathbb{N}\\). Cumulative distribution function of X is defined as below:
 
 $$\begin{align}
-cdf(X) \equiv F_X(x) &= P(X ≤ x)
-&= \sum^x_{}
+cdf(X) \equiv F_X(x) &= P(X ≤ x) \\
+&= \sum^x_{x=0}P(X=x)
 \end{align}$$
 
 #### Contiuous random variable
