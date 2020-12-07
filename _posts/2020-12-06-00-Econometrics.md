@@ -93,19 +93,19 @@ This gives the probability of X falling within the infinitesimal interval \\(\[a
 
 ## 3. Cumulative Distribution Function
 
-You now know how to compute probability of X on a certain point (pmf) or on a certain interval (pdf). In addition to that, we can think of computing the **sum of probabilities of X before a certain point or after a certain point**, by computing the **Cumulative Distribution Function** (cdf).
+You now know how to compute probability of X on a certain point (pmf) or on a certain interval (pdf). In addition to that, we can think of computing the **sum of probabilities of X before a certain point or after a certain point**, by computing the **Cumulative Distribution Function** (CDF).
 
 ### 3.1 Discrete random variable
 
 Let X be a discrete random vraiable defined on \\(\mathbb{N}\\). Cumulative distribution function of X is defined as below:
 
 $$\begin{align}
-cdf(X) \equiv F_X(x) &= P(X ≤ x) \\
+CDF(X) \equiv F_X(x) &= P(X ≤ x) \\
 &= \sum_{i=0}P(X=x_i) \\
 &= \sum_{i=0}p_i
 \end{align}$$
 
-By definition, cdf(X) is an increasing function of X. In the case of a discrete RV, the shape of cdf function should look like stairs (discontinuous).
+By definition, CDF(X) is an increasing function of X. In the case of a discrete RV, the shape of CDF function should look like stairs (discontinuous).
 
 **Nota bene**: for a discrere RV, \\(P(X≤x) ≠ P(X< x)\\) because unlike contunuous RV, \\(P(X=x)\\) may not be 0.
 
@@ -120,11 +120,12 @@ By definition, cdf(X) is an increasing function of X. In the case of a discrete 
 Let X be a continuous random vraiable. Cumulative distribution function of X is defined as below:
 
 $$\begin{align}
-cdf(X) \equiv F_X(x) &= P(X ≤ x) = P(X < x) \\
-&= \int^x_{-\infty}{f_X(t)dt}
+CDF(X) \equiv F_X(x) &= P(X ≤ x) = P(X < x) \\
+&= \int^x_{-\infty}{f_X(t)dt} \\
+&= F_X(b) - F_X(a)
 \end{align}$$
 
-By definition, cdf(X) is an increasing function of X. In the case of a discrete RV, the shape of cdf function should look like a curve (continuous).
+By definition, CDF(X) is an increasing function of X. In the case of a discrete RV, the shape of CDF function should look like a curve (continuous).
 
 #### Graphical illustration
 
@@ -132,3 +133,20 @@ By definition, cdf(X) is an increasing function of X. In the case of a discrete 
 <img src="/image/Continuous PDF CDF.png" alt="Continuous PDF CDF" width="460" height="260">
 </p>
 
+### 3.3 Computation Tips
+
+Let X be a continuous random variable. The CDF of X on an arbitrary interval \\([a,b]\\) is computed by:
+
+**CDF on an arbitrary interval**
+
+$$ P(a≤X≤b) = F_X(b) - F_X(a) $$
+
+**Probability of X being greater than x**
+
+We have only dealt cases where probability of X is being smaller than x. The opposite case, where probability of X being greater then x is computed by:
+
+$$ P(X > x) = 1 - F_X(x)$$
+
+## 4. Link between PDF and CDF
+
+Link between PDF and CDF is based on **Analysis**, which is a branch of mathematics that deals with limits, **integration**, **differentiation** etc. Focusing on the relation between integration and differentiation, we can establish the following two relations:
