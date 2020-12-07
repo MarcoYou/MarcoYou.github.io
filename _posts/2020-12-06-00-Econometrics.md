@@ -60,7 +60,7 @@ For any random variable X one can define its **Probability Distribution Function
 
 ### 2.1 Probability Mass Function
 
-When X is a **discrete random variable**, we use **Probability Mass Function** (pmf). PMF is defined as such:
+When X is a **discrete random variable**, we use **Probability Mass Function** (pmf). PMF is defined through the following steps:
 
 Let X be a discrete random variable defined as \\(X:\Omega \mapsto \mathbb{R} \\). Then the probability mass function of X is defined as:
 
@@ -73,7 +73,7 @@ This gives the **probability that a discrete random variable X is exactly equal 
 
 ### 2.2 Probability Density Function
 
-When X is a **continuous random variable**, we use **Probability Density Function** (pdf). The probability density function of X is defind as:
+When X is a **continuous random variable**, we use **Probability Density Function** (pdf). The probability density function of X is defind through the following steps:
 
 Let X be a continuous random variable defined as \\(X:\Omega \mapsto \mathbb{R} \\). Let's denote the probability density function of X, \\(pdf(X) \equiv f_X(x)\\). Given this, the probability of X falling within the interval \\(\[a,b\]\\) is computed by:
 
