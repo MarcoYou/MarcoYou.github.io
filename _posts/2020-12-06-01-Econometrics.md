@@ -73,14 +73,14 @@ This gives the **probability that a discrete random variable X is exactly equal 
 
 When X is a **continuous random variable**, we use **Probability Density Function** (PDF). PDF is defind as such:
 
-Let X be a continuous random variable defined as \\(X:\Omega \mapsto \mathbb{R} \\). Let's denote the probability density function of X, \\PDF(X) \equiv (f_X(x)\\). Given this, probability is computed by:
+Let X be a continuous random variable defined as \\(X:\Omega \mapsto \mathbb{R} \\). Let's denote the probability density function of X, \\(PDF(X) \equiv f_X(x)\\). Given this, probability is computed by:
 
-$$ P(a ≤ X ≤ b) \int^b_a{f_X(x)dx} $$
+$$ P(a ≤ X ≤ b) = \int^b_a{f_X(x)dx} $$
 
 where \\( f_X(x) ≥ 0 \\) and \\( \int^{+\infty}_{-\infty}{f_X(x)dx} = 1 \\).
 
 This gives the probability of X falling within the infinitesimal interval \\(\[a,b\]\\). 
 
-However, the probability of X being exactly equal to a certain value is 0 when X is a continuous RV. Intuitively we know that it's because we have continuous real numbers that can be infinitesimally refined to extremely and infinitely small numbers. But this explanation does not sound mathematically beautiful.
+However, **the probability of X is exactly equal to a certain value is 0 when X is a continuous RV**. Intuitively we know that it's because we have continuous real numbers that can be infinitesimally refined to extremely and infinitely small numbers. But this explanation does not sound mathematically beautiful.
 
-Let's think in this way: the formula above gives the probability of X falling within the interval \\(\[a,b\]\\). And we know that the integral above gives the area below curve \\( f_X(x) \\). Trying to find a probability of X is exactly equal to a certain value would mean the probability of X falling within the interval, for instance, \\(\[a,a\]\\). This is not an area below the curve f. It is a line below the curve f. And what is the area of a line? it's 0. A line has a length but not an area.
+Let's think in this way: the formula above gives the probability of X falling within the interval \\(\[a,b\]\\). And we know that the integral above gives the area below curve \\( f_X(x) \\). Trying to find a probability of X is exactly equal to a certain value would mean the probability of X falling within the interval, for instance, \\(\[a,a\]\\). This is not an area below the curve f. It is a line below the curve f. **And what is the area of a line? it's 0**. A line has a length but not an area.
