@@ -85,7 +85,7 @@ This gives the probability of X falling within the infinitesimal interval \\(\[a
 
 **Nota bene:**
 
-- Note that pdf(X) is \\(f_X(x)\\), not \\(\int{f_X(x)dx}\\).
+- Note that pdf(X) is \\(f_X(x)\\), not \\(\int^b_a{f_X(x)dx}\\).
 
 - Note that **the probability of X is exactly equal to a certain value is 0 when X is a continuous RV**. Intuitively we know that it's because we have continuous real numbers that can be infinitesimally refined to extremely and infinitely small numbers. But this explanation does not sound mathematically beautiful.
 
