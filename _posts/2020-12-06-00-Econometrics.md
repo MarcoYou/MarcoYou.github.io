@@ -107,6 +107,10 @@ cdf(X) \equiv F_X(x) &= P(X ≤ x) \\
 &= \sum_{i=0}p_i
 \end{align}$$
 
+By definition, cdf(X) is an increasing function of x that sums up each probability as x increases until the sum reaches 1.
+
+**Nota bene**: for a discrere RV, \\(P(X≤x) ≠ P(X< x)\\) because unlike contunuous RV, \\(P(X=x)\\) may not be 0.
+
 #### Contiuous random variable
 
 Let X be a continuous random vraiable. Cumulative distribution function of X is defined as below:
