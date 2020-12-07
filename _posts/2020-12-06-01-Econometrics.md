@@ -3,7 +3,7 @@ layout: post
 toc: true
 title: "01. Econometrics"
 categories: Econometrics
-tags: [finance, portfolio, CAPM, Markowitz, Black, Scholes, Merton]
+tags: [economics, econometrics, statistics, law of large numbers, central limit theorem, random variable, probability]
 math: true
 author:
   - Marco You
@@ -83,4 +83,4 @@ This gives the probability of X falling within the infinitesimal interval \\(\[a
 
 However, the probability of X being exactly equal to a certain value is 0 when X is a continuous RV. Intuitively we know that it's because we have continuous real numbers that can be infinitesimally refined to extremely and infinitely small numbers. But this explanation does not sound mathematically beautiful.
 
-Let's think in this way: we just said the formula above gives the probability of X falling within the interval \\(\[a,b\]\\). And we know that the formula with integral gives the area below curve \\( f_X(x) \\). Trying to find a probability of X is exactly equal to a certain value would mean it is a probability of X falling within the interval, for instance, \\(\[a,a\]\\). This is not an area below the curve f. It is a line below the curve f. And what is the area of a line? it's 0. A line has a length but not an area.
+Let's think in this way: the formula above gives the probability of X falling within the interval \\(\[a,b\]\\). And we know that the integral above gives the area below curve \\( f_X(x) \\). Trying to find a probability of X is exactly equal to a certain value would mean the probability of X falling within the interval, for instance, \\(\[a,a\]\\). This is not an area below the curve f. It is a line below the curve f. And what is the area of a line? it's 0. A line has a length but not an area.
