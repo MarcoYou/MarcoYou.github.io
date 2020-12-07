@@ -3,7 +3,7 @@ layout: post
 toc: true
 title: "00. Econometrics: Statistics 101"
 categories: Econometrics Statistics
-tags: [economics, econometrics, statistics, probability]
+tags: [economics, econometrics, statistics]
 math: true
 author:
   - Marco You
