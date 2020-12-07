@@ -1,8 +1,8 @@
 ---
 layout: post
 toc: true
-title: "01. Econometrics"
-categories: Econometrics
+title: "00. Econometrics: Statistics 101"
+categories: Econometrics, Statistics
 tags: [economics, econometrics, statistics, law of large numbers, central limit theorem, random variable, probability]
 math: true
 author:
@@ -14,9 +14,11 @@ author:
 
 This is an introduction to master level Econometrics. It covers linear regression with single and multiple regressors, non-linear effects and models for panel data. It also introduces non parametric techniques applied to density estimation and regression. Applications and examples are developed using R and Python.
 
-## 1. Reminder: Statistics 101
+This chapter introduces/reminds you basic statistical concepts and definitions that you must know before learning econometrics.
 
-### 1.1 Random Variable
+## 1. Random Variable
+
+### 1.1 Definition
 
 **Simple Definition**
 
@@ -48,15 +50,15 @@ $$ \begin{align}
 &\mathbb{P}(\{\omega_1, \omega_2\}) = \mathbb{P}(\Omega) = p_3 = 1,00
 \end{align}$$
 
-**Random Variable Types**
+### 1.2 Random Variable Types
 
 Outcomes of a random variable could either be **discrete** or **continuous**. In the first case, the outcomes are numerable. In the second case, the outcomes are not numerable.
 
-### 1.2 Probability Distribution Function
+## 2. Probability Distribution Function
 
 For any random variable X one can define its **Probability Distribution Function**. It is a function of stacked probabilities of each possible value of X when it occurs. There are two types of probability distribution function that are **Probability Mass Function** and **Probability Density Function**.
 
-#### 1.2.1 Probability Mass Function
+### 2.1 Probability Mass Function
 
 When X is a **discrete random variable**, we use **Probability Mass Function** (pmf). PMF is defined as such:
 
@@ -69,7 +71,7 @@ pmf(X) \equiv f_X(x) &= P(X=x) \\
 
 This gives the **probability that a discrete random variable X is exactly equal to some value x**. You will see right after that this is impossible with continuous random variable.
 
-#### 1.2.2 Probability Density Function
+### 2.2 Probability Density Function
 
 When X is a **continuous random variable**, we use **Probability Density Function** (pdf). The probability density function of X is defind as:
 
@@ -89,7 +91,7 @@ This gives the probability of X falling within the infinitesimal interval \\(\[a
 
   - Let's think in this way: the formula above gives the probability of X falling within the interval \\(\[a,b\]\\). And we know that the integral above gives the area below curve \\( f_X(x) \\). Trying to find a probability of X is exactly equal to a certain value would mean the probability of X falling within the interval, for instance, \\(\[a,a\]\\). This is not an area below the curve f. It is a line below the curve f. **And what is the area of a line? it's 0**. A line has a length, not an area.
 
-### 1.3 Cumulative Distribution Function
+## 3. Cumulative Distribution Function
 
 You now know how to compute probability of X on a certain point (pmf) or on a certain interval (pdf). In addition to that, we can think of computing the sum of probabilities of X before a certain point or after a certain point, by computing the **Cumulative Distribution Function** (cdf).
 
