@@ -95,9 +95,7 @@ This gives the probability of X falling within the infinitesimal interval \\(\[a
 
 You now know how to compute probability of X on a certain point (pmf) or on a certain interval (pdf). In addition to that, we can think of computing the **sum of probabilities of X before a certain point or after a certain point**, by computing the **Cumulative Distribution Function** (cdf).
 
-### 3.1 Definition
-
-#### Discrete random variable
+### 3.1 Discrete random variable
 
 Let X be a discrete random vraiable defined on \\(\mathbb{N}\\). Cumulative distribution function of X is defined as below:
 
@@ -111,7 +109,7 @@ By definition, cdf(X) is an increasing function of x that sums up each probabili
 
 **Nota bene**: for a discrere RV, \\(P(X≤x) ≠ P(X< x)\\) because unlike contunuous RV, \\(P(X=x)\\) may not be 0.
 
-#### Contiuous random variable
+### 3.2 Contiuous random variable
 
 Let X be a continuous random vraiable. Cumulative distribution function of X is defined as below:
 
@@ -120,3 +118,4 @@ cdf(X) \equiv F_X(x) &= P(X ≤ x) = P(X < x) \\
 &= \int^x_{-\infty}{f_X(t)dt}
 \end{align}$$
 
+sd
