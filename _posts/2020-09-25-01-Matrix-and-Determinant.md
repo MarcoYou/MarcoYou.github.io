@@ -3,7 +3,7 @@ layout: post
 toc: true
 title: "01. Matrix and Determinant"
 categories: Linear_Algebra
-tags: [linear algebra, matrix, maths, regression, vector]
+tags: [linear algebra, matrix, maths, regression]
 math: true
 author:
   - Marco You
