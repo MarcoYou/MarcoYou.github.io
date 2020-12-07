@@ -105,7 +105,7 @@ cdf(X) \equiv F_X(x) &= P(X ≤ x) \\
 &= \sum_{i=0}p_i
 \end{align}$$
 
-By definition, cdf(X) is an increasing function of x that sums up each probability as x increases until the sum reaches 1.
+By definition, cdf(X) is an increasing function of X. In the case of a discrete RV, the shape of cdf function should look like stairs (discontinuous).
 
 **Nota bene**: for a discrere RV, \\(P(X≤x) ≠ P(X< x)\\) because unlike contunuous RV, \\(P(X=x)\\) may not be 0.
 
@@ -118,4 +118,4 @@ cdf(X) \equiv F_X(x) &= P(X ≤ x) = P(X < x) \\
 &= \int^x_{-\infty}{f_X(t)dt}
 \end{align}$$
 
-sd
+By definition, cdf(X) is an increasing function of X. In the case of a discrete RV, the shape of cdf function should look like a curve (continuous).
