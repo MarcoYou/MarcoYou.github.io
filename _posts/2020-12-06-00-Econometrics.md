@@ -153,7 +153,7 @@ Link between PDF and CDF is based on **Analysis**, which is a branch of mathemat
 
 $$\begin{align}
 F_X(x) &= \int^x_{-\infty}{f_X(t)dt} \\
-f_X(x) &= \frac{\delta F_X(x){\delta x}}
+f_X(x) &= \frac{\delta F_X(x)}{\delta x}
 \end{align}$$
 
 intuitively, one can think of \\(f_X(x)\\) as being the probability of X falling within the **infinitesimal**, again, **infinitesimal** interval \\(\[x,x+\delta x\]\\).
