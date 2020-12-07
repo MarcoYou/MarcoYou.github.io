@@ -109,6 +109,12 @@ By definition, cdf(X) is an increasing function of X. In the case of a discrete 
 
 **Nota bene**: for a discrere RV, \\(P(X≤x) ≠ P(X< x)\\) because unlike contunuous RV, \\(P(X=x)\\) may not be 0.
 
+#### Graphical illustration
+
+<p align="center">
+<img src="/image/Discrete PDF CDF.png" alt="Discrete PDF CDF" width="460" height="260">
+</p>
+
 ### 3.2 Contiuous random variable
 
 Let X be a continuous random vraiable. Cumulative distribution function of X is defined as below:
@@ -119,3 +125,10 @@ cdf(X) \equiv F_X(x) &= P(X ≤ x) = P(X < x) \\
 \end{align}$$
 
 By definition, cdf(X) is an increasing function of X. In the case of a discrete RV, the shape of cdf function should look like a curve (continuous).
+
+#### Graphical illustration
+
+<p align="center">
+<img src="/image/Continuous PDF CDF.png" alt="Continuous PDF CDF" width="460" height="260">
+</p>
+
