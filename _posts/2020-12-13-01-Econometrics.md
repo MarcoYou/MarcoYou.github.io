@@ -1,7 +1,7 @@
 ---
 layout: post
 toc: true
-title: "02. Statistics 101: Moments of Distribution"
+title: "01. Econometrics"
 categories: Statistics
 tags: [moments, mean, variance, skewness, kurtosis]
 math: true
