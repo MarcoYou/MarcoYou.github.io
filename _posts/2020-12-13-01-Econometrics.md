@@ -27,3 +27,14 @@ $$
 where \\(\beta_0 + \beta_1 X_i \\) is the **Population Regression Function** attempting to capture the **Conditional Expectation Function**.
 
 As it was mentionned before, we do not have access to the entire population but only to a random sample drawn from the population.
+
+## 2. OLS estimates
+
+Using a random sample drawn from the population, we can obtain the OLS **estimates** of \\(\beta_0\\) and \\(\beta_1\\) using
+
+$$
+\begin{cases}
+\hat{\beta_0} = \overline{Y} - \hat{\beta_1} \overline{X} \\
+\hat{\beta_1} = \frac{\sum_i(X_i - \overline{X})(Y_i-\overline{Y})}{\sum_i (X_i - \overline{X})^2}
+\end{cases}
+$$
