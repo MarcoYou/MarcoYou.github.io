@@ -33,3 +33,14 @@ In a **simple random sample**, n objects are drawn randomly from a population wh
 **Nota bene:**
 - There is no such thing as pure **random** in real life.
 - iid is hardly possible in real life.
+
+The rest of the note will talk about how to exploit statistical properties from a **random sample** and assimilating them to true statistical properties of the population. In other words, everything will be about:
+
+- Exploiting sample statistical properties;
+- Assimilating sample statistical properties to population statistical properties (if possible);
+- Establishing the link between sample and population;
+- Providing an explanation to a phenomenon;
+
+### 1.2 Sample Mean
+
+Now we know what is a **
