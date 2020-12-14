@@ -2,7 +2,7 @@
 layout: post
 toc: true
 title: "01. Econometrics"
-categories: Econometrics
+categories: Statistics
 tags: [LLN, CLT, sample, population]
 math: true
 author:
