@@ -45,23 +45,31 @@ In a **simple random sample**, n objects are drawn randomly from a population wh
 - There is no such thing as pure **random** in real life.
 - iid is hardly possible in real life.
 
-The rest of the note will talk about how to exploit statistical properties from a **random sample** and assimilating them to true statistical properties of the population. In other words, everything will be about:
+The rest of the note will talk about how to exploit statistical properties from a **random sample** and assimilating them to true statistical properties of the population. In detail, the steps are:
 
 - Exploiting sample statistical properties;
-- Assimilating sample statistical properties to population statistical properties (if possible);
 - Establishing the link between sample and population;
+- Assimilating sample statistical properties to population statistical properties (if possible);
 - Providing an explanation to a phenomenon;
+
+An example is given below in the ***sample mean*** section.
 
 ### 1.3 Sample Mean
 
-Now we know what is a (random) sample, and we know that we have to get its statistical properties. First statistical property to acquire is the **sample mean**. By its appellation, we know that **it is not the population mean**.
+Now we know what is a (random) sample, and we know that we have to get its statistical properties. The most basic statistical property to acquire is the **sample mean**. By its appellation, we know that **it is different from the population mean**.
 
-Let Y be a random variable and \\(Y_1, \cdots, Y_n\\) are iid.
+#### Exploiting sample statistical property = sample mean
 
-The **sample mean**, \\(\overline{Y}\\) of the n observations \\(Y_1, \cdots, Y_n\\) is:
+Let Y be a random variable and \\(Y_1, \cdots, Y_n\\) are iid. The **sample mean**, \\(\overline{Y}\\) of the n random observations \\(Y_1, \cdots, Y_n\\) is:
 
 $$ \overline{Y} = \frac{1}{n} \sum^n_{i=1}Y_i $$
 
+#### Establishing the link between sample and population
+
 Since \\(Y_i\\) are random variables, \\(\overline{Y}\\) is also a random variable. Therefore, the value of \\(\overline{Y}\\) differs from one randomly drawn sample to the others.
 
-Given that \\(\overline{Y}\\) is a random variable, it then has a probability distribution, called sampling distribution
+Given that \\(\overline{Y}\\) is a random variable, it then has a probability distribution, called sampling distribution. We can then compute the **expected value** of the sample mean \\(\overline{Y}\\):
+
+$$\begin{align}
+E[\overline{Y}] = E\[\frac{1}{n} \sum^n_{i=1}Y_i \]
+\end{align}$$
