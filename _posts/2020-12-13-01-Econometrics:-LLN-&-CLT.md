@@ -1,9 +1,9 @@
 ---
 layout: post
 toc: true
-title: "02. Econometrics"
+title: "01. Econometrics: LLN and CLT"
 categories: Econometrics
-tags: [Linear Regression, OLS, estimator]
+tags: [LLN, CLT, sample, population]
 math: true
 author:
   - Marco You
