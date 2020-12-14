@@ -44,3 +44,5 @@ The above equation system comes from the FOC of the OLS problem which is
 $$
 \min_{\hat{\beta}_0,\hat{\beta}_1} \left[ \sum_i(Y_i - \hat{Y}_i)^2 = \sum_i(Y_i - \hat{\beta}_0 -\hat{\beta}_1X_i)^2 \right]
 $$
+
+This minimisation problem implies **minimisation of the gap between actual \\(Y_i\\) and the estimated \\(\hat{Y}_i\\)**, where \\( \hat{\beta}_0 -\hat{\beta}_1X_i \\) is the **Sample Regression Function**, and \\( \hat{Y}_i = \hat{\beta}_0 + \hat{\beta}_1X_i \\) is the fitted value of \\(Y_i\\) and \\( Y_i - \hat{Y}_i = \hat{u}_i \\), the **residual of the regression**.
