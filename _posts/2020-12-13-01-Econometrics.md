@@ -48,7 +48,7 @@ In a **simple random sample**, n objects are drawn randomly from a population wh
 The rest of the note will talk about how to exploit statistical properties from a **random sample** and assimilating them to true statistical properties of the population. In detail, the steps are:
 
 - Exploiting sample statistical properties;
-- Establishing the link between sample and population;
+- Establishing the relation between sample and population;
 - Assimilating sample statistical properties to population statistical properties (if possible);
 - Providing an explanation to a phenomenon;
 
@@ -72,8 +72,11 @@ Given that \\(\overline{Y}\\) is a random variable, it then has a probability di
 
 $$
 \begin{align}
-
-E\left[\overline{Y} \right] = E\left[ \frac{1}{n} \sum^n_{i=1}Y_i \right]
-
+E\left[\overline{Y} \right] &= E\left[ \frac{1}{n} \sum^n_{i=1}Y_i \right] = \frac{1}{n} \sum^n_{i=1} E\left[Y_i \right] \\
+&= \frac{1}{n} n E\left[Y_i \right] = E(Y) = \mu_Y
 \end{align}
 $$
+
+#### Assimilation sample statistical property to population statistical property
+
+We can conclude that expected value of sample mean is the the population mean. In other words, expected value of sample mean is a very good guess for the population mean.
