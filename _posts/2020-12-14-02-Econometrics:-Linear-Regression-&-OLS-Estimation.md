@@ -34,7 +34,13 @@ Using a random sample drawn from the population, we can obtain the OLS **estimat
 
 $$
 \begin{cases}
-\hat{\beta_0} = \overline{Y} - \hat{\beta_1} \overline{X} \\
-\hat{\beta_1} = \frac{\sum_i(X_i - \overline{X})(Y_i-\overline{Y})}{\sum_i (X_i - \overline{X})^2}
+\hat{\beta}_0 = \overline{Y} - \hat{\beta}_1 \overline{X} \\
+\hat{\beta}_1 = \frac{\sum_i(X_i - \overline{X})(Y_i-\overline{Y})}{\sum_i (X_i - \overline{X})^2}
 \end{cases}
+$$
+
+The above equation system comes from the FOC of the OLS problem which is
+
+$$
+\min_{\hat{\beta}_0,\hat{\beta}_1} \sum_i(Y_i - \hat{Y}_i)^2 = \sum_i(Y_i - \hat{\beta}_0 -\hat{\beta}_1X_i)^2
 $$
