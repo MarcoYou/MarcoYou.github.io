@@ -43,4 +43,6 @@ The rest of the note will talk about how to exploit statistical properties from 
 
 ### 1.2 Sample Mean
 
-Now we know what is a **
+Now we know what is a (random) sample, and we know that we have to get its statistical properties. First statistical property to acquire is the **sample mean**. By its appellation, we know that **it is not the population mean**.
+
+Let Y be a population random variable and \\(Y_i\\)
