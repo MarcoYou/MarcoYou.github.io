@@ -80,4 +80,4 @@ $$
 
 #### Assimilation sample statistical property to population statistical property
 
-We can conclude that expected value of sample mean is the the population mean. In other words, expected value of sample mean is a very good guess for the population mean.
+We can conclude that expected value of sample mean is the the population mean. In other words, expected value of sample mean is a very good guess for the population mean. (no explanation to give because this is not a real case)
