@@ -28,7 +28,7 @@ where \\(\beta_0 + \beta_1 X_i \\) is the **Population Regression Function** att
 
 As it was mentionned before, we do not have access to the entire population but only to a random sample drawn from the population.
 
-## 2. OLS estimates
+## 2. OLS Estimates
 
 Using a random sample drawn from the population, we can obtain the OLS **estimates** of \\(\beta_0\\) and \\(\beta_1\\) using
 
