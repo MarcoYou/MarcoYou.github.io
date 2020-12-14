@@ -73,7 +73,8 @@ Given that \\(\overline{Y}\\) is a random variable, it then has a probability di
 $$
 \begin{align}
 E\left[\overline{Y} \right] &= E\left[ \frac{1}{n} \sum^n_{i=1}Y_i \right] = \frac{1}{n} \sum^n_{i=1} E\left[Y_i \right] \\
-&= \frac{1}{n} n E\left[Y_i \right] = E(Y) = \mu_Y
+&= \frac{1}{n} n E\left[Y_i \right] = E(Y) 
+&= \mu_Y
 \end{align}
 $$
 
