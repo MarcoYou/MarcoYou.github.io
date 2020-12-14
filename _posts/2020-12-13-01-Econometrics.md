@@ -45,4 +45,12 @@ The rest of the note will talk about how to exploit statistical properties from 
 
 Now we know what is a (random) sample, and we know that we have to get its statistical properties. First statistical property to acquire is the **sample mean**. By its appellation, we know that **it is not the population mean**.
 
-Let Y be a population random variable and \\(Y_i\\)
+Let Y be a random variable and \\(Y_1, \cdots, Y_n\\) are iid.
+
+The **sample mean**, \\(\bar{Y}\\) of the n observations \\(Y_1, \cdots, Y_n\\) is:
+
+$$ \bar{Y} = \frac{1}{n} \sum^n_{i=1}Y_i
+
+Since \\(Y_i\\) are random variables, \\(\bar{Y}\\) is also a random variable. Therefore, the value of \\(\bar{Y}\\) differs from one randomly drawn sample to the others.
+
+Given that \\(\bar{Y}\\) is a random variable, it then has a probability distribution, called sampling distribution
