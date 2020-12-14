@@ -1,7 +1,7 @@
 ---
 layout: post
 toc: true
-title: "01. Econometrics"
+title: "01. Econometrics: LLN and CLT"
 categories: Econometrics
 tags: [LLN, CLT, sample, population]
 math: true
