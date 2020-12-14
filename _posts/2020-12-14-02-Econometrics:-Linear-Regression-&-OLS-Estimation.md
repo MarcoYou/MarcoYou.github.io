@@ -42,5 +42,5 @@ $$
 The above equation system comes from the FOC of the OLS problem which is
 
 $$
-\min_{\widehat{\beta}_0,\widehat{\beta}_1} \sum_i(Y_i - \widehat{Y}_i)^2 = \sum_i(Y_i - \hat{\beta}_0 -\hat{\beta}_1X_i)^2
+\min_{\hat{\beta}_0,\hat{\beta}_1} \left[ \sum_i(Y_i - \hat{Y}_i)^2 = \sum_i(Y_i - \hat{\beta}_0 -\hat{\beta}_1X_i)^2 \right]
 $$
