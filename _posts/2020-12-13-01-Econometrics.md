@@ -71,5 +71,5 @@ Since \\(Y_i\\) are random variables, \\(\overline{Y}\\) is also a random variab
 Given that \\(\overline{Y}\\) is a random variable, it then has a probability distribution, called sampling distribution. We can then compute the **expected value** of the sample mean \\(\overline{Y}\\):
 
 $$\begin{align}
-E[\overline{Y}] = E\[\frac{1}{n} \sum^n_{i=1}Y_i \]
+E\[\overline{Y}\] = E\[\frac{1}{n} \sum^n_{i=1}Y_i \]
 \end{align}$$
