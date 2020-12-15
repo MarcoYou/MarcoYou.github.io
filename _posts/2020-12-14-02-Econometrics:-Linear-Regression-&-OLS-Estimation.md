@@ -51,8 +51,20 @@ This minimisation problem implies **minimisation of the gap between actual \\(Y_
 
 ### 2.2 Standard Error of a regression
 
-The **Standard Error of a regression** (SER) is an **estimator of the standard deviation of the regression error \\(u_i\\)**:
+The **Standard Error of a regression** (SER) is an **estimator of the Standard Deviation of the regression error \\(u_i\\)** expressed as
 
 $$
 SD(u_i) = \sqrt{\frac{1}{n}\sum_i u^2_i} = \sqrt{\frac{1}{n}\sum_i (Y_i - \beta_0 - \beta_1 X_i)^2}
 $$
+
+SER captures the dispersion of the observations around the regressio line. Also, note that we got \\(u_i\\), the true error term of the population. Since we cannot observe \\(u_i\\), we compute the empirical counter-part of \\(SE(u_i)\\):
+
+$$
+SER(u_i) = \sqrt{\frac{1}{n-2}\sum_i \hat{u}^2_i} = \sqrt{\frac{SSR}{n-2}}
+$$
+
+where SSR is sum of squares of regression.
+
+<p align="center">
+<img src="/image/SST.png" alt="SST" width="400" height="320">
+</p>
