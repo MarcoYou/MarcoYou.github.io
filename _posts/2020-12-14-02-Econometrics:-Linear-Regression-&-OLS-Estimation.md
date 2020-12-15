@@ -66,5 +66,5 @@ $$
 where SSR is sum of squares of regression.
 
 <p align="center">
-<img src="/image/SST.png" alt="SST" width="400" height="320">
+<img src="/image/SST.png" alt="SST" width="300" height="220">
 </p>
