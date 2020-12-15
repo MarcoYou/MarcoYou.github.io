@@ -54,5 +54,5 @@ This minimisation problem implies **minimisation of the gap between actual \\(Y_
 The **Standard Error of a regression** (SER) is an **estimator of the standard deviation of the regression error \\(u_i\\)**:
 
 $$
-SD(u_i) = \sqrt{\frac{1}{n}\sum_i u^2_i}
+SD(u_i) = \sqrt{\frac{1}{n}\sum_i u^2_i} = \sqrt{\frac{1}{n}\sum_i (Y_i - \beta_0 - \beta_1 X_i)^2}
 $$
