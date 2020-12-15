@@ -30,6 +30,8 @@ As it was mentionned before, we do not have access to the entire population but 
 
 ## 2. OLS Estimates
 
+### 2.1 OLS Estimators
+
 Using a random sample drawn from the population, we can obtain the OLS **estimates** of \\(\beta_0\\) and \\(\beta_1\\) using
 
 $$
@@ -46,3 +48,11 @@ $$
 $$
 
 This minimisation problem implies **minimisation of the gap between actual \\(Y_i\\) and the estimated \\(\hat{Y}_i\\)**, where \\( \hat{\beta}_0 -\hat{\beta}_1X_i \\) is the **Sample Regression Function**, and \\( \hat{Y}_i = \hat{\beta}_0 + \hat{\beta}_1X_i \\) is the fitted value of \\(Y_i\\) and \\( Y_i - \hat{Y}_i = \hat{u}_i \\), the **residual of the regression**.
+
+### 2.2 Standard Error of a regression
+
+The **Standard Error of a regression** (SER) is an **estimator of the standard deviation of the regression error \\(u_i\\)**:
+
+$$
+SD(u_i) = \sqrt{\frac{1}{n}\sum_i u^2_i}
+$$
