@@ -24,7 +24,7 @@ $$
 Y_i = \beta_0 + \beta_1 X_i + u_i
 $$
 
-where \\(\beta_0 + \beta_1 X_i \\) is the **Population Regression Function** attempting to capture the **Conditional Expectation Function**.
+where \\(\beta_0 + \beta_1 X_i \\) is the **Population Regression Function** (PRF) attempting to capture the **Conditional Expectation Function** (CEF).
 
 As it was mentionned before, we do not have access to the entire population but only to a random sample drawn from the population.
 
@@ -47,7 +47,7 @@ $$
 \min_{\hat{\beta}_0,\hat{\beta}_1} \left[ \sum_i(Y_i - \hat{Y}_i)^2 = \sum_i(Y_i - \hat{\beta}_0 -\hat{\beta}_1X_i)^2 \right]
 $$
 
-This minimisation problem implies **minimisation of the gap between actual \\(Y_i\\) and the estimated \\(\hat{Y}_i\\)**, where \\( \hat{\beta}_0 -\hat{\beta}_1X_i \\) is the **Sample Regression Function**, and \\( \hat{Y}_i = \hat{\beta}_0 + \hat{\beta}_1X_i \\) is the fitted value of \\(Y_i\\) and \\( Y_i - \hat{Y}_i = \hat{u}_i \\), the **residual of the regression**.
+This minimisation problem implies **minimisation of the gap between actual \\(Y_i\\) and the estimated \\(\hat{Y}_i\\)**, where \\( \hat{\beta}_0 -\hat{\beta}_1X_i \\) is the **Sample Regression Function** (SRF), and \\( \hat{Y}_i = \hat{\beta}_0 + \hat{\beta}_1X_i \\) is the fitted value of \\(Y_i\\) and \\( Y_i - \hat{Y}_i = \hat{u}_i \\), the **residual of the regression**.
 
 ### 2.2 Standard Error of a regression
 
