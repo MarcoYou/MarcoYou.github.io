@@ -19,3 +19,11 @@ Personally, I consider econometrics as an application of statistics in economics
 The main and the most important statistical method that is used in econometrics is **Regression Analysis**. To what is a regression analysis, we need to know how it was created. The term regression was coined by the british anthropologist Francis Galton, also a cousin of Charles Darwin. When he was analyzing the correlation between the size of seeds of pead and the size of successive generations of peas, he found that there is a **linear** trend in the relation between those two observations. All the sets of (seed size,pea size) were more or less above or below **the average** of seed size and pea size coordinate. He called this phenomenon **Regression toward mean**.
 
 ## 1. Linear Fitting Problem
+
+Assume that we have a collection of data expressed in coordinates such as
+
+$$ 
+\left{ (X_i,Y_i) ; i=1,\cdots,n \right}
+$$
+
+and that we would like to describe the relation between X and Y by mean of a **linear relation** \\(Y = \beta_0 + \beta_1 X \\).
