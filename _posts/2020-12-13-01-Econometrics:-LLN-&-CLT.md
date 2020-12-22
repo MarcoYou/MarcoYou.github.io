@@ -23,7 +23,7 @@ The main and the most important statistical method that is used in econometrics 
 Assume that we have a collection of data expressed in coordinates such as
 
 $$ 
-\left{ (X_i,Y_i) ; i=1,\cdots,n \right}
+{ (X_i,Y_i) ; i=1,\cdots,n }
 $$
 
 and that we would like to describe the relation between X and Y by mean of a **linear relation** \\(Y = \beta_0 + \beta_1 X \\).
