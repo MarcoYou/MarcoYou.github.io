@@ -12,7 +12,7 @@ author:
 [comment]: <> <p align="center"> <img src="/image/file_name.png" alt="file_name" width="460" height="260"> </p>
 ---
 
-Econometrics Note Chapter 1.
+**Econometrics Note Chapter 1.**
 
 Personally, I consider econometrics as an application of statistics in economics rather than a sub-branch of economic science. I am stating this because I thought it was some sort of economics when I first saw the name "econometrics". As stated, in this series of notes, 95% of the contents will be about statistics. The other 5% will be economic interpretation of result that comes from statistical analysis.
 
