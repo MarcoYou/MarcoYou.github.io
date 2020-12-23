@@ -94,5 +94,23 @@ and we choose the \\(beta_0\\) and \\(\beta_1\\) to have the **SSR to be as smal
 Formally the problem is written as
 
 $$
-\min_{\hat{\beta}_0,\hat{\beta}_1} \sum ^n_{i=1}(Y_i - \hat{Y}_i)^2 = 
+\min_{\hat{\beta}_0,\hat{\beta}_1} \sum ^n_{i=1}(Y_i - \hat{Y}_i)^2 = \sum^n_{i=1}(Y_i - \hat{\beta}_0 - \hat{\beta}_1 X_i)^2
+$$
+
+By using partial differentiation for each beta, the two necessary first order conditions to identify the solution read as
+
+$$
+\begin{cases}
+\beta_0: \frac{\delta \sum^n_{i=1}(Y_i - \hat{\beta}_0 - \hat{\beta}_1 X_i)^2}{\delta \hat{\beta}_0} = 0 \\
+\beta_1: \frac{\delta \sum^n_{i=1}(Y_i - \hat{\beta}_0 - \hat{\beta}_1 X_i)^2}{\delta \hat{\beta}_1} = 0
+\end{cases}
+$$
+
+these become
+
+$$
+\begin{cases}
+\beta_0: \frac{\delta \sum^n_{i=1}(Y_i - \hat{\beta}_0 - \hat{\beta}_1 X_i)^2}{\delta \hat{\beta}_0} = 0 \\
+\beta_1: \frac{\delta \sum^n_{i=1}(Y_i - \hat{\beta}_0 - \hat{\beta}_1 X_i)^2}{\delta \hat{\beta}_1} = 0 \\
+\end{cases}
 $$
