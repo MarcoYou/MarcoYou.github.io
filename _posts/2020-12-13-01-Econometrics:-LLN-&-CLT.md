@@ -88,3 +88,5 @@ By squaring the error term, we amplify bigger errors. This approach of assessing
 We assume thet he **size of the mistake** is measured by SSR denoted as
 
 $$ SSR = \sum^n_{i=1}(Y_i - \hat{Y}_i)^2 = \sum^n_{i=1}\hat{u}^2_i $$
+
+and we choose the \\(beta_0\\) and \\(\beta_1\\) to have the **SSR to be as small as possible**. Which means, we want the **overall error to be smallest possible**.
