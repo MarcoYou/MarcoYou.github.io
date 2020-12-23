@@ -136,3 +136,9 @@ $$ \hat{Y}_i = \hat{\beta}_0 + \hat{\beta}_1 X_i $$
 - The intercept \\(\hat{\beta}_0\\) is the predicted y when x = 0. It is often not important and is meaningless to interpret. The most important part is the slope \\(\hat{\beta}_1\\);
 - The slope \\(\hat{\beta}_1\\) allows us to predict changes in y for any reasonable change in x: \\( \Delta \hat{y} = \hat{\beta}_1 \Delta x \\);
 - If x increases by one unit, then the change in y is caputred by \\(\hat{\beta}_1\\).
+
+**Summary**
+
+<p align="center">
+<img src="/image/Fitted_line.png" alt="Fitted_line" width="300" height="220">
+</p>
