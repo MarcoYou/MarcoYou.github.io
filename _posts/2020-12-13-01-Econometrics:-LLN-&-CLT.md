@@ -212,6 +212,7 @@ $$
 then we get an equation that says **Total Sum of Squares** equates the sum of **Explained Sum of Squres** and **Residual Sum of Squares**, formally it's
 
 $$ \begin{align}
-SST = SSE + SSR \\
+& SST = SSE + SSR \\
+& \sum^n_{i=1} (Y_i - \overline{Y})^2 = \sum^n_{i=1}(\hat{Y}_i - \overline{Y})^2 + \sum^n_{i=1} \hat{u}^2_i
 
 \end{align}$$
