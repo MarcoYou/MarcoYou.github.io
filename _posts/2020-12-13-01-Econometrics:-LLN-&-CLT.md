@@ -59,3 +59,5 @@ Each data is a dot that has \\((X_i,Y_i)\\) coordinates. They are the true **obs
 $$
 Error_i = Y_i - \hat{Y}_i = Y_i - \hat{\beta}_0 - \hat{\beta}_1 X_i
 $$
+
+Note that we have errors **because we are trying to find a linear fit** to the dataset. Errors do not exist if we do not try to find a linear fit.
