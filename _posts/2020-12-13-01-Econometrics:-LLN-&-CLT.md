@@ -33,3 +33,9 @@ Suppose we got a dataset displayed in a scatterplot like below
 <p align="center">
 <img src="/image/Scatter.png" alt="Scatter" width="300" height="220">
 </p>
+
+The best fitting line to these data is
+
+<p align="center">
+<img src="/image/fit.png" alt="fit" width="300" height="220">
+</p>
