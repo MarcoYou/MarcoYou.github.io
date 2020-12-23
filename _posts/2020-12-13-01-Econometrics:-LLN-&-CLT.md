@@ -123,3 +123,16 @@ $$
 \hat{\beta}_1 = \frac{\sum(X_i - \overline{X})(Y_i - \overline{Y})}{\sum(X_i - \overline{X})^2} = \frac{Cov(X,Y)}{V(X)}
 \end{cases}
 $$
+
+Note that \\(\overline{X}\\) is the mean value of all **observed X**. It is not the true mean of the population.
+
+Once we have the estimated values of true betas for a given dataset, we can write the **OLS fitted line function** like
+
+$$ \hat{Y}_i = \hat{\beta}_0 + \hat{\beta}_1 X_i $$
+
+**Remarks**
+
+- This OLS fitted line allows us to predict y for any sensible value of x;
+- The intercept \\(\hat{\beta}_0\\) is the predicted y when x = 0. It is often not important and is meaningless to interpret. The most important part is the slope \\(\hat{\beta}_1\\);
+- The slope \\(\hat{\beta}_1\\) allows us to predict changes in y for any reasonable change in x: \\( \Delta \hat{y} = \hat{\beta}_1 \Delta x \\);
+- If x increases by one unit, then the change in y is caputred by \\(\hat{\beta}_1\\).
