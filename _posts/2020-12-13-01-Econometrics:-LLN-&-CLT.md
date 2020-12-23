@@ -110,7 +110,16 @@ these become
 
 $$
 \begin{cases}
-\beta_0: \frac{\delta \sum^n_{i=1}(Y_i - \hat{\beta}_0 - \hat{\beta}_1 X_i)^2}{\delta \hat{\beta}_0} = 0 \\
-\beta_1: \frac{\delta \sum^n_{i=1}(Y_i - \hat{\beta}_0 - \hat{\beta}_1 X_i)^2}{\delta \hat{\beta}_1} = 0 \\
+\beta_0: -2 \sum^n_{i=1}(Y_i - \hat{\beta}_0 - \hat{\beta}_1 X_i) = 0 \\
+\beta_1: -2 \sum^n_{i=1}(Y_i - \hat{\beta}_0 - \hat{\beta}_1 X_i)X_i = 0
+\end{cases}
+$$
+
+they give the following solutions
+
+$$
+\begin{cases}
+\hat{\beta}_0 = \overline{Y} - \hat{\beta}_1 \overline{X} \\
+\hat{\beta}_1 = \frac{\sum(X_i - \overline{X})(Y_i - \overline{Y})}{\sum(X_i - \overline{X})^2} = \frac{Cov(X,Y)}{V(X)}
 \end{cases}
 $$
