@@ -39,3 +39,11 @@ The best fitting line to these data is
 <p align="center">
 <img src="/image/fit.png" alt="fit" width="300" height="220">
 </p>
+
+There are other possible fitting lines like below
+
+<p align="center">
+<img src="/image/fits.png" alt="fits" width="300" height="220">
+</p>
+
+why the blue line is the best line? how can we know(measure) it?
