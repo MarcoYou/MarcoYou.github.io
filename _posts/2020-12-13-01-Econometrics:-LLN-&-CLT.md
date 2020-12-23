@@ -142,3 +142,5 @@ $$ \hat{Y}_i = \hat{\beta}_0 + \hat{\beta}_1 X_i $$
 <p align="center">
 <img src="/image/Fitted_line.png" alt="Fitted_line" width="300" height="220">
 </p>
+
+The gap between \\(Y_5\\) and \\(\hat{Y}_5\\) is the error, also called **residual**.
