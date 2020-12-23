@@ -27,3 +27,6 @@ $$
 $$
 
 and that we would like to describe the relation between X and Y by mean of a **linear relation** \\(Y = \beta_0 + \beta_1 X \\).
+
+Suppose we got a dataset displayed in a scatterplot like below
+
