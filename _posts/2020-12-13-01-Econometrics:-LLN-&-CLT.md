@@ -181,3 +181,21 @@ $$
 - Second algebraic property (2) tells us that the sample covariance between residuals \\(\hat{u}_i\\) and \\(X_i\\) is 0. This is also called the **orthogonality condition**.
 
 There are other algebraic properties as well but the properties above are the most important ones.
+
+### 2.3 Goodness of fit
+
+A consequence of the algebraic properties is the following
+
+$$
+\begin{align}
+
+SST &= \sum^n_{i=1} (Y_i - \overline{Y})^2 = \sum^n_{i=1} ((Y_i -\hat{Y}_i) + (\hat{Y}_i - \overline{Y}))^2 \\
+
+&= \sum^n_{i=1} (Y_i - \hat{Y}_i)^2 + \sum^n_{i=1} (\hat{Y}_i - \overline{Y})^2 + 2\sum^n_{i=1}(Y_i -\hat{Y}_i)(\hat{Y}_i - \overline{Y}) \\
+
+&= \sum^n_{i=1} \hat{u}^2_i + \sum^n_{i=1}(\hat{Y}_i - \overline{Y})^2 + 2\sum^n_{i=1}\hat{u}_i(\hat{Y}_i - \overline{Y}) \\
+
+&= \sum^n_{i=1} \hat{u}^2_i + \sum^n_{i=1}(\hat{Y}_i - \overline{Y})^2
+
+\end{align}
+$$
