@@ -84,3 +84,7 @@ $$ SSR = \sum(Y_i - \hat{Y}_i)^2 $$
 By squaring the error term, we amplify bigger errors. This approach of assessing the error terms is the core idea in **Ordinary Least Squares** approach of estimating "good" estimates for \\(beta_0\\) and \\(\beta_1\\).
 
 ## 2. Ordinary Least Squares (OLS)
+
+We assume thet he **size of the mistake** is measured by SSR denoted as
+
+$$ SSR = \sum^n_{i=1}(Y_i - \hat{Y}_i)^2 = \sum^n_{i=1}\hat{u}^2_i $$
