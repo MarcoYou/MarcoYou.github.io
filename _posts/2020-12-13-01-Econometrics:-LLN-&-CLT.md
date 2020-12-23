@@ -185,7 +185,6 @@ There are other algebraic properties as well but the properties above are the mo
 ### 2.3 Goodness of fit
 
 A consequence of the algebraic properties is the following
-
 $$
 \begin{align}
 
@@ -201,7 +200,6 @@ SST &= \sum^n_{i=1} (Y_i - \overline{Y})^2 = \sum^n_{i=1} ((Y_i -\hat{Y}_i) + (\
 $$
 
 If we define
-
 $$ 
 \begin{cases}
 SSE = \sum^n_{i=1}(\hat{Y}_i - \overline{Y})^2 \\
