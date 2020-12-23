@@ -30,3 +30,6 @@ and that we would like to describe the relation between X and Y by mean of a **l
 
 Suppose we got a dataset displayed in a scatterplot like below
 
+<p align="center">
+<img src="/image/Scatter.png" alt="Scatter" width="300" height="220">
+</p>
