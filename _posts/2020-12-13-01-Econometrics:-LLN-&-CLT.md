@@ -47,3 +47,15 @@ There are other possible fitting lines like below
 </p>
 
 why the blue line is the best line? how can we know(measure) it?
+
+One way to proceed the identification of the best fit is to start measuring the **error** of data compared to the fitting line.
+
+<p align="center">
+<img src="/image/error.png" alt="error" width="300" height="220">
+</p>
+
+Each data is a dot that has \\((X_i,Y_i)\\) coordinates. They are the true **observations** obtained from the true relation equation \\(Y_i = \beta_0 + \beta_1 X_i\\). The blue fitting line is a linear projection of **estimated values** obtained from the estimated relation equation \\(\hat{Y}_i = \hat{\beta}_0 + \hat{\beta}_1 X_i \\\). The black segments represent the **error** we make by substituting \\(Y_i\\) with \\(\hat{Y}_i\\), that is
+
+$$
+Error_i = Y_i - \hat{Y}_i = Y_i - \hat{\beta}_0 - \hat{\beta}_1 X_i
+$$
