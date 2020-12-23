@@ -212,6 +212,6 @@ $$
 then we get an equation that says **Total Sum of Squares** equates the sum of **Explained Sum of Squres** and **Residual Sum of Squares**, formally it's
 
 $$ \begin{align}
-SSE = SSE + SSR \\
+SST = SSE + SSR \\
 
 \end{align}$$
