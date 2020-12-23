@@ -61,3 +61,26 @@ Error_i = Y_i - \hat{Y}_i = Y_i - \hat{\beta}_0 - \hat{\beta}_1 X_i
 $$
 
 Note that we have errors **because we are trying to find a linear fit** to the dataset. Errors do not exist if we do not try to find a linear fit.
+
+Let's now focus on the error, \\( Y_i - \hat{Y}_i \\).
+
+We need to get an **overall measure** of the all errors for each point.
+
+We could think of summing up all the errors like
+
+$$ \sum(Y_i - \hat{Y}_i) $$
+
+But is this a suitable measure? The answer is no. There are 2 problems.
+
+- Problem 1: A part of errors will be canceled out because some errors are positive and some others are negative;
+- Problem 2: We consider that small errors and big errors have the same importance. We might want to penalise big errors.
+
+**Solution to Problem 1 and 2**
+
+To neutralize the effect of possible cancellations of positive and negative errors, we define the **overall error** as the Sum of Squared Residuals written as
+
+$$ SSR = \sum(Y_i - \hat{Y}_i)^2 $$
+
+By squaring the error term, we amplify bigger errors. This approach of assessing the error terms is the core idea in **Ordinary Least Squares** approach of estimating "good" estimates for \\(beta_0\\) and \\(\beta_1\\).
+
+## 2. Ordinary Least Squares (OLS)
