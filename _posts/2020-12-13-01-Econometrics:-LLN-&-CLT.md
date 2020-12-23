@@ -151,3 +151,33 @@ From now, we will focus on \\(\hat{\beta}_1\\) rather than both \\(\hat{\beta}_0
 
 ### 2.2 Algebraic Properties of OLS
 
+Let's consider agian the OLS problem:
+
+$$
+\min_{\hat{\beta}_0,\hat{\beta}_1} \sum^n_{i=1}(Y_i - \hat{\beta}_0 - \hat{\beta}_1 X_i)^2
+$$
+
+We saw that the two necessary first order conditions are 
+
+$$
+\begin{cases}
+\beta_0: -2 \sum^n_{i=1}(Y_i - \hat{\beta}_0 - \hat{\beta}_1 X_i) = 0 \\
+\beta_1: -2 \sum^n_{i=1}(Y_i - \hat{\beta}_0 - \hat{\beta}_1 X_i)X_i = 0
+\end{cases}
+$$
+
+in which constants -2 can be removed because they are irrelevant. We can also replace \\((Y_i - \hat{\beta}_0 - \hat{\beta}_1 X_i)\\) by the notiation \\(\hat{u}_i\\). After these two steps, we get:
+
+$$
+\begin{cases}
+(1): \sum \hat{u}_i = 0 \\
+(2): \sum \hat{u}_i X_i = 0
+\end{cases}
+$$
+
+**Properties**
+
+- First algebraic property (1) tells us that **OLS residuals always add up to 0**. If the linear fit is perfect, then the sum of residuals must be equal to 0 (in computer simulation it must be extremely close to 0). This doesn't mean the quality of regression is good, it just means the OLS computation was correctly done;
+- Second algebraic property (2) tells us that the sample covariance between residuals \\(\hat{u}_i\\) and \\(X_i\\) is 0. This is also called the **orthogonality condition**.
+
+There are other algebraic properties as well but the properties above are the most important ones.
