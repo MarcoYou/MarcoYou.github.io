@@ -144,3 +144,10 @@ $$ \hat{Y}_i = \hat{\beta}_0 + \hat{\beta}_1 X_i $$
 </p>
 
 The gap between \\(Y_5\\) and \\(\hat{Y}_5\\) is the error, also called **residual**.
+
+From now, we will focus on \\(\hat{\beta}_1\\) rather than both \\(\hat{\beta}_0\\) and \\(\hat{\beta}_1\\).
+
+### 2.1 Geometric Interpretation of OLS
+
+### 2.2 Algebraic Properties of OLS
+
