@@ -51,3 +51,16 @@ Since this is a population regression function, of course, both \\(\beta_1\\) an
 
 ### 1.2 Modeling Non-Linearities
 
+1. Identify a possible non-linear relation based on the underlying economic theory;
+2. Specify a non-linear function and estimate its parameters by OLS method;
+3. Determine if the non-linear model improves upon a linear model;
+4. Plot the estimated non-linear regression function (if possible);
+5. Estimate the effect on Y of a change in X.
+
+### 1.3 Notation
+
+How to estimate the effect on Y of a change in X? by measuring the **elasticity**.
+
+The **elasticity** of Y with respect to X is
+
+$$ \frac{\frac{\Delta Y}{Y}}{\frac{\Delta X}{X}} = \frac{X}{Y}\frac{\Delta Y}{\Delta X} $$
