@@ -70,3 +70,5 @@ E gives us the percentage points change of Y associated with a 1% increase in X.
 **Note Bene**
 
 Going from 10% to 11% is either a 1 percentage point increase or 10% increase. It is not a 1% increase.
+
+## 2. Polynomial Non-Linear Regression Function
