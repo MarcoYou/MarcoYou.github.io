@@ -284,4 +284,4 @@ Y_i &= CEF + resid. \\
 
 where 
 
-- $$\begin{align} E[\varepsilon|X_i] &= E\left[ Y_i - E(Y_i|X_i) | X_i \right] &= E[Y_i|X_i] - E\left[ E(Y_i|X_i)|X_i \right] \end{align} $$
+- $$\begin{align} E[\varepsilon|X_i] &= E\left[ Y_i - E(Y_i|X_i) | X_i \right] \\ &= E[Y_i|X_i] - E\left[ E(Y_i|X_i)|X_i \right] \end{align} $$
