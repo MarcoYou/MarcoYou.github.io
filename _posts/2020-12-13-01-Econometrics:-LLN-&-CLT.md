@@ -273,7 +273,7 @@ $$ E[Y_i] = E\left[E[Y_i|X_i]\right] $$
 
 where the outer expectation uses the distribution of \\(X_i\\).
 
-This law is useful because it allows to prove the following proposition:
+This law is useful because it allows to prove the following propositions:
 
 **[1] CEF Decomposition Property**
 
@@ -300,3 +300,13 @@ E[h(X_i) \varepsilon_i] &= E\left[ E[h(X_i) \varepsilon_i|X_i \right] \\
 &= 0
 \end{align}
 $$
+
+After CEF decomposition property, we know now that any random variable Y can be decomposed into a piece that is **explianed by X**, the CEF, and a piece left over which is orthogonal to any function of X.
+
+**[2] CEF Prediction Property**
+
+This property briefly answers to question "Why is the CEF a good summary of the relationship between Y and X?".
+
+Let \\(m(X_i)\\) be any function of X. Then:
+
+$$ E[Y_i|X_i] = \argmin
