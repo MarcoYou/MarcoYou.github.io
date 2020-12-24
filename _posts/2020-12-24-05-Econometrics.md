@@ -46,3 +46,5 @@ In the population, the effect on Y of a change in \\(X_1\\), \\(\Delta X_1\\) is
 
 - \\(\beta_1 \Delta X_1 ~\\) if f is linear;
 - \\( f(X_{1i}+\Delta X_{1i}, X_{2i}, \cdots, X_{ni} ) - f(X_{1i}, X_{2i}, \cdots, X_{ni})~  \\) **if f is non linear**
+
+Since this is a population regression function, of course, both \\(\beta_1\\) and \\(f\\) are unknown and need to be estimated by \\(\hat{\beta}_1\\) and \\(\hat{f}\\)
