@@ -294,9 +294,9 @@ $$\begin{align} E[\varepsilon_i|X_i] &= E\left[ Y_i - E(Y_i|X_i) | X_i \right] \
 
 $$
 \begin{align}
-E[h(X_i)\varepsilon_i] &= E\left[ E[h(X_i)\varepsilon_i]|X_i \right] \\
-&= E\left[ E[h(X_i)|X_i] E[\varepsilon_i|X_i] \right] \\
-&= E\left[ h(X_i)E(\varepsilon_i|X_i)] = E[cnst \times 0] \\
+E[h(X_i) \varepsilon_i] &= E\left[ E[h(X_i) \varepsilon_i|X_i \right] \\
+&= E \left[ E[h(X_i)|X_i] E[\varepsilon_i|X_i] \right] \\
+&= E \left[ h(X_i) E(\varepsilon_i|X_i) \right] = E[cnst \times 0] \\
 &= 0
 \end{align}
 $$
