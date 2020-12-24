@@ -189,11 +189,11 @@ A consequence of the algebraic properties is the following
 $$
 \begin{align}
 
-SST &= \sum^n_{i=1} (Y_i - \overline{Y})^2 = \sum^n_{i=1} ((Y_i -\hat{Y}_i) + (\hat{Y}_i - \overline{Y}))^2 \\
+SST &= \sum^n_{i=1} (Y_i - \overline{Y})^2 = \sum^n_{i=1} ((Y_i -\widehat{Y}_i) + (\widehat{Y}_i - \overline{Y}))^2 \\
 
-&= \sum^n_{i=1} (Y_i - \hat{Y}_i)^2 + \sum^n_{i=1} (\hat{Y}_i - \overline{Y})^2 + 2\sum^n_{i=1}(Y_i -\hat{Y}_i)(\hat{Y}_i - \overline{Y}) \\
+&= \sum^n_{i=1} (Y_i - \widehat{Y}_i)^2 + \sum^n_{i=1} (\widehat{Y}_i - \overline{Y})^2 + 2\sum^n_{i=1}(Y_i -\widehat{Y}_i)(\widehat{Y}_i - \overline{Y}) \\
 
-&= \sum^n_{i=1} (Y_i - \hat{Y}_i)^2 + \sum^n_{i=1}(\hat{Y}_i - \overline{Y})^2 
+&= \sum^n_{i=1} (Y_i - \widehat{Y}_i)^2 + \sum^n_{i=1}(\widehat{Y}_i - \overline{Y})^2 
 
 \end{align}
 $$
