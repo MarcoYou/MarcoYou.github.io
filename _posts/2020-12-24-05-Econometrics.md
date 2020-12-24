@@ -1,7 +1,7 @@
 ---
 layout: post
 toc: true
-title: "02. Econometrics"
+title: "05. Econometrics"
 categories: Econometrics
 tags: [OLS, Estimation, Non-Linear Regression]
 math: true
@@ -25,3 +25,6 @@ Two types of non linearity in regression functions:
   - (these 3 types are all eligible for OLS estimation)
 - Regression functions that are non-linear in the parameters (only a sketch here)
 
+We are going to study 2 groups of methods useful when
+
+- the relation
