@@ -253,8 +253,8 @@ Let's frame the case first. On average, people with more schooling earn more tha
 The predictive power of regression is summarized by the **conditional expectation function**(CEF) defined as
 
 $$\begin{align}
-& E[Y_i|X_i=x] = \int   tf_{Y|X}(t|X_i=x) dt \\
-& E[Y_i|X_i=x] = \sum_t tf _{Y|X}(Y_i=t|X_i=x)
+& E[Y_i|X_i=x] = \int   t \cdot f_{Y|X}(t|X_i=x) dt \\
+& E[Y_i|X_i=x] = \sum_t t \cdot f _{Y|X}(Y_i=t|X_i=x)
 \end{align}$$
 
 where \\(Y_i\\) is a dependent variable, \\(X_i\\) is a vector of covariates and \\(f_{Y|X}\\) is a conditional density.
@@ -262,3 +262,5 @@ where \\(Y_i\\) is a dependent variable, \\(X_i\\) is a vector of covariates and
 Not that here we are dealing with a population whereas in real life we will be dealing with samples.
 
 ### 3.2 Law of Iterated Expectations
+
+Assume that \\(f_{XY}(u,t)\\) is joint distribution of
