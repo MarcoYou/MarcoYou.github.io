@@ -63,4 +63,10 @@ How to estimate the effect on Y of a change in X? by measuring the **elasticity*
 
 The **elasticity** of Y with respect to X is
 
-$$ \frac{\frac{\Delta Y}{Y}}{\frac{\Delta X}{X}} = \frac{X}{Y}\frac{\Delta Y}{\Delta X} $$
+$$ E \equiv \frac{\frac{\Delta Y}{Y}}{\frac{\Delta X}{X}} = \frac{X}{Y}\frac{\Delta Y}{\Delta X} $$
+
+E gives us the percentage points change of Y associated with a 1% increase in X.
+
+**Note Bene**
+
+Going from 10% to 11% is either a 1 percentage point increase or 10% increase. It is not a 1% increase.
