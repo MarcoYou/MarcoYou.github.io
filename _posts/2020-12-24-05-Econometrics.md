@@ -29,3 +29,8 @@ We are going to study 2 groups of methods useful when
 
 - the relation between \\(X_1\\) and \\(Y\\) depends on the value of \\(X_1\\) itself;
 - the relation between \\(X_1\\) and \\(Y\\) depends on the value of \\(X_2\\)
+
+**examples)**
+
+<p align="center"> <img src="/image/dep-indep.png" alt="dep-indep" width="460" height="260"> </p>
+
