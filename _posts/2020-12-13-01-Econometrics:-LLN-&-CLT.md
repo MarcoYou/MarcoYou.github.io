@@ -240,10 +240,19 @@ $$ 0 ≤ R^2 ≤ 1 $$
 
 Now that we know what is "fitting", we have to know what is "regression" Let's take a practical case to discuss it better.
 
-On average, people with more schooling earn more than people with less schooling.
+Let's frame the case first. On average, people with more schooling earn more than people with less schooling.
 
 - This connection has an enormous predictive power in spite of the large variation in individual circumstances that sometimes clourds this fact.
 
 - Of course the fact that more educated people earn more than less educated people does not mean that schooling causes earnings to increase.
 
 - Even without resolving the causality inssue, it is clear that education predicts earnings in a narrow statistical sense.
+
+### 3.1 Conditional Expectation Function
+
+The predictive power of regression is summarized by the **conditional expectation function**(CEF) defined as
+
+$$\begin{cases}
+E[Y_i|X_i=x] = \int tf_{Y|X}(t|X_i=x) dt \\
+E[Y_i|X_i=x]
+\end{cases}$$
