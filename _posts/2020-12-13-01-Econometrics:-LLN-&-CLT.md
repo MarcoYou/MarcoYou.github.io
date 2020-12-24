@@ -223,4 +223,15 @@ Graphically, we can illustrate the equation like below
 
 From this result we can introduce another measure to know how "fit" is our fitted line.
 
-Assuming STT > 0, we can think of measuring the ratio of SSE over SST, so that we know how much of our fitted line is explained comapred to the original dataset as
+Assuming STT > 0, we can define the faction of the total variation in \\(Y_i\\) that is explained by \\(X_i\\) as
+
+$$ R^2 = \frac{SSE}{SST} = 1 - \frac{SSR}{SST} $$
+
+It can be shown that \\(R^2\\) is eqaul to the square of the correlation between \\(Y_i\\) and \\(\widehat{Y}_i\\). Therefore,
+
+$$ 0 ≤ R^2 ≤ 1 $$
+
+- \\(R^2 = 0\\) means no linear relationship between \\(Y_i\\) and \\(X_i\\);
+- \\(R^2 = 1\\) means a perfect linear relationship;
+- As \\(R^2\\) increases, the \\(Y_i\\) are closer and closer to belonging to the OLS fitted line. Which means our fitted line gaines more and more prediction power;
+- But! do not focus to much on the \\(R^2\\). It is often a useful summary measure but it telles us nothing about causality.
