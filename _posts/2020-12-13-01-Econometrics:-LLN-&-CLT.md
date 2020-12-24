@@ -309,4 +309,4 @@ This property briefly answers to question "Why is the CEF a good summary of the 
 
 Let \\(m(X_i)\\) be any function of X. Then:
 
-$$ E[Y_i|X_i] = \argmin $$
+$$ E[Y_i|X_i] = \arg \min $$
