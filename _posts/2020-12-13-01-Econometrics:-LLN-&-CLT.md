@@ -259,7 +259,7 @@ $$
 \end{align}
 $$
 
-where Y is a dependent variable, X is a vector of covariates and \\( f_{Y|X} \\) is a conditional density.
+where Y is a dependent variable, X is a vector of covariates and f is a conditional density.
 
 Note that here we are dealing with a population whereas in real life we will be dealing with samples.
 
@@ -275,7 +275,7 @@ where the outer expectation uses the distribution of \\(X_i\\).
 
 This law is useful because it allows to prove the following proposition:
 
-[1] **CEF Decomposition Property**
+**[1] CEF Decomposition Property**
 
 The law of iterated expectations implies that
 
@@ -286,4 +286,17 @@ Y_i &= CEF + resid. \\
 
 where 
 
-- $$\begin{align} E[\varepsilon_i|X_i] &= E\left[ Y_i - E(Y_i|X_i) | X_i \right] \\ &= E[Y_i|X_i] - E\left[ E(Y_i|X_i)|X_i \right] \\ &= E[Y_i|X_i] - E[Y_i|X_i] = 0 \end{align}$$
+- Expected value of residual \\(\varepsilon_i\\) conditional to \\(X_i\\) is nul:
+
+$$\begin{align} E[\varepsilon_i|X_i] &= E\left[ Y_i - E(Y_i|X_i) | X_i \right] \\ &= E[Y_i|X_i] - E\left[ E(Y_i|X_i)|X_i \right] \\ &= E[Y_i|X_i] - E[Y_i|X_i] = 0 \end{align}$$
+
+- \\(\varepsilon_i\\) is uncorrelated with any function of \\(X_i\\). Let h(X) be any fnction of X, then:
+
+$$
+\begin{align}
+E[h(X_i)\varepsilon_i] &= E\left[ E[h(X_i)\varepsilon_i]|X_i \right] \\
+&= E\left[ E[h(X_i)|X_i] E[\varepsilon_i|X_i] \right] \\
+&= E\left[ h(X_i)E(\varepsilon_i|X_i)] = E[cnst \times 0] \\
+&= 0
+\end{align}
+$$
