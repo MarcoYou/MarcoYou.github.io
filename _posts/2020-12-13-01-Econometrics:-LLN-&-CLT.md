@@ -215,6 +215,12 @@ $$ \begin{align}
 & \sum^n_{i=1} (Y_i - \overline{Y})^2 = \sum^n_{i=1}(Y_i - \widehat{Y}_i)^2 + \sum^n_{i=1}(\widehat{Y}_i - \overline{Y})
 \end{align}$$
 
+Graphically, we can illustrate the equation like below
+
+<p align="center">
+<img src="/image/SST.png" alt="SST" width="300" height="220">
+</p>
+
 From this result we can introduce another measure to know how "fit" is our fitted line.
 
 Assuming STT > 0, we can think of measuring the ratio of SSE over SST, so that we know how much of our fitted line is explained comapred to the original dataset as
