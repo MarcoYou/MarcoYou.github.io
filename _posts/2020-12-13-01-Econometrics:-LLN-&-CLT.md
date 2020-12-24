@@ -257,9 +257,9 @@ $$\begin{align}
 & E[Y_i|X_i=x] = \sum_t t \cdot f _{Y|X}(Y_i=t|X_i=x)
 \end{align}$$
 
-where \\(Y_i\\) is a dependent variable, \\(X_i\\) is a vector of covariates and \\(f_{Y|X}\\) is a conditional density.
+where \\( Y_i \\) is a dependent variable, \\( X_i \\) is a vector of covariates and \\( f_{Y|X} \\) is a conditional density.
 
-Not that here we are dealing with a population whereas in real life we will be dealing with samples.
+Note that here we are dealing with a population whereas in real life we will be dealing with samples.
 
 ### 3.2 Law of Iterated Expectations
 
@@ -284,4 +284,4 @@ Y_i &= CEF + resid. \\
 
 where 
 
-- \\(\begin{align} E[\varepsilon|X_i] &= E\left[ Y_i - E(Y_i|X_i) | X_i \right] &= E[Y_i|X_i] - E\left[ E(Y_i|X_i)|X_i \right] \end{align} \\)
+- $$\begin{align} E[\varepsilon|X_i] &= E\left[ Y_i - E(Y_i|X_i) | X_i \right] &= E[Y_i|X_i] - E\left[ E(Y_i|X_i)|X_i \right] \end{align} $$
