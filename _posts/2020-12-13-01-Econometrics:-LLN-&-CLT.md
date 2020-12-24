@@ -263,4 +263,25 @@ Not that here we are dealing with a population whereas in real life we will be d
 
 ### 3.2 Law of Iterated Expectations
 
-Assume that \\(f_{XY}(u,t)\\) is joint distribution of
+Assume that \\(f_{XY}(u,t)\\) is joint distribution of \\( (X_i,Y_i) \\).
+
+The **Law of Iterated Expectations** says
+
+$$ E[Y_i] = E\left[E[Y_i|X_i]\right] $$
+
+where the outer expectation uses the distribution of \\(X_i\\).
+
+This law is useful because it allows to prove the following proposition:
+
+[1] **CEF Decomposition Property**
+
+The law of iterated expectations implies that
+
+$$ \begin{align}
+Y_i &= CEF + resid. \\
+&= E[Y_i|X_i] + \varepsilon_i
+\end{align} $$
+
+where 
+
+- \\(\begin{align} E[\varepsilon|X_i] &= E\left[ Y_i - E(Y_i|X_i) | X_i \right] &= E[Y_i|X_i] - E\left[ E(Y_i|X_i)|X_i \right] \end{align} \\)
