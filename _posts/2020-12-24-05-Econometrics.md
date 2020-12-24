@@ -27,4 +27,5 @@ Two types of non linearity in regression functions:
 
 We are going to study 2 groups of methods useful when
 
-- the relation
+- the relation between \\(X_1\\) and \\(Y\\) depends on the value of \\(X_1\\) itself;
+- the relation between \\(X_1\\) and \\(Y\\) depends on the value of \\(X_2\\)
