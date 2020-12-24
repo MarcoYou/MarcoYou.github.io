@@ -218,7 +218,7 @@ $$ \begin{align}
 Graphically, we can illustrate the equation like below
 
 <p align="center">
-<img src="/image/SST.png" alt="SST" width="300" height="220">
+<img src="/image/SST.png" alt="SST" width="330" height="240">
 </p>
 
 From this result we can introduce another measure to know how "fit" is our fitted line.
