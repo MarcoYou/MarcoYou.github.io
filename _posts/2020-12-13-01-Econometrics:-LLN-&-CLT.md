@@ -252,12 +252,14 @@ Let's frame the case first. On average, people with more schooling earn more tha
 
 The predictive power of regression is summarized by the **conditional expectation function**(CEF) defined as
 
-$$\begin{align}
+$$
+\begin{align}
 & E[Y_i|X_i=x] = \int   t \cdot f_{Y|X}(t|X_i=x) dt \\
 & E[Y_i|X_i=x] = \sum_t t \cdot f _{Y|X}(Y_i=t|X_i=x)
-\end{align}$$
+\end{align}
+$$
 
-where \\( Y_i \\) is a dependent variable, \\( X_i \\) is a vector of covariates and \\( f_{Y|X} \\) is a conditional density.
+where Y is a dependent variable, X is a vector of covariates and \\( f_{Y|X} \\) is a conditional density.
 
 Note that here we are dealing with a population whereas in real life we will be dealing with samples.
 
@@ -284,4 +286,4 @@ Y_i &= CEF + resid. \\
 
 where 
 
-- $$\begin{align} E[\varepsilon|X_i] &= E\left[ Y_i - E(Y_i|X_i) | X_i \right] \\ &= E[Y_i|X_i] - E\left[ E(Y_i|X_i)|X_i \right] \end{align} $$
+- $$\begin{align} E[\varepsilon_i|X_i] &= E\left[ Y_i - E(Y_i|X_i) | X_i \right] \\ &= E[Y_i|X_i] - E\left[ E(Y_i|X_i)|X_i \right] \\ &= E[Y_i|X_i] - E[Y_i|X_i] = 0 \end{align}$$
