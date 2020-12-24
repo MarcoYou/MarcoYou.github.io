@@ -252,7 +252,7 @@ Let's frame the case first. On average, people with more schooling earn more tha
 
 The predictive power of regression is summarized by the **conditional expectation function**(CEF) defined as
 
-$$\begin{cases}
-E[Y_i|X_i=x] = \int tf_{Y|X}(t|X_i=x) dt \\
-E[Y_i|X_i=x]
-\end{cases}$$
+$$\begin{align}
+& E[Y_i|X_i=x] = \int   tf_{Y|X}(t|X_i=x) dt \\
+& E[Y_i|X_i=x] = \sum_t tf _{Y|X}(Y_i=t|X_i=x)
+\end{align}$$
