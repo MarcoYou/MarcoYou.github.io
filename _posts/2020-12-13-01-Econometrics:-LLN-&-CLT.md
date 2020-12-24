@@ -211,7 +211,7 @@ then we get an equation that says **Total Sum of Squares** equates the sum of **
 
 $$ \begin{align}
 & SST = SSE + SSR \\
-& \sum^n_{i=1} (Y_i - \overline{Y})^2 = \sum^n_{i=1}(\hat{Y}_i - \overline{Y})^2 + \sum^n_{i=1} \hat{u}^2_i
+& \sum^n_{i=1} (Y_i - \overline{Y})^2 = \sum^n_{i=1}(Y_i - \widehat{Y}_i)^2 + \sum^n_{i=1}(\widehat{Y}_i - \overline{Y})
 \end{align}$$
 
 From this result we can introduce another measure to know how "fit" is our fitted line.
