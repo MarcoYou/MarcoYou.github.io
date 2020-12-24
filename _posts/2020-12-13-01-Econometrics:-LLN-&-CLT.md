@@ -202,6 +202,7 @@ If we define
 
 $$ 
 \begin{cases}
+SST = \sum^n_{i=1} (Y_i - \overline{Y})^2 \\
 SSE = \sum^n_{i=1}(Y_i - \widehat{Y}_i)^2 \\
 SSR = \sum^n_{i=1}(\widehat{Y}_i - \overline{Y})
 \end{cases}
