@@ -242,8 +242,8 @@ Now that we know what is "fitting", we have to know what is "regression" Let's t
 
 On average, people with more schooling earn more than people with less schooling.
 
-This connection has an enormous predictive power in spite of the large variation in individual circumstances that sometimes clourds this fact.
+- This connection has an enormous predictive power in spite of the large variation in individual circumstances that sometimes clourds this fact.
 
-Of course the fact that more educated people earn more than less educated people does not mean that schooling causes earnings to increase.
+- Of course the fact that more educated people earn more than less educated people does not mean that schooling causes earnings to increase.
 
-Even without resolving the causality inssue, it is clear that education predicts earnings in a narrow statistical sense.
+- Even without resolving the causality inssue, it is clear that education predicts earnings in a narrow statistical sense.
