@@ -309,4 +309,14 @@ This property briefly answers to question "Why is the CEF a good summary of the 
 
 Let \\(m(X_i)\\) be any function of X. Then:
 
-$$ E[Y_i|X_i] = \arg \min $$
+$$ E[Y_i|X_i] = \arg \min_{m(X_i)} E\left[ (Y_i - m(X_i))^2 \right] $$
+
+so the CEF is the **Minimum Mean Squared Error** (MMSE) predictor of Y given X.
+
+**[3] ANOVA Decomposition Property**
+
+**ANOVA decomposition**:
+
+$$ V(Y_i) = V(E[Y_i|X_i]) + E[V(Y_i|X_i)] $$
+
+where \\(V(.)\\) denotes the variance and \\(V(Y_i | X_i)\\) is the conditional variance of Y given X.
