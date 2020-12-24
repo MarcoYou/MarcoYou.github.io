@@ -34,3 +34,15 @@ We are going to study 2 groups of methods useful when
 
 <p align="center"> <img src="/image/dep-indep.png" alt="dep-indep" width="460" height="260"> </p>
 
+### 1.1 General Approach
+
+In general, the population regression function reads
+
+$$ Y_i = f(X_{1i}, \cdots, X_{ni}) + u_i~~~~~i=1,\cdots,n $$
+
+where f can be a linear or non-linear function.
+
+In the population, the effect on Y of a change in \\(X_1\\), \\(\Delta X_1\\) is:
+
+- \\(\beta_1 \Delta X_1 \\) if f is linear;
+- \\( f(X_{1i}+\Delta X_{1i}, X_{2i}, \cdots, X_{ni} ) - f(X_{1i}, X_{2i}, \cdots, X_{ni})  \\) **if f is non linear**
