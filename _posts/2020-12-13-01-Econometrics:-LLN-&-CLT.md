@@ -193,9 +193,7 @@ SST &= \sum^n_{i=1} (Y_i - \overline{Y})^2 = \sum^n_{i=1} ((Y_i -\hat{Y}_i) + (\
 
 &= \sum^n_{i=1} (Y_i - \hat{Y}_i)^2 + \sum^n_{i=1} (\hat{Y}_i - \overline{Y})^2 + 2\sum^n_{i=1}(Y_i -\hat{Y}_i)(\hat{Y}_i - \overline{Y}) \\
 
-&= \sum^n_{i=1} \hat{u}^2_i + \sum^n_{i=1}(\hat{Y}_i - \overline{Y})^2 + 2\sum^n_{i=1}\hat{u}_i(\hat{Y}_i - \overline{Y}) \\
-
-&= \sum^n_{i=1} \hat{u}^2_i + \sum^n_{i=1}(\hat{Y}_i - \overline{Y})^2
+&= \sum^n_{i=1} (Y_i - \hat{Y}_i)^2 + \sum^n_{i=1}(\hat{Y}_i - \overline{Y})^2 
 
 \end{align}
 $$
@@ -204,8 +202,8 @@ If we define
 
 $$ 
 \begin{cases}
-SSE = \sum^n_{i=1}(\hat{Y}_i - \overline{Y})^2 \\
-SSR = \sum^n_{i=1} \hat{u}^2_i
+SSE = \sum^n_{i=1}(Y_i - \widehat{Y}_i)^2 \\
+SSR = \sum^n_{i=1}(\widehat{Y}_i - \overline{Y})
 \end{cases}
 $$
 
@@ -214,5 +212,8 @@ then we get an equation that says **Total Sum of Squares** equates the sum of **
 $$ \begin{align}
 & SST = SSE + SSR \\
 & \sum^n_{i=1} (Y_i - \overline{Y})^2 = \sum^n_{i=1}(\hat{Y}_i - \overline{Y})^2 + \sum^n_{i=1} \hat{u}^2_i
-
 \end{align}$$
+
+From this result we can introduce another measure to know how "fit" is our fitted line.
+
+Assuming STT > 0, we can think of measuring the ratio of SSE over SST, so that we know how much of our fitted line is explained comapred to the original dataset as
