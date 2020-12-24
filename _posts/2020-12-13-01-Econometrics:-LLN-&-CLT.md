@@ -235,3 +235,15 @@ $$ 0 ≤ R^2 ≤ 1 $$
 - \\(R^2 = 1\\) means a perfect linear relationship;
 - As \\(R^2\\) increases, the \\(Y_i\\) are closer and closer to belonging to the OLS fitted line. Which means our fitted line gaines more and more prediction power;
 - But! do not focus to much on the \\(R^2\\). It is often a useful summary measure but it telles us nothing about causality.
+
+## 3. Regression
+
+Now that we know what is "fitting", we have to know what is "regression" Let's take a practical case to discuss it better.
+
+On average, people with more schooling earn more than people with less schooling.
+
+This connection has an enormous predictive power in spite of the large variation in individual circumstances that sometimes clourds this fact.
+
+Of course the fact that more educated people earn more than less educated people does not mean that schooling causes earnings to increase.
+
+Even without resolving the causality inssue, it is clear that education predicts earnings in a narrow statistical sense.
