@@ -320,3 +320,5 @@ so the CEF is the **Minimum Mean Squared Error** (MMSE) predictor of Y given X.
 $$ V(Y_i) = V(E[Y_i|X_i]) + E[V(Y_i|X_i)] $$
 
 where \\(V(.)\\) denotes the variance and \\(V(Y_i/X_i)\\) is the conditional variance of Y given X.
+
+75페이지부터 다시 시작
