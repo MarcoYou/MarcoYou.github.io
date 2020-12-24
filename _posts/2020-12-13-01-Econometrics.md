@@ -3,7 +3,7 @@ layout: post
 toc: true
 title: "01. Econometrics"
 categories: Econometrics
-tags: [LLN, CLT, sample, population]
+tags: [CEF, OLS, Regression]
 math: true
 author:
   - Marco You
