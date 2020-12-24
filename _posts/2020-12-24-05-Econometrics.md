@@ -32,7 +32,7 @@ We are going to study 2 groups of methods useful when
 
 **examples)**
 
-<p align="center"> <img src="/image/dep-indep.png" alt="dep-indep" width="460" height="260"> </p>
+<p align="center"> <img src="/image/dep-indep.png" alt="dep-indep" width="600" height="420"> </p>
 
 ### 1.1 General Approach
 
