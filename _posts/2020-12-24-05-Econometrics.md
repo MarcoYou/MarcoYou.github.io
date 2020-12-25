@@ -165,10 +165,9 @@ The effect on Y of a change in X is captured by:
 
 $$\begin{align}
 \Delta Y(X) &= \frac{\Delta Y(X)}{\Delta \log(X)} \times \frac{\Delta \log(X)}{\Delta X} \Delta X \\
-&= \left( \frac{\Delta \log(X) }{\Delta Y(X)} \right)^2 \times \frac{\Delta \log(X)}{\Delta X} \Delta X \\
-&= \beta_1 \frac{\Delta X}{X}
+&= \left( \frac{\Delta \log(X) }{\Delta Y(X)} \right)^{-1} \times \frac{\Delta \log(X)}{\Delta X} \Delta X \\
+&= \left( \frac{1}{Y} \right)^{-1} \times \frac{\Delta \log(X)}{\Delta X} \Delta X \\
+&= \beta_1 Y \Delta X
 \end{align}$$
-
-$$ \frac{\Delta \log(Y)}{\Delta Y} = \frac{1}{Y} ~\implies~ \Delta Y(X) = Y \frac{\Delta \log(Y)}{\Delta X} \Delta X = \beta_1 Y \Delta X $$
 
 where
