@@ -198,7 +198,7 @@ In general, when reporting results, elasticities should be preferred since they 
 
 | Case      | Regression Models | Elasticity of \\(E[Y/X]\\) wrt X  |
 |-----------|-------------------|-----------------------------|
-| Linear    | \\(Y = \beta_0 + \beta_1 X \\)                  |                             |
-| Linear-Log|                   |                             |
-| Log-Linear|                   |                             |
-| Log-Log   |                   |                             |
+| Linear    | \\(Y = \beta_0 + \beta_1 X \\)       |                             |
+| Linear-Log| \\(Y = \beta_0 + \beta_1 \log(X) \\)                  |                             |
+| Log-Linear| \\(\log(Y) = \beta_0 + \beta_1 X \\)                  |                             |
+| Log-Log   | \\(\log(Y) = \beta_0 + \beta_1 \log(X) \\)                  |                             |
