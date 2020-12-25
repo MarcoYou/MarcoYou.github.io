@@ -235,10 +235,10 @@ where
 
 Using the three coefficients, we can build the following 4 possibilities of combination:
 
-1. \\(\beta_0 = GRADE(Hi\_STR_i=0 ~;~ Hi\_ENG_i=0 ) \\),
-2. \\(\beta_0 + \beta_1 = GRADE(Hi\_STR_i = 1 ~;~ Hi\_ENG_i = 0 ) \\),
-3. \\(\beta_0 + \beta_2 = GRADE(Hi\_STR_i = 0 ~;~ Hi\_ENG_i = 1 ) \\),
-4. \\(\beta_0 + \beta_1 + \beta_2 = GRADE(Hi\_STR_i = 1 ~;~ Hi\_ENG_i = 1 ) \\).
+1. \\(\beta_0 = GRADE(Hi'STR_i=0 ~;~ Hi'ENG_i=0 ) \\),
+2. \\(\beta_0 + \beta_1 = GRADE(Hi'STR_i = 1 ~;~ Hi'ENG_i = 0 ) \\),
+3. \\(\beta_0 + \beta_2 = GRADE(Hi'STR_i = 0 ~;~ Hi'ENG_i = 1 ) \\),
+4. \\(\beta_0 + \beta_1 + \beta_2 = GRADE(Hi'STR_i = 1 ~;~ Hi'ENG_i = 1 ) \\).
 
 Let's say we got the following results
 
@@ -255,11 +255,11 @@ Let's now introduce the interaction terms that transform the model in
 $$ GRADE_i = \beta_0 + \beta_1 Hi\_STR_i + \beta_2 Hi\_ENG_i + \beta_3 (Hi\_STR_i \times Hi\_ENG_i) $$
 
 where 
-- 
+- (Hi_STR \\(\times\\) Hi_ENG) is high student to teacher ratio and high english lerner percentage in state i. If equal to 1, both factors are high, otherwise 0;
 
 Using the three coefficients, we can build the following 4 possibilities of combination:
 
-1. \\(\beta_0 = GRADE(Hi\_STR_i=0 ~;~ Hi\_ENG_i=0 ) \\),
-2. \\(\beta_0 + \beta_1 = GRADE(Hi\_STR_i = 1 ~;~ Hi\_ENG_i = 0 ) \\),
-3. \\(\beta_0 + \beta_2 = GRADE(Hi\_STR_i = 0 ~;~ Hi\_ENG_i = 1 ) \\),
-4. \\(\beta_0 + \beta_1 + \beta_2 = GRADE(Hi\_STR_i = 1 ~;~ Hi\_ENG_i = 1 ) \\).
+1. \\(\beta_0 = GRADE(Hi'STR_i=0 ~;~ Hi'ENG_i=0 ) \\),
+2. \\(\beta_0 + \beta_1 = GRADE(Hi'STR_i = 1 ~;~ Hi'ENG_i = 0 ) \\),
+3. \\(\beta_0 + \beta_2 = GRADE(Hi'STR_i = 0 ~;~ Hi'ENG_i = 1 ) \\),
+4. \\(\beta_0 + \beta_1 + \beta_2 + \beta_3 = GRADE(Hi'STR_i = 1 ~;~ Hi'ENG_i = 1 ) \\).
