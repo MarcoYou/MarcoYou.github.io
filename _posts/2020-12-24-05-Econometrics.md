@@ -225,6 +225,17 @@ where \\( (D_{1i} \times D_{2i}) \\) is called **interaction term**.
 
 It is somewhat tricky to interpret the coefficients of such model. Let's take a precise exmaple.
 
-Consider the following model
+Consider the following model in the U.S.
 
-$$ GRADE_i = \beta_0 + \beta_1 Hi\_STR_i + \beta_2 HiENG_i $$
+$$ GRADE_i = \beta_0 + \beta_1 Hi\_STR_i + \beta_2 Hi\_ENG_i $$
+
+where
+- \\(Hi\_STR_i\\) is high student to teacher ratio in state i. If equal to 1, student-teacher ratio is high (bad), otherwise (good) 0;
+- \\(Hi\_ENG_i\\) is high english learner percentage in state i. If equal to 1, high number of english learner (bad), otherwise (good) 0.
+
+Using the three coefficients, we can build the following 4 possibilities of combination:
+
+1. \\(\beta_0 = GRADE(Hi\_STR_i=0 ; Hi\_ENG_i=0 ) \\),
+2. \\(\beta_0 + \beta_1 = GRADE(Hi\_STR_i = 1 ; Hi\_ENG_i = 0 ) \\),
+3. \\(\beta_0 + \beta_2 = GRADE(Hi\_STR_i = 0 ; Hi\_ENG_i = 1 ) \\),
+4. \\(\beta_0 + \beta_1 + \beta_2 = GRADE(Hi\_STR_i = 1 ; Hi\_ENG_i = 1 ) \\),
