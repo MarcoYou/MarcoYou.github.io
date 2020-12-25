@@ -170,4 +170,8 @@ $$\begin{align}
 &= \beta_1 Y \Delta X
 \end{align}$$
 
-where
+Hence we can use the following measure
+
+$$ \frac{\Delta Y(X)}{Y}100 = 100 \beta_1 \Delta X $$
+
+which implies that **a marginal change of X is associated with a change in Y of \\([100 \beta_1]\% \\)**.
