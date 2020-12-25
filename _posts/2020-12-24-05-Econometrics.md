@@ -142,3 +142,8 @@ $$ Y_i = \beta_0 + \beta_1 \log(X_i) + u_i $$
 The effect on Y of a change in X is captured by:
 
 $$ \Delta Y(X) = \frac{\Delta Y(X)}{\Delta \log(X)} \times \frac{\Delta \log(X)}{\Delta X} \Delta X = \beta_1 \frac{\Delta X}{X} $$
+
+where
+
+- \\(\frac{\Delta Y(X)}{\Delta \log(X)}\\) captures the change in Y depending on the change in \\(\log(X)\\) (bc Y depends on \\(\log(X)\\));
+- \\(\frac{\Delta \log(X)}{\Delta X}\\) captures the change in \\(\log(X)\\) depending on the change in X (bc \\(\log(X)\\) depends on X);
