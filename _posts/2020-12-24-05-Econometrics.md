@@ -230,8 +230,8 @@ Consider the following model in the U.S.
 $$ GRADE_i = \beta_0 + \beta_1 Hi\_STR_i + \beta_2 Hi\_ENG_i $$
 
 where
-- \\(Hi \_ STR_i\\) is high student to teacher ratio in state i. If equal to 1, student-teacher ratio is high (bad), otherwise (good) 0;
-- \\(Hi \_ ENG_i\\) is high english learner percentage in state i. If equal to 1, high number of english learner (bad), otherwise (good) 0.
+- Hi_STR is high student to teacher ratio in state i. If equal to 1, student-teacher ratio is high (bad), otherwise (good) 0;
+- Hi_ENG is high english learner percentage in state i. If equal to 1, high number of english learner (bad), otherwise (good) 0.
 
 Using the three coefficients, we can build the following 4 possibilities of combination:
 
