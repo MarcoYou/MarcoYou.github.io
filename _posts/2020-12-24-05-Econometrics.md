@@ -227,4 +227,4 @@ It is somewhat tricky to interpret the coefficients of such model. Let's take a 
 
 Consider the following model
 
-$$ GRADE_i = \beta_0 + \beta_1 HiSTR_i + \beta_2 HiENG_i $$
+$$ GRADE_i = \beta_0 + \beta_1 Hi\_STR_i + \beta_2 HiENG_i $$
