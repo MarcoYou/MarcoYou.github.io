@@ -117,7 +117,7 @@ This is the second way to specify a non-linear regression for \\(X_1\\) using lo
 
 Given a model like
 
-$$ \ln(Y) = \beta_0 + \beta_1 \ln(X)
+$$ \ln(Y) = \beta_0 + \beta_1 \ln(X) $$
 
 we have to consider the following things
 
