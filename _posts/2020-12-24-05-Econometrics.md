@@ -113,7 +113,7 @@ Real result:
 
 This is the second way to specify a non-linear regression for \\(X_1\\) using logarithms in \\(X_1\\). This is by far the most used and the most useful non-linear regression function.
 
-## 3.1 Notation
+### 3.1 Notation
 
 Given a model like
 
