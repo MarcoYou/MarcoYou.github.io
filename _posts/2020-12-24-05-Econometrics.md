@@ -185,3 +185,9 @@ $$ \log(Y_i) = \beta_0 + \beta_1 \log(X_i) + u_i $$
 The effect on Y of a change in X is captured by:
 
 $$ \begin{align} \Delta Y(X) &= Y \frac{\Delta \log(Y)}{\Delta \log(X)} \frac{\Delta \log(X)}{\Delta X} \Delta X \\ &= \beta_1 \frac{Y}{X} \Delta X \end{align} $$
+
+Hence we can use the following measure
+
+$$ \frac{\Delta Y}{Y}100 = \beta_1 \frac{\Delta X}{X} 100 $$
+
+which implies that **a change of 1% of X is associated with a change in Y of \\(\beta_1\\)%**. \\(\beta_1\\) is an elasticity.
