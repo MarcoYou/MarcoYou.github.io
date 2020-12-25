@@ -75,7 +75,7 @@ Going from 10% to 11% is either a 1 percentage point increase or 10% increase. I
 
 Before getting into it, polynomial specification of non-linear regression function is not frequently used in econometrics modeling.
 
-One way to specify a non-linear regression for \\(X_1\\) is to use a polynomial in \\(X_1\\):
+This is the first way to specify a non-linear regression for \\(X_1\\) using a polynomial in \\(X_1\\):
 
 $$ Y = \beta_0 + \beta_{11}X_1 + \beta_{12}X^2_1 + \cdots + \beta_{1r}X^r_1 + u $$
 
@@ -108,3 +108,20 @@ $$ Price_i = \beta_0 + \beta_1 Nrooms_i + \beta_2 Nrooms^2_i + u_i $$
 Real result:
 
 <p align="center"> <img src="/image/Nrooms.png" alt="Nrooms" width="400" height="300"> </p>
+
+## 3. Logarithmic Non-Linear Regression
+
+This is the second way to specify a non-linear regression for \\(X_1\\) using logarithms in \\(X_1\\). This is by far the most used and the most useful non-linear regression function.
+
+## 3.1 Notation
+
+Given a model like
+
+$$ \ln(Y) = \beta_0 + \beta_1 \ln(X)
+
+we have to consider the following things
+
+- \\(\ln(Y + \Delta Y) - \ln(Y)\\) is the logarithmic difference
+- \\( \frac{\Delta \ln(Y)}{\Delta \ln(X_1)}\\) is the log derivative of Y as a function of \\(X_1\\)
+- These are the **two important relations**:
+  - if \\(\Delta Y / Y \approx 0\\) then \\( \log(Y + \DeltaY) - \log(Y) \approx \Delta Y / \Y \\)
