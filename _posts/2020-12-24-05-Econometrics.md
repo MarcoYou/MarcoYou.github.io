@@ -155,5 +155,12 @@ $$ \Delta Y(X) = \beta_1 \frac{\Delta X}{X} = \frac{\beta_1}{100}\frac{\Delta X}
 
 which implies that **a change of X by 1% is associated with an absolute change in Y of \\(\frac{\beta_1}{100}=0.01\beta_1\\).**
 
-3.34 : 4 = x : 4.5
-4x = 3.34 * 4.5
+### 3.3 Log-Linear Model
+
+Second type of logarithmic regression model is log-linear model that reads
+
+$$ \log(Y_i) - \beta_0 + \beta_1X_i + u_i $$
+
+The effect on Y of a change in X is captured by:
+
+$$ \frac{\Delta \log(Y)}{\Delta Y} = \frac{1}{Y} ~\implies~ \Delta Y = Y \frac{\Delta \log(Y)}{\Delta X} \Delta X = \beta_1 Y \Delta X $$
