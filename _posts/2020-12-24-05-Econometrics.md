@@ -196,9 +196,10 @@ which implies that **a change of 1% of X is associated with a change in Y of \\(
 
 In general, when reporting results, elasticities should be preferred since they are easier to interpret and to be compared.
 
-| Case      | Regression Models | Elasticity of \\(E[Y/X]\\) wrt X  |
+| Case      | Regression Models                          | Elasticity of \\(E[Y/X]\\) wrt X                 |
 |-----------|--------------------------------------------|--------------------------------------------------|
 | Linear    | \\(Y = \beta_0 + \beta_1 X \\)             | \\(\frac{\beta_1 X}{\beta_0 + \beta_1 X}\\)      |
 | Linear-Log| \\(Y = \beta_0 + \beta_1 \log(X) \\)       | \\(\frac{\beta_1 }{\beta_0 + \beta_1 \log(X)}\\) |
 | Log-Linear| \\(\log(Y) = \beta_0 + \beta_1 X \\)       | \\(\beta_1 X \\)                                 |
 | Log-Log   | \\(\log(Y) = \beta_0 + \beta_1 \log(X) \\) | \\beta_1\\)                                      |
+
