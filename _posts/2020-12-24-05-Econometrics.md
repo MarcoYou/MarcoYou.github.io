@@ -191,3 +191,14 @@ Hence we can use the following measure
 $$ \frac{\Delta Y}{Y}100 = \beta_1 \frac{\Delta X}{X} 100 $$
 
 which implies that **a change of 1% of X is associated with a change in Y of \\(\beta_1\\)%**. \\(\beta_1\\) is an elasticity.
+
+### 3.5 Elasticity Summary
+
+In general, when reporting results, elasticities should be preferred since they are easier to interpret and to be compared.
+
+| Case      | Regression Models | Elasticity of E(Y|X) wrt X  |
+|-----------|-------------------|-----------------------------|
+| Linear    | \\(Y = \beta_0 + \beta_1 X \\)                  |                             |
+| Linear-Log|                   |                             |
+| Log-Linear|                   |                             |
+| Log-Log   |                   |                             |
