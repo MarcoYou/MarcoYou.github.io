@@ -125,3 +125,4 @@ we have to consider the following things
 - \\( \frac{\Delta \ln(Y)}{\Delta \ln(X_1)}\\) is the log derivative of Y as a function of \\(X_1\\)
 - These are the **two important relations**:
   - if \\(\Delta Y / Y \approx 0\\) then \\( \log(Y + \DeltaY) - \log(Y) \approx \Delta Y / \Y \\)
+  
