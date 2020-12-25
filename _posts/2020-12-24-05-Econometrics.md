@@ -132,3 +132,13 @@ In the case of logarithmic regression, interpretation for elasticity changes dep
 - \\(Y\\) and \\(\log(X)\\): linear-log model
 - \\(\log(Y)\\) and \\(X\\): log-linear model
 - \\(\log(Y)\\) and \\(\log(X)\\): log-log model
+
+### 3.2 Linear-Log Model
+
+First type of logarithmic regression model is linear-log model that reads
+
+$$ Y_i = \beta_0 + \beta_1 \log(X_i) + u_i $$
+
+The effect on Y of a change in X is captured by:
+
+$$ \Delta Y(X) = \frac{\Delta Y(X)}{\Delta \log(X)} \times \frac{\Delta \log(X)}{\Delta X} \Delta X = \beta_1 \frac{\Delta X}{X} $$
