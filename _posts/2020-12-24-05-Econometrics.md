@@ -147,3 +147,10 @@ where
 
 - \\(\frac{\Delta Y(X)}{\Delta \log(X)}\\) captures the change in Y depending on the change in \\(\log(X)\\) (bc Y depends on \\(\log(X)\\));
 - \\(\frac{\Delta \log(X)}{\Delta X}\\) captures the change in \\(\log(X)\\) depending on the change in X (bc \\(\log(X)\\) depends on X);
+- Lastly \\(\Delta X\\) is multiplied becaused everything, in the end, depends on X.
+
+Hence we can use the following measure
+
+$$ \Delta Y(X) = \beta_1 \frac{\Delta X}{X} = \frac{\beta_1}{100}\frac{\Delta X}{X}100 $$
+
+which implies that **a change of X by 1% is associated with an absolute change in Y of \\(\frac{\beta_1}{100}=0.01\beta_1\\).**
