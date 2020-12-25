@@ -141,7 +141,7 @@ $$ Y_i = \beta_0 + \beta_1 \log(X_i) + u_i $$
 
 The effect on Y of a change in X is captured by:
 
-$$ \Delta Y(X) = \frac{\Delta Y(X)}{\Delta \log(X)} \times \frac{\Delta \log(X)}{\Delta X} \Delta X = \beta_1 \frac{\Delta X}{X} $$
+$$\begin{align} \Delta Y(X) &= \frac{\Delta Y(X)}{\Delta \log(X)} \times \frac{\Delta \log(X)}{\Delta X} \Delta X \\ &= \beta_1 \frac{\Delta X}{X} \end{align}$$
 
 where
 
@@ -175,3 +175,13 @@ Hence we can use the following measure
 $$ \frac{\Delta Y(X)}{Y}100 = 100 \beta_1 \Delta X $$
 
 which implies that **a marginal change of X is associated with a change in Y of \\([100 \beta_1]\% \\)**.
+
+### 3.4 Log-Log Model
+
+Third type of logarithmic regression model is log-log model that reads
+
+$$ \log(Y_i) = \beta_0 + \beta_1 \log(X_i) + u_i $$
+
+The effect on Y of a change in X is captured by:
+
+$$ \begin{align} \Delta Y(X) &= Y \frac{\Delta \log(Y)}{\Delta \log(X)} \frac{\Delta \log(X)}{\Delta X} \Delta X \\ &= \beta_1 \frac{Y}{X} \Delta X \end{align} $$
