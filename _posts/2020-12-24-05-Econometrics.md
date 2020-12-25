@@ -104,3 +104,7 @@ this depends on the value of \\(X_1\\).
 We can think of this kind of regression:
 
 $$ Price_i = \beta_0 + \beta_1 Nrooms_i + \beta_2 Nrooms^2_i + u_i $$
+
+Real result:
+
+<p align="center"> <img src="/image/Nrooms.png" alt="Nrooms" width="400" height="300"> </p>
