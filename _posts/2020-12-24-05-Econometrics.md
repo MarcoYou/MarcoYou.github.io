@@ -129,6 +129,6 @@ we have to consider the following things
 
 In the case of logarithmic regression, interpretation for elasticity changes depending on the type of logarithmic regression. **There are three types of logarithmic regression function:**
 
-- \\(Y\\) and \\(\log(X)\\) > linear-log model
-- \\(\log(Y)\\) and \\(X\\) > log-linear model
-- \\(\log(Y)\\) and \\(\log(X)\\) > log-log model
+- \\(Y\\) and \\(\log(X)\\): linear-log model
+- \\(\log(Y)\\) and \\(X\\): log-linear model
+- \\(\log(Y)\\) and \\(\log(X)\\): log-log model
