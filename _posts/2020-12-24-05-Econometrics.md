@@ -72,3 +72,14 @@ E gives us the percentage points change of Y associated with a 1% increase in X.
 Going from 10% to 11% is either a 1 percentage point increase or 10% increase. It is not a 1% increase.
 
 ## 2. Polynomial Non-Linear Regression Function
+
+Before getting into it, polynomial specification of non-linear regression function is not frequently used in econometrics modeling.
+
+One way to specify a non-linear regression for \\(X_1\\) is to use a polynomial in \\(X_1\\):
+
+$$ Y = \beta_0 + \beta_{11}X_1 + \beta_{12}X^2_1 + \cdots + \beta_{1r}X^r_1 + u $$
+
+- Obviously this model is easily estimatable with OLS (in R, lm(y ~ X + X^2 + ...))
+- With r = 2 and r = 3 we obtain the quadratic and cubic regression models (r = 3 happens almost never)
+- Using the F-test and the t-test, you can test hypothesis on the linear vs polynomial nature of the population regression function: \\( H_0:\beta_{12}=0~~vs~~H_1:\beta_{12}≠0\\)
+- Interpreting coefficients in a polynomial regression function is not trivial, the best is to plot the function and compute the estimated effect on Y of a change in \\(X_1\\) for different values of \\(X_1\\).
