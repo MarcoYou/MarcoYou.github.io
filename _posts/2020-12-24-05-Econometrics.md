@@ -230,12 +230,36 @@ Consider the following model in the U.S.
 $$ GRADE_i = \beta_0 + \beta_1 Hi\_STR_i + \beta_2 Hi\_ENG_i $$
 
 where
-- \\(Hi\_STR_i\\) is high student to teacher ratio in state i. If equal to 1, student-teacher ratio is high (bad), otherwise (good) 0;
-- \\(Hi\_ENG_i\\) is high english learner percentage in state i. If equal to 1, high number of english learner (bad), otherwise (good) 0.
+- \\(Hi \_ STR_i\\) is high student to teacher ratio in state i. If equal to 1, student-teacher ratio is high (bad), otherwise (good) 0;
+- \\(Hi \_ ENG_i\\) is high english learner percentage in state i. If equal to 1, high number of english learner (bad), otherwise (good) 0.
 
 Using the three coefficients, we can build the following 4 possibilities of combination:
 
-1. \\(\beta_0 = GRADE(Hi\_STR_i=0 ; Hi\_ENG_i=0 ) \\),
-2. \\(\beta_0 + \beta_1 = GRADE(Hi\_STR_i = 1 ; Hi\_ENG_i = 0 ) \\),
-3. \\(\beta_0 + \beta_2 = GRADE(Hi\_STR_i = 0 ; Hi\_ENG_i = 1 ) \\),
-4. \\(\beta_0 + \beta_1 + \beta_2 = GRADE(Hi\_STR_i = 1 ; Hi\_ENG_i = 1 ) \\),
+1. \\(\beta_0 = GRADE(Hi\_STR_i=0 ~;~ Hi\_ENG_i=0 ) \\),
+2. \\(\beta_0 + \beta_1 = GRADE(Hi\_STR_i = 1 ~;~ Hi\_ENG_i = 0 ) \\),
+3. \\(\beta_0 + \beta_2 = GRADE(Hi\_STR_i = 0 ~;~ Hi\_ENG_i = 1 ) \\),
+4. \\(\beta_0 + \beta_1 + \beta_2 = GRADE(Hi\_STR_i = 1 ~;~ Hi\_ENG_i = 1 ) \\).
+
+Let's say we got the following results
+
+| testscr       | Coef.   | Std.Err.  |
+|---------------|---------|-----------|
+| \\(\beta_1\\) | -3.586  | 1.610     |
+| \\(\beta_2\\) | -19.718 | 1.601     |
+| \\(\beta_0\\) | 664.725 | 1.200     |
+
+where **the effect on the test score of moving from a low to high student-teacher ratio is the same for states with high or low percentage of english learners.**
+
+Let's now introduce the interaction terms that transform the model in
+
+$$ GRADE_i = \beta_0 + \beta_1 Hi\_STR_i + \beta_2 Hi\_ENG_i + \beta_3 (Hi\_STR_i \times Hi\_ENG_i) $$
+
+where 
+- 
+
+Using the three coefficients, we can build the following 4 possibilities of combination:
+
+1. \\(\beta_0 = GRADE(Hi\_STR_i=0 ~;~ Hi\_ENG_i=0 ) \\),
+2. \\(\beta_0 + \beta_1 = GRADE(Hi\_STR_i = 1 ~;~ Hi\_ENG_i = 0 ) \\),
+3. \\(\beta_0 + \beta_2 = GRADE(Hi\_STR_i = 0 ~;~ Hi\_ENG_i = 1 ) \\),
+4. \\(\beta_0 + \beta_1 + \beta_2 = GRADE(Hi\_STR_i = 1 ~;~ Hi\_ENG_i = 1 ) \\).
