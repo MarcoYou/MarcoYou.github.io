@@ -126,3 +126,9 @@ we have to consider the following things
 - These are the **two important relations**:
   - if \\(\Delta Y / Y \approx 0\\) then \\( \log(Y + \Delta Y) - \log(Y) \approx \Delta Y / Y \\)
   - **elasticity of Y wrt** \\(X_1\\): \\( \frac{\Delta \log(Y)}{\Delta \log(X_1)} = \frac{\Delta Y / Y}{\Delta X_1 / X_1} = \frac{\Delta Y X_1}{\Delta X_1 Y} \\)
+
+In the case of logarithmic regression, interpretation for elasticity changes depending on the type of logarithmic regression. **There are three types of logarithmic regression function:**
+
+- \\(Y\\) and \\(\log(X)\\) > linear-log model
+- \\(\log(Y)\\) and \\(X\\) > log-linear model
+- \\(\log(Y)\\) and \\(\log(X)\\) > log-log model
