@@ -86,7 +86,7 @@ $$ Y = \beta_0 + \beta_{11}X_1 + \beta_{12}X^2_1 + \cdots + \beta_{1r}X^r_1 + u 
 
 Let's take a simple example.
 
-### 2.1 Quadratic Regression Model
+### 2.1 Quadratic Regression
 
 $$ Y_i = \beta_0 + \beta_1 X_{1i} + \beta_2 X^2_{1i} + u_i $$
 
@@ -111,7 +111,7 @@ Real result:
 
 ## 3. Logarithmic Regression
 
-This is the second way to specify a non-linear regression for \\(X_1\\) using logarithms in \\(X_1\\). This is by far the most used and the most useful non-linear regression function.
+This is the second way to specify a non-linear regression for \\(X_1\\) using logarithms in \\(X_1\\). This is one of the most used models of non-linear regression function.
 
 ### 3.1 Notation
 
@@ -204,3 +204,11 @@ In general, when reporting results, elasticities should be preferred since they 
 | Log-Log   | \\(\log(Y) = \beta_0 + \beta_1 \log(X) \\) | \\(\beta_1 \\)                                   |
 
 ## 4. Interaction Regression
+
+This is the third way to specify a non-linear regression using interactions between **dummy variables**. This is one of the most used models, with logarithmic models, of non-linear regression function.
+
+Consider the following population regression model
+
+$$ Y_i = \beta_0 + \beta_1 D_{1i} + \beta_2 D_{2i} + u_i $$
+
+where \\(D_1\\) and \\(D_2\\) are two binary variables. **An important limitation of this model is that \\(\beta_1\\), the effect on Y of a switch from 0 to 1 of \\(D_1\\), does not depend on the value of \\(D_2\\)**, even though they could be interdependent.
