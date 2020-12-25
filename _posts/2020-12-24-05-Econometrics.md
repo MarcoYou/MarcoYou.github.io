@@ -211,4 +211,20 @@ Consider the following population regression model
 
 $$ Y_i = \beta_0 + \beta_1 D_{1i} + \beta_2 D_{2i} + u_i $$
 
-where \\(D_1\\) and \\(D_2\\) are two binary variables. **An important limitation of this model is that \\(\beta_1\\), the effect on Y of a switch from 0 to 1 of \\(D_1\\), does not depend on the value of \\(D_2\\)**, even though they could be interdependent.
+where \\(D_1\\) and \\(D_2\\) are two binary variables. **An important limitation of this model is that \\(\beta_1\\), the effect on Y of a switch from 0 to 1 of \\(D_1\\), does not depend on the value of \\(D_2\\)**. This means Y will only have separate effect of \\(D_1\\) and \\(D_2\\).
+
+### 4.1 Interaction Model
+
+An easy extension to allow **interaction between \\(D_1\\) and \\(D_2\\)** is
+
+$$ Y_i = \beta_0 + \beta_1 D_{1i} + \beta_2 D_{2i} + \beta_3(D_{1i} \times D_{2i}) u_i $$
+
+where \\( (D_{1i} \times D_{2i}) \\) is called **interaction term**.
+
+### 4.2 Interaction Model Example
+
+It is somewhat tricky to interpret the coefficients of such model. Let's take a precise exmaple.
+
+Consider the following model
+
+$$ GRADE_i = \beta_0 + \beta_1 HiSTR_i + \beta_2 HiENG_i $$
