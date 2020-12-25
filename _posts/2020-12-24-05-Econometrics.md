@@ -164,3 +164,5 @@ $$ \log(Y_i) - \beta_0 + \beta_1X_i + u_i $$
 The effect on Y of a change in X is captured by:
 
 $$ \frac{\Delta \log(Y)}{\Delta Y} = \frac{1}{Y} ~\implies~ \Delta Y = Y \frac{\Delta \log(Y)}{\Delta X} \Delta X = \beta_1 Y \Delta X $$
+
+where
