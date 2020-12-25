@@ -154,3 +154,6 @@ Hence we can use the following measure
 $$ \Delta Y(X) = \beta_1 \frac{\Delta X}{X} = \frac{\beta_1}{100}\frac{\Delta X}{X}100 $$
 
 which implies that **a change of X by 1% is associated with an absolute change in Y of \\(\frac{\beta_1}{100}=0.01\beta_1\\).**
+
+3.34 : 4 = x : 4.5
+4x = 3.34 * 4.5
