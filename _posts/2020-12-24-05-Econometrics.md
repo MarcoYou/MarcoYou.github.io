@@ -83,3 +83,18 @@ $$ Y = \beta_0 + \beta_{11}X_1 + \beta_{12}X^2_1 + \cdots + \beta_{1r}X^r_1 + u 
 - With r = 2 and r = 3 we obtain the quadratic and cubic regression models (r = 3 happens almost never)
 - Using the F-test and the t-test, you can test hypothesis on the linear vs polynomial nature of the population regression function: \\( H_0:\beta_{12}=0~~vs~~H_1:\beta_{12}≠0\\)
 - Interpreting coefficients in a polynomial regression function is not trivial, the best is to plot the function and compute the estimated effect on Y of a change in \\(X_1\\) for different values of \\(X_1\\).
+
+Let's take a simple example.
+
+### 2.1 Quadratic Regression Model
+
+$$ Y_i = \beta_0 + \beta_1 X_{1i} + \beta_2 X^2_{1i} + u_i $$
+
+- \\(\beta_1\\) cannot be anymore the effect on Y of a change of \\(X_1\\) holding \\(X^2_1\\) constant.
+- the effect on Y of a change in \\(X_1\\) is indeed given by
+
+$$ \frac{\delta Y}{\delta X_1} = \beta_1 + 2\beta_2 X_1 $$
+
+this depends on the value of \\(X_1\\).
+
+<p align="center"> <img src="/image/polynomial.png" alt="polynomial" width="600" height="400"> </p>
