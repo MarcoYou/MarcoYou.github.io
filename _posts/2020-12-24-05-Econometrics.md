@@ -280,7 +280,7 @@ Moving from a low student-teacher ratio state to a high student-teacher ratio st
 - -1.90 if the fraction of english learners is low,
 - -1.90 and -3.50 if the fraction of english learners is high (there is a combined effect).
 
-### 4.3 Interaction Model - One Dummy and One Continuous Variable
+### 4.3 Interaction Model - One Dummy & One Continuous Variable
 
 In case of an interaction between a continuous and a dummy variable, the regression model can be written as 
 
@@ -289,6 +289,6 @@ $$ Y_i = \beta_0 + \beta_1 D_i + \beta_2 X_i + \beta_3 (D_i \times X_i) = u_i $$
 The easiest way to interpret this model is to note that it contains two different regression models depending on the value of \\(D_i\\) which can be separated into two sub-models:
 
 $$ \begin{cases}
-Y_i = \beta_0 + \beta_2 X_i + u_i ~~~~~~~~~~~asd\\
-Y_i = (\beta_0 + \beta_1) + (\beta_2 + \beta_3)X_i + u_i~~z
+Y_i = \beta_0 + \beta_2 X_i + u_i ~~~~~~~~~~~~~~~~~~~~~~~~~~~asd\\
+Y_i = (\beta_0 + \beta_1) + (\beta_2 + \beta_3)X_i + u_i~~~~~z
 \end{cases}$$
