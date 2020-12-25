@@ -265,3 +265,17 @@ Using the three coefficients, we can build the following 4 possibilities of comb
 4. \\(\beta_0 + \beta_1 + \beta_2 + \beta_3 = SCORE(Hi'STR_i = 1 ~;~ Hi'ENG_i = 1 ) \\).
 
 In this case, **the effect on the test core of moving from a low to a high student-teacher ratio can depend on the percentage of english learners present in the district**.
+
+In this case, we will have the following results of OLS estimates
+
+| testscr       | Coef.   | Std.Err.  |
+|---------------|---------|-----------|
+| \\(\beta_1\\) | -1.907  | 2.233     |
+| \\(\beta_2\\) | -18.162 | 2.150     |
+| \\(\beta_3\\) | -3.494  | 3.222     |
+| \\(\beta_0\\) | 664.143 | 1.314     |
+
+Moving from a low student-teacher ratio state to a high student-teacher ratio state implies an effect on test scores:
+
+- -1.90 if the fraction of english learners is low,
+- -1.90 and -3.50 if the fraction of english learners is high (there is a combined effect).
