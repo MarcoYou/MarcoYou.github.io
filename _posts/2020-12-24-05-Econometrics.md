@@ -71,7 +71,7 @@ E gives us the percentage points change of Y associated with a 1% increase in X.
 
 Going from 10% to 11% is either a 1 percentage point increase or 10% increase. It is not a 1% increase.
 
-## 2. Polynomial Non-Linear Regression Function
+## 2. Polynomial Regression
 
 Before getting into it, polynomial specification of non-linear regression function is not frequently used in econometrics modeling.
 
@@ -109,7 +109,7 @@ Real result:
 
 <p align="center"> <img src="/image/Nrooms.png" alt="Nrooms" width="400" height="300"> </p>
 
-## 3. Logarithmic Non-Linear Regression
+## 3. Logarithmic Regression
 
 This is the second way to specify a non-linear regression for \\(X_1\\) using logarithms in \\(X_1\\). This is by far the most used and the most useful non-linear regression function.
 
@@ -203,3 +203,4 @@ In general, when reporting results, elasticities should be preferred since they 
 | Log-Linear| \\(\log(Y) = \beta_0 + \beta_1 X \\)       | \\(\beta_1 X \\)                                 |
 | Log-Log   | \\(\log(Y) = \beta_0 + \beta_1 \log(X) \\) | \\(\beta_1 \\)                                   |
 
+## 4. Interaction Regression
