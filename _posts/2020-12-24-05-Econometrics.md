@@ -221,7 +221,7 @@ $$ Y_i = \beta_0 + \beta_1 D_{1i} + \beta_2 D_{2i} + \beta_3(D_{1i} \times D_{2i
 
 where \\( (D_{1i} \times D_{2i}) \\) is called **interaction term**.
 
-### 4.2 Interaction Model Example
+### 4.2 Example
 
 It is somewhat tricky to interpret the coefficients of such model. Let's take a precise exmaple.
 
