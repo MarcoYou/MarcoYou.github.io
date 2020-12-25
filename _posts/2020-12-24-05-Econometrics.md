@@ -98,3 +98,9 @@ $$ \frac{\delta Y}{\delta X_1} = \beta_1 + 2\beta_2 X_1 $$
 this depends on the value of \\(X_1\\).
 
 <p align="center"> <img src="/image/polynomial.png" alt="polynomial" width="600" height="400"> </p>
+
+**example)**
+
+We can think of this kind of regression:
+
+$$ Price_i = \beta_0 + \beta_1 Nrooms_i + \beta_2 Nrooms^2_i + u_i $$
