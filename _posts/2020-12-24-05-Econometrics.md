@@ -315,3 +315,17 @@ and we can interpret \\(\beta_3\\) as the effect on Y of a unit increase of \\(X
 Indeed the effects on Y of a simultaneous change in \\(X_1\\) and \\(X_2\\) are
 
 $$ \Delta Y = (\beta_1 + \beta_3 X_2)\Delta X_1 + (\beta_2 + \beta_3 X_1) \Delta X_2 + \beta_3 \Delta X_1 \Delta X_2 $$
+
+## 5. Non Linearities in Paramaeters
+
+The **linear** OLS problem was written as
+
+$$ \min_{\beta} \sum (Y_i - \beta_0 - \beta_1 X_{1i} - \cdots - \beta_k X_{1k})^2 $$
+
+which implies a simple extension to the **non-linear case**
+
+$$ \min_{\beta} \sum (Y_i - f(X_{1i}, \cdots, X_{nk} ~;~ \beta_1, \cdots, \beta_m) )^2 $$
+
+where **\\(f\\) is a non-linear function that depends on m(≠ k) parameters**:
+- in general these problems do not have a close-form solution like in the linear case;
+- **they are numerical problem** whose solution needs to be identified by **numerical techniques** (sometimes they are easy sometimes not);
