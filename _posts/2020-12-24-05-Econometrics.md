@@ -295,7 +295,7 @@ Y_i = (\beta_0 + \beta_1) + (\beta_2 + \beta_3)X_i + u_i~~~~when D_i = 1
 
 **example)**
 
-<p align="center"> <img src="/image/Interaction2.png" alt="Interaction2" width="400" height="300"> </p>
+<p align="center"> <img src="/image/Interaction2.png" alt="Interaction2" width="420" height="300"> </p>
 
 ### 4.3 Interaction Model - Two Continuous Variables
 
