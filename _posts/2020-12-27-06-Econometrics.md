@@ -88,4 +88,10 @@ If we regress this model, we get the following result
 
 <p align="center"> <img src="/image/diffmodel.png" alt="diffmodel" width="400" height="320"> </p>
 
-<p align="center"> <img src="/image/diffmodelresults.png" alt="diffmodelresults" width="400" height="100"> </p>
+<p align="center"> <img src="/image/diffmodelresults.png" alt="diffmodelresults" width="400" height="30"> </p>
+
+**Interpretation**
+
+- All factors that have not changed between 1982 and 1988 cannot drive a change in fatality rate between 1982 and 1988. **Taking the difference controls for any factor constant over time**
+- The intercept is the change in fatality rate in absence of a change in beer tax.
+- Beer tax change coefficient -1.04 means an increase in beer tax by 1$ reduces 1.04 fatalities per 10K people. This is very large given the average fatality rate is 2.
