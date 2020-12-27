@@ -73,8 +73,8 @@ Following the new model, in 1982 and 1988, we will get
 
 $$
 begin{matrix}
-A:~FATAL_{i,1988} &= \beta_0 + \beta_1 BTAX_{i,1988} + \beta_2 Z_i + u_{i,1988} \\
-B:~FATAL_{i,1982} &= \beta_0 + \beta_1 BTAX_{i,1982} + \beta_2 Z_i + u_{i,1982}
+A:~FATAL_{i,1988} = \beta_0 + \beta_1 BTAX_{i,1988} + \beta_2 Z_i + u_{i,1988} \\
+B:~FATAL_{i,1982} = \beta_0 + \beta_1 BTAX_{i,1982} + \beta_2 Z_i + u_{i,1982}
 \end{matrix}
 $$
 
