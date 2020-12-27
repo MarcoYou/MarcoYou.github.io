@@ -35,4 +35,6 @@ with \\(i = 1, \cdots, I \\) and \\(t = 1, \cdots, T\\).
 
 In matrix form it remains
 
-$$ Y = X\beta + u \mathcal{u} \mathcal{X} \mathbf{X}$$
+$$ \mathbf{Y} = \mathbf{X}\beta + \mathbf{u} $$
+
+but now Y and u are two (IT·1) sized vectors, X a 
