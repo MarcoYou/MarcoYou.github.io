@@ -154,3 +154,9 @@ $$
 Using the "Pooled data", you estimate the model \\( Y_i = X_i + u_i \\) obtaining the following results:
 
 <p align="center"> <img src="/image/Pool.png" alt="Pool" width="600" height="200"> </p>
+
+Is everything ok here? **Not at all**.
+
+Indeed when we estimate the same model group by group, we will have different results
+
+<p align="center"> <img src="/image/group_estim.png" alt="group_estim" width="600" height="420"> </p>
