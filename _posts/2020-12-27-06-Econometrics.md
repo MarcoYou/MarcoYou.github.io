@@ -23,7 +23,7 @@ author:
 
 Let's take an example of fatalities dataset: collected data on traffic fatalities in the U.S. Entities are the 48 U.S states recorded for 7 years, from 1982 to 1988. It is a balanced panel.
 
-<p align="center"> <img src="/image/panel.png" alt="panel" width="600" height="410"> </p>
+<p align="center"> <img src="/image/panel.png" alt="panel" width="610" height="410"> </p>
 
 ## 2. Regression Model with Panel Data
 
@@ -49,7 +49,7 @@ $$ FATAL_{it} = \beta_0 + \beta_1 BEERTAX_{it} + u_{it} $$
 
 where \\(i = 1, \cdots, 48 \\) with \\(t=1982\\) and \\(t=1988\\). Meaning we consider all the 48 states but only the first and the last years. the regression results in R gives us
 
-<p align="center"> <img src="/image/beertax.png" alt="beertax" width="600" height="410"> </p>
+<p align="center"> <img src="/image/beertax.png" alt="beertax" width="610" height="410"> </p>
 
 As we can see, estimated beertax coefficient in 1982 is statistically insignificant (high p-value) and the one in 1988 is statistically significant (low p-value). How come this happens? **Should we trust these results?**
 
