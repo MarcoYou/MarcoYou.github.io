@@ -45,7 +45,7 @@ We study how effective various government policies (e.g tax on beer) designed to
 
 Since we do not know what to do with observations in different years, we estimate the following regression model of two different time periods
 
-$$ FATAL_{it} = \beta_0 + \beta_1 BEERTAX_{it} + u_{it} $$
+$$ FATAL_{it} = \beta_0 + \beta_1 BTAX_{it} + u_{it} $$
 
 where \\(i = 1, \cdots, 48 \\) with \\(t=1982\\) and \\(t=1988\\). Meaning we consider all the 48 states but only the first and the last years. the regression results in R gives us
 
@@ -53,4 +53,24 @@ where \\(i = 1, \cdots, 48 \\) with \\(t=1982\\) and \\(t=1988\\). Meaning we co
 
 As we can see, estimated beertax coefficient in 1982 is statistically insignificant (high p-value) and the one in 1988 is statistically significant (low p-value). How come this happens? **Should we trust these results?**
 
-**The answer is No.**
+**The answer is No.** Indeed, there can be a substantial omitted variable bias. Many factors affect the fatality rate such as
+
+- quality of automobiles;
+- maintenance of highways;
+- driving in rural or urban areas;
+- density of cars;
+- social acceptability of "drink and drive" etc.
+
+Any of these factors may be correlated with alcohol tax, and if they are, they will lead to an OVB problem. Unfortunately, not all of these variable can be (properly) measured. So? What do we have to do?
+
+Imagine a new regression model
+
+$$ FATAL_{it} = \beta_0 + \beta_1 BTAX_{it} + \beta_2 Z_i u_{it} $$
+
+where \\(Z_i\\) represents a potentially dangerous omitted variable that is heterogeneous across states but **does not change in time** (no t) or it changed very very slowly.
+
+Following the new model, in 1982 and 1988, we will get
+
+$$begin{align}
+\textcircled{1}: \\
+\end{align}$$
