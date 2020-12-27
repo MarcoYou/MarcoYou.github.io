@@ -72,8 +72,8 @@ where \\(Z_i\\) represents a potentially dangerous omitted variable that is hete
 Following the new model, in 1982 and 1988, we will get
 
 $$begin{align}
-&A:~FATAL_{i,1988} = \beta_0 + \beta_1 BTAX_{i,1988} + \beta_2 Z_i + u_{i,1988} \\
-&B:~FATAL_{i,1982} = \beta_0 + \beta_1 BTAX_{i,1982} + \beta_2 Z_i + u_{i,1982}
+A:~FATAL_{i,1988} = \beta_0 + \beta_1 BTAX_{i,1988} + \beta_2 Z_i + u_{i,1988} \\
+B:~FATAL_{i,1982} = \beta_0 + \beta_1 BTAX_{i,1982} + \beta_2 Z_i + u_{i,1982}
 \end{align}$$
 
 To assess the change in each state between 1988 and 1982, we do \\( A - B \\):
