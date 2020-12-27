@@ -23,4 +23,4 @@ author:
 
 Let's take an example of fatalities dataset: collected data on traffic fatalities in the U.S. Entities are the 48 U.S states recorded for 7 years, from 1982 to 1988. It is a balanced panel.
 
-<p align="center"> <img src="/image/panel.png" alt="panel" width="500" height="420"> </p>
+<p align="center"> <img src="/image/panel.png" alt="panel" width="600" height="420"> </p>
