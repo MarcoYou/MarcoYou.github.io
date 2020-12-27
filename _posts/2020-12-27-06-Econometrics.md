@@ -94,7 +94,7 @@ If we regress this model, we get the following result
 - The intercept is the change in fatality rate in absence of a change in beer tax.
 - Beer tax change coefficient -1.04 means an increase in beer tax by 1$ reduces 1.04 fatalities per 10K people. This is very large given the average fatality rate is 2.
 
-## 3. Fixed Effects Regression Model
+## 3. Fixed Effects Model
 
 The **fixed effects regression model**
 
@@ -167,4 +167,39 @@ But if we pool the three groups and do regression on it, **the OLS estimator on 
 
 <p align="center"> <img src="/image/pool_estim.png" alt="pool_estim" width="600" height="420"> </p>
 
-The OLS estimator suffers from an **unobserved heterogeneity bias**.
+The OLS estimator suffers from an **unobserved heterogeneity bias**. 
+
+But don't worry, there are solutions to this kind of problem. One of them is the **Least Squares Dummy Variable Model** (LSDV).
+
+## 4. Least Squares Dummy Variable Model (LSDV)
+
+The FE regression model
+
+$$ Y_{it} = \beta_1 X_{it} + \alpha_i + u_{it} $$
+
+can be eqauivalently written in terms of a set of dummy variables (with our example, there will be 48 dummy variables)
+
+$$ Y_{it} = \beta_1 X_{it} + \gamma_2 D_2 + \cdots + \gamma_n D_n + u_{it} $$
+
+where we have skipped \\(D_1\\) to avoid the dummy variable trap (multicolinearity between independent variables).
+
+FERM and LSDV are mathematically equivalent. But LSDV allows heterogeneity of intercepts.
+
+## 5. Fixed Effects Model - within transformation
+
+Consider again the model
+
+$$ Y_{it} = \beta_1 X_{it} + \alpha_i + u_{it} $$
+
+and take the average of both side of the equation
+
+$$ \overline{Y}_{i} = \beta_1 \overline{X}_{i} + \alpha_i + \overline{u}_{i} $$
+
+where \\( \overline{Y}_i = \frac{1}{T}\sum_t^T Y_{it} \\), \\(\overline{X}_i\\) and \\(\overline{u}_i\\) are defined similarly and clearly, \\(\overline{\alpha}_i = \alpha_i\\).
+
+Then taking the difference from the original model, we get
+
+$$\begin{align} 
+Y_{it} - \overline{Y}_{i} &= \beta_1 (X_{it} - \overline{X}_{i}) + (\alpha_i - \alpha_i) + u_{it} - \overline{u}_{i} \\
+&= \beta_1 ( X_{it} - \overline{X}_i ) + u_{it} - \overline{u}_i
+\end{align}$$
