@@ -95,3 +95,18 @@ If we regress this model, we get the following result
 - All factors that have not changed between 1982 and 1988 cannot drive a change in fatality rate between 1982 and 1988. **Taking the difference controls for any factor constant over time**
 - The intercept is the change in fatality rate in absence of a change in beer tax.
 - Beer tax change coefficient -1.04 means an increase in beer tax by 1$ reduces 1.04 fatalities per 10K people. This is very large given the average fatality rate is 2.
+
+## 3. Fixed Effects Regression Model
+
+The **fixed effects**(FE) regression model
+
+- is a **method for controlling for omitted variables in panel data** that vary across entities (states in our example) but **do not change over time**;
+- **has n intercepts**, one for each entity.\
+
+Consider the following regression model
+
+$$ \begin{align}
+Y_{it} &= \beta_0 + \beta_1 X_{it} + \beta_2 Z_{i} + u_{it} \\
+&= (\beta_0 + \beta_2 Z_i) + \beta_1 X_{it} + u_{it} \\
+&= \alpha_i + \beta_1 X_{it} + u_{it}
+\end{align} $$
