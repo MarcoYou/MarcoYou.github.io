@@ -25,7 +25,7 @@ Let's take an example of fatalities dataset: collected data on traffic fatalitie
 
 <p align="center"> <img src="/image/panel.png" alt="panel" width="610" height="410"> </p>
 
-## 2. Regression Model with Panel Data
+## 2. Regression with Panel Data
 
 The multi-variable regression model (MRM) in case of a panel data structure with I entities and T time periods in scalar form reads
 
@@ -39,9 +39,7 @@ $$ \mathbf{Y} = \mathbf{X}\beta + \mathbf{u} $$
 
 but now Y and u are two \\( (IT \times 1) \\) sized vectors, X a \\( (IT \times (K+1)) \\) sized matrix and \\(\beta\\) is a \\( ((K+1)\times 1) \\) sized vector.
 
-### 2.1 Regression result: Drink and Drive?
-
-We study how effective various government policies (e.g tax on beer) designed to discourage drunk driving are in reducing traffic deaths.
+Let's take an example. Suppose we study how effective various government policies (e.g tax on beer) designed to discourage drunk driving are in reducing traffic deaths.
 
 Since we do not know what to do with observations in different years, we estimate the following regression model of two different time periods
 
@@ -110,3 +108,8 @@ Y_{it} &= \beta_0 + \beta_1 X_{it} + \beta_2 Z_{i} + u_{it} \\
 &= (\beta_0 + \beta_2 Z_i) + \beta_1 X_{it} + u_{it} \\
 &= \alpha_i + \beta_1 X_{it} + u_{it}
 \end{align} $$
+
+where \\(Z_i\\) is an unobserved variable that varies across i but does not change over time. Since it does not vary, we can **fix the effect** \\(\alpha_i = (\beta_0 + \beta_2 Z_i)\\) and interpret our regression model as having **n different intercepts**, one for each i.
+
+Suppose **you want to estimate \\(\beta_1\\)**.
+
