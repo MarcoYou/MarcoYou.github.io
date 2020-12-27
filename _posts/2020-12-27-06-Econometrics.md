@@ -65,12 +65,19 @@ Any of these factors may be correlated with alcohol tax, and if they are, they w
 
 Imagine a new regression model
 
-$$ FATAL_{it} = \beta_0 + \beta_1 BTAX_{it} + \beta_2 Z_i u_{it} $$
+$$ FATAL_{it} = \beta_0 + \beta_1 BTAX_{it} + \beta_2 Z_i + u_{it} $$
 
 where \\(Z_i\\) represents a potentially dangerous omitted variable that is heterogeneous across states but **does not change in time** (no t) or it changed very very slowly.
 
 Following the new model, in 1982 and 1988, we will get
 
 $$begin{align}
-\textcircled{1}: \\
+&A:~FATAL_{i,1988} = \beta_0 + \beta_1 BTAX_{i,1988} + \beta_2 Z_i + u_{i,1988} \\
+&B:~FATAL_{i,1982} = \beta_0 + \beta_1 BTAX_{i,1982} + \beta_2 Z_i + u_{i,1982}
 \end{align}$$
+
+To assess the change in each state between 1988 and 1982, we do \\( A - B \\):
+
+$$ C:~ FATAL_{i,1988} - FATAL_{i,1982} = \beta_1(BTAX_{i,1988} - BTAX_{i,1982}) + (u_{i,1988} - u_{i,1982}) $$
+
+Note that \\(Z\\) has now disappeared. Therefore its effect has disappeared as well. We obtained an interesting new model, called **model in differences**.
