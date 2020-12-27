@@ -86,3 +86,6 @@ Note that \\(Z\\) has now disappeared. Therefore its effect has disappeared as w
 
 If we regress this model, we get the following result
 
+<p align="center"> <img src="/image/diffmodel.png" alt="diffmodel" width="400" height="320"> </p>
+
+<p align="center"> <img src="/image/diffmodelresults.png" alt="diffmodelresults" width="400" height="200"> </p>
