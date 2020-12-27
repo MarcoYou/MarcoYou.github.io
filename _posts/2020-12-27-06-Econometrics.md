@@ -212,3 +212,13 @@ $$\begin{align}
 \end{align}$$
 
 where we have **eliminated the unobserved heterogeneity in intercepts**, and as a consequence, **the OLS estimators are unbiased**.
+
+Graphically this looks like
+
+<p align="center"> <img src="/image/within.png" alt="within" width="600" height="420"> </p>
+
+The result in the pooled group looks like
+
+<p align="center"> <img src="/image/within_pool.png" alt="within_pool" width="600" height="420"> </p>
+
+Clearly heterogeneity bias has been removed.
