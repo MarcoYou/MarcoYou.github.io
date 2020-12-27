@@ -1,9 +1,9 @@
 ---
 layout: post
 toc: true
-title: "05. Econometrics"
+title: "06. Econometrics"
 categories: Econometrics
-tags: [Panel Data, Estimation, Non-Linear Regression]
+tags: [Panel Data, Fixed Effects]
 math: true
 author:
   - Marco You
