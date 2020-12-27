@@ -99,7 +99,9 @@ If we regress this model, we get the following result
 The **fixed effects regression model**
 
 - is a **method for controlling for omitted variables in panel data** that vary across entities (states in our example) but **do not change over time**;
-- **has n intercepts**, one for each entity.\
+- **has n intercepts**, one for each entity.
+
+### 3.1 Model
 
 Consider the following regression model
 
@@ -121,5 +123,19 @@ Let's focus on Alaska
 
 This would imply that there remains only one source of variability according to the time variability and Z plays the role of a country specific constant (not a state specific constant).
 
-Suppose **you want to estimate \\(\beta_1\\)**.
+### 3.2 Limits
 
+Note that panel data encompasses data coming from several entities. So this is a **pool of data**. And when we introduced \\(Z_i\\), we said that it represents a potentially dangerous omitted variable that is heterogeneous across states. Therefore, we could replace \\((\beta_0 + \beta_2 Z_i)\\) by a **fixed effect** denoted \\(\alpha_i\\) proper to each state. What is the consequence of the combination of **pool of data** and **fixed effect**?
+
+Let's discuss with an example.
+
+Consider an artificial dataset with 750 observations generated as follows
+
+$$ Group~1:~ Y_i = -20 + X_i + u_i 
+~~~~where~
+\begin{cases}
+\beta_0 = -20 \\
+\beta_1 = 1   \\
+n.obs = 250
+\end{cases}
+$$
