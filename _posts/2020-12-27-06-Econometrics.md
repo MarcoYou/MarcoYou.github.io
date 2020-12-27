@@ -160,3 +160,11 @@ Is everything ok here? **Not at all**.
 Indeed when we estimate the same model group by group, we will have different results
 
 <p align="center"> <img src="/image/group_estim.png" alt="group_estim" width="600" height="420"> </p>
+
+We can see that in the last graph, regression functions are parallel, sharing one same slope, and **heterogeneous(different) intercepts**.
+
+But if we pool the three groups and do regression on it, **the OLS estimator on the pooled dataset performs badly!**
+
+<p align="center"> <img src="/image/pool_estim.png" alt="pool_estim" width="600" height="420"> </p>
+
+The OLS estimator suffers from an **unobserved heterogeneity bias**.
