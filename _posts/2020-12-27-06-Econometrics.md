@@ -203,3 +203,12 @@ $$\begin{align}
 Y_{it} - \overline{Y}_{i} &= \beta_1 (X_{it} - \overline{X}_{i}) + (\alpha_i - \alpha_i) + u_{it} - \overline{u}_{i} \\
 &= \beta_1 ( X_{it} - \overline{X}_i ) + u_{it} - \overline{u}_i
 \end{align}$$
+
+Then we obtain a **Within Transformed Fixed Effects Model**
+
+$$\begin{align} 
+      & Y_{it} - \overline{Y}_{i} = \beta_1 ( X_{it} - \overline{X}_i ) + u_{it} - \overline{u}_i \\
+\iff  & \tilda{Y}_{it} = \beta_1 \tilda{X}_{it} + \tilda{u}_{it}
+\end{align}$$
+
+where we have **eliminated the unobserved heterogeneity in intercepts**, and as a consequence, **the OLS estimators are unbiased**.
