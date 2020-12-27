@@ -72,15 +72,15 @@ where \\(Z_i\\) represents a potentially dangerous omitted variable that is hete
 Following the new model, in 1982 and 1988, we will get
 
 $$
-begin{matrix}
-A:~FATAL_{i,1988} = \beta_0 + \beta_1 BTAX_{i,1988} + \beta_2 Z_i + u_{i,1988} \\
-B:~FATAL_{i,1982} = \beta_0 + \beta_1 BTAX_{i,1982} + \beta_2 Z_i + u_{i,1982}
-\end{matrix}
+\begin{align}
+& A:FATAL_{i,1988} = \beta_0 + \beta_1 BTAX_{i,1988} + \beta_2 Z_i + u_{i,1988} \\
+& B:FATAL_{i,1982} = \beta_0 + \beta_1 BTAX_{i,1982} + \beta_2 Z_i + u_{i,1982}
+\end{align}
 $$
 
 To assess the change in each state between 1988 and 1982, we do \\( A - B \\):
 
-$$ C:~ FATAL_{i,1988} - FATAL_{i,1982} = \beta_1(BTAX_{i,1988} - BTAX_{i,1982}) + (u_{i,1988} - u_{i,1982}) $$
+$$ C:FATAL_{i,1988} - FATAL_{i,1982} = \beta_1(BTAX_{i,1988} - BTAX_{i,1982}) + (u_{i,1988} - u_{i,1982}) $$
 
 Note that \\(Z\\) has now disappeared. Therefore its effect has disappeared as well. We obtained an interesting new model, called **model in differences**.
 
