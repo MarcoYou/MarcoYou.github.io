@@ -150,3 +150,7 @@ $$
 Pool:~ Y_i = X_i + u_i ~~~~~where~~
 \begin{cases} \beta_0 = 0 \\ \beta_1 = 1 \\ n.obs = 250 \end{cases}
 $$
+
+Using the "Pooled data", you estimate the model \\( Y_i = X_i + u_i \\) obtaining the following results:
+
+<p align="center"> <img src="/image/Pool.png" alt="Pool" width="610" height="410"> </p>
