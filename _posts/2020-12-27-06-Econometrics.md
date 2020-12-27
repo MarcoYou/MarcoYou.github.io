@@ -37,5 +37,20 @@ In matrix form it remains
 
 $$ \mathbf{Y} = \mathbf{X}\beta + \mathbf{u} $$
 
-but now Y and u are two \\( (IT \times 1) \\) sized vectors, X a \\( (IT \times (K+1)) \\) sized matrix and \\(\beta\\) is a \\((K+1)\times 1 \\) sized vector.
+but now Y and u are two \\( (IT \times 1) \\) sized vectors, X a \\( (IT \times (K+1)) \\) sized matrix and \\(\beta\\) is a \\( ((K+1)\times 1) \\) sized vector.
 
+### 2.1 Regression result: Drink and Drive?
+
+We study how effective various government policies (e.g tax on beer) designed to discourage drunk driving are in reducing traffic deaths.
+
+Since we do not know what to do with observations in different years, we estimate the following regression model of two different time periods
+
+$$ FATAL_{it} = \beta_0 + \beta_1 BEERTAX_{it} + u_{it} $$
+
+where \\(i = 1, \cdots, 48 \\) with \\(t=1982\\) and \\(t=1988\\). Meaning we consider all the 48 states but only the first and the last years. the regression results in R gives us
+
+<p align="center"> <img src="/image/beertax.png" alt="beertax" width="600" height="410"> </p>
+
+As we can see, estimated beertax coefficient in 1982 is statistically insignificant (high p-value) and the one in 1988 is statistically significant (low p-value). How come this happens? **Should we trust these results?**
+
+**The answer is No.**
