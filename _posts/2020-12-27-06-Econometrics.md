@@ -131,11 +131,22 @@ Let's discuss with an example.
 
 Consider an artificial dataset with 750 observations generated as follows
 
-$$ Group~1:~ Y_i = -20 + X_i + u_i 
-~~~~where~
-\begin{cases}
-\beta_0 = -20 \\
-\beta_1 = 1   \\
-n.obs = 250
-\end{cases}
+$$
+Group~1:~ Y_i = -20 + X_i + u_i ~~~~~where~~
+\begin{cases} \beta_0 = -20 \\ \beta_1 = 1 \\ n.obs = 250 \end{cases}
+$$
+
+$$
+Group~2:~ Y_i = X_i + u_i ~~~~~where~~
+\begin{cases} \beta_0 = 0 \\ \beta_1 = 1 \\ n.obs = 250 \end{cases}
+$$
+
+$$
+Group~3:~ Y_i = 20 + X_i + u_i ~~~~~where~~
+\begin{cases} \beta_0 = 20 \\ \beta_1 = 1 \\ n.obs = 250 \end{cases}
+$$
+
+$$
+Pool:~ Y_i = X_i + u_i ~~~~~where~~
+\begin{cases} \beta_0 = 0 \\ \beta_1 = 1 \\ n.obs = 250 \end{cases}
 $$
