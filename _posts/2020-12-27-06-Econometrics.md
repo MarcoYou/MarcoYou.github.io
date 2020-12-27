@@ -37,4 +37,5 @@ In matrix form it remains
 
 $$ \mathbf{Y} = \mathbf{X}\beta + \mathbf{u} $$
 
-but now Y and u are two (IT·1) sized vectors, X a 
+but now Y and u are two \\( (IT \times 1) \\) sized vectors, X a \\( (IT \times (K+1)) \\) sized matrix and \\(\beta\\) is a \\((K+1)\times 1 \\) sized vector.
+
