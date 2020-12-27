@@ -111,7 +111,15 @@ Y_{it} &= \beta_0 + \beta_1 X_{it} + \beta_2 Z_{i} + u_{it} \\
 
 where \\(Z_i\\) is an unobserved variable that varies across i but does not change over time. Since it does not vary, we can **fix the effect** \\(\alpha_i = (\beta_0 + \beta_2 Z_i)\\) and interpret our regression model as having **n different intercepts**, one for each i.
 
-Let's go back to our previous example. With our fixed effects regression Model
+Let's go back to our previous example. With our new fixed effects regression model, the panel data will look like
+
+<p align="center"> <img src="/image/FEpanel.png" alt="FEpanel" width="610" height="410"> </p>
+
+Let's focus on Alaska
+
+<p align="center"> <img src="/image/Alaska.png" alt="Alaska" width="610" height="180"> </p>
+
+
 
 Suppose **you want to estimate \\(\beta_1\\)**.
 
