@@ -72,10 +72,10 @@ where \\(Z_i\\) represents a potentially dangerous omitted variable that is hete
 Following the new model, in 1982 and 1988, we will get
 
 $$
-begin{align}
+begin{matrix}
 A:~FATAL_{i,1988} &= \beta_0 + \beta_1 BTAX_{i,1988} + \beta_2 Z_i + u_{i,1988} \\
 B:~FATAL_{i,1982} &= \beta_0 + \beta_1 BTAX_{i,1982} + \beta_2 Z_i + u_{i,1982}
-\end{align}
+\end{matrix}
 $$
 
 To assess the change in each state between 1988 and 1982, we do \\( A - B \\):
@@ -88,4 +88,4 @@ If we regress this model, we get the following result
 
 <p align="center"> <img src="/image/diffmodel.png" alt="diffmodel" width="400" height="320"> </p>
 
-<p align="center"> <img src="/image/diffmodelresults.png" alt="diffmodelresults" width="400" height="200"> </p>
+<p align="center"> <img src="/image/diffmodelresults.png" alt="diffmodelresults" width="400" height="100"> </p>
