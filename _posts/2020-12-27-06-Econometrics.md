@@ -117,9 +117,9 @@ Let's go back to our previous example. With our new fixed effects regression mod
 
 Let's focus on Alaska
 
-<p align="center"> <img src="/image/Alaska.png" alt="Alaska" width="610" height="180"> </p>
+<p align="center"> <img src="/image/Alaska.png" alt="Alaska" width="610" height="130"> </p>
 
-
+This would imply that there remains only one source of variability according to the time variability and Z plays the role of a country specific constant (not a state specific constant).
 
 Suppose **you want to estimate \\(\beta_1\\)**.
 
