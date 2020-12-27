@@ -86,7 +86,7 @@ If we regress this model, we get the following result
 
 <p align="center"> <img src="/image/diffmodel.png" alt="diffmodel" width="400" height="320"> </p>
 
-<p align="center"> <img src="/image/diffmodelresults.png" alt="diffmodelresults" width="400" height="30"> </p>
+<p align="center"> <img src="/image/diffmodelresults.png" alt="diffmodelresults" width="400" height="40"> </p>
 
 **Interpretation**
 
@@ -96,7 +96,7 @@ If we regress this model, we get the following result
 
 ## 3. Fixed Effects Regression Model
 
-The **fixed effects**(FE) regression model
+The **fixed effects regression model**
 
 - is a **method for controlling for omitted variables in panel data** that vary across entities (states in our example) but **do not change over time**;
 - **has n intercepts**, one for each entity.\
@@ -110,6 +110,8 @@ Y_{it} &= \beta_0 + \beta_1 X_{it} + \beta_2 Z_{i} + u_{it} \\
 \end{align} $$
 
 where \\(Z_i\\) is an unobserved variable that varies across i but does not change over time. Since it does not vary, we can **fix the effect** \\(\alpha_i = (\beta_0 + \beta_2 Z_i)\\) and interpret our regression model as having **n different intercepts**, one for each i.
+
+Let's go back to our previous example. With our fixed effects regression Model
 
 Suppose **you want to estimate \\(\beta_1\\)**.
 
