@@ -195,7 +195,7 @@ and take the average of both side of the equation
 
 $$ \overline{Y}_{i} = \beta_1 \overline{X}_{i} + \alpha_i + \overline{u}_{i} $$
 
-where \\( \overline{Y}_i = \frac{1}{T} \sum^T_t Y_{it} \\), \\( \overline{X}_i \\) and \\( \overline{u}_i \\) are defined similarly and clearly, \\(\overline{\alpha}_i = \alpha_i\\).
+where \\( \overline{Y}_i = \frac{1}{T} \sum_t Y_{it} \\), \\( \overline{X}_i \\) and \\( \overline{u}_i \\) are defined similarly and clearly, \\(\overline{\alpha}_i = \alpha_i\\).
 
 Then taking the difference from the original model, we get
 
