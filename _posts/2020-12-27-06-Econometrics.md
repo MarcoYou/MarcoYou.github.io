@@ -195,7 +195,7 @@ and take the average of both side of the equation
 
 $$ \overline{Y}_{i} = \beta_1 \overline{X}_{i} + \alpha_i + \overline{u}_{i} $$
 
-where \\( \overline{Y}_i = \frac{1}{T}\sum_t^T Y_{it} \\), \\(\overline{X}_i\\) and \\(\overline{u}_i\\) are defined similarly and clearly, \\(\overline{\alpha}_i = \alpha_i\\).
+where \\( \overline{Y}_i = \frac{1}{T} \sum^T_t Y_{it} \\), \\( \overline{X}_i \\) and \\( \overline{u}_i \\) are defined similarly and clearly, \\(\overline{\alpha}_i = \alpha_i\\).
 
 Then taking the difference from the original model, we get
 
@@ -219,6 +219,9 @@ Graphically this looks like
 
 The result in the pooled group looks like
 
-<p align="center"> <img src="/image/within_pool.png" alt="within_pool" width="600" height="420"> </p>
+<p align="center"> <img src="/image/within_pool.png" alt="within_pool" width="600" height="430"> </p>
 
 Clearly heterogeneity bias has been removed.
+
+## 6. Fixed Effects Model in detail
+
