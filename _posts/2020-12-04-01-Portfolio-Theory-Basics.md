@@ -10,7 +10,7 @@ author:
 [comment]: <> (mathjax inline > \\(...\\) )
 [comment]: <> (mathjax block  > $$...$$   )
 ---
-This is a note for simplified steps before getting to Black-Scholes Capital Asset Pricing Model (자본자산 가격결정 모형) and for Black-CAPM itself as well. Since I am very lazy, I am skipping important demonstrations and graphical illustration parts. If you find any error, please do let me know at **gunhoqw20@gmail.com**.
+This is a note for Capital Asset Pricing Model (자본자산 가격결정 모형) and its preliminary work. Since I am very lazy, I am skipping important demonstrations and graphical illustration parts...(sorry) If you find any error, please do let me know at **gunhoqw20@gmail.com**.
 
 ## 1. Portfolio Composition
 
@@ -271,7 +271,7 @@ $$ E(R_P)-r_f = \beta_{P}(E(R_M)-r_f) $$
 
 We said two key assumptions of Sharpe-CAPM are "Markowitz Problem" and "Existence of risk-free asset at which **agents can lend and borrow**". The latter is actually unrealistic well... impossible! We need another model that does not need that second assumption.
 
-## 6. Black-Scholes CAPM
+## 6. Black-CAPM
 
 Fischer Black himself identifies four key assumptions in Sharp-Mossin-Lintner CAPM in his paper "Capital Market Equilibrium with Restricted Borrowing" on JSTOR journal:
 
@@ -282,7 +282,7 @@ Fischer Black himself identifies four key assumptions in Sharp-Mossin-Lintner CA
 3. Investors choose portfolios that maximize their expected end-of-period utility of wealth, and all investors are risk averse. (Every investor's utility function on end-of-period wealth increases at a decreasing rate as his wealth increases.)
 4. An investor may take a long or short position of any size in any asset, including the riskless asset. **Any investor may borrow or lend any amount he wants at the riskless rate of interest.**
 
-### 6.2 Black-Scholes CAPM Hypotheses
+### 6.2 Black-CAPM Hypotheses
 
 Lintner has shown that removing the first assumption does not change the structure of capital asset prices in any significant way, and second and third assumptions are generally regarded as acceptable approximations to reality. Nevertheless, Black finds the 4th assumption the most restrictive amongst all, and is not a very good approximation for many investors, and one feels that the model would be changed substantially if this assumption were dropped.
 
