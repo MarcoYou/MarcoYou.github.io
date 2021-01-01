@@ -6,11 +6,11 @@ permalink: /about/
 
 ## About me
 
-Hello, it is a great honour to have you on my Notebook site! My name is Marco, a graduate student in economics, from South Korea, currently living in Paris, France. This site is my notebook. I wonder how you found my site and if my notes were helpful. If they were, please, leave a comment! Thank you!
+프로데분러가 되고 싶은 경제돌이
 
 ## Contents
 
-I will be posting everything I learend from:
+I will be posting things in the following fields:
 
 - Economics;
 - Econometrics;
@@ -18,10 +18,10 @@ I will be posting everything I learend from:
 - Statistics;
 - Finance;
 - Data Science;
-- Machine Learning & Deep Learning.
+- Machine Learning & Deep Learning (언젠가 올려놔 봤으면 ㅠㅠ)
 
 I hope to post more things other than the sciences above in the future.
 
 ## Others
 
-If you find any errors or lack of specification of any concept, please do let me know at gunhoqw20@gmail.com
+If you find any errors or lack of specification of any concept, please do let me know at gunhoqw20@gmail.com or in the comment.
