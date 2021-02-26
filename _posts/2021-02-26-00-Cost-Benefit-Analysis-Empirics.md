@@ -2,7 +2,7 @@
 layout: post
 toc: true
 title: "00. Cost-Benefit Analysis Empirics"
-categories: Cost-Benefit Analysis
+categories: Cost-Benefit_Analysis
 tags: [CBA]
 math: true
 author:
