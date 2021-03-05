@@ -16,6 +16,6 @@ author:
 
 Today the NASDAQ composite index had a quite turbulent day.
 
-<p align="center"> <img src="/image/memo/210307_NASDAQ.png" alt="panel" width="610" height="410"> </p>
+<p align="center"> <img src="/image/memo/210305_NASDAQ.png" alt="panel" width="610" height="410"> </p>
 
 It dipped to almost 12,300 then it bounced back to 12,920 in just a few hours. 
