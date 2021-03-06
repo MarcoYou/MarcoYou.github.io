@@ -14,7 +14,7 @@ author:
 
 # Monetary Policy During Crisis
 
-Today the NASDAQ composite index had a quite turbulent day.
+Today the NASDAQ composite index had a quite dramatic day. It as been coming down to 12,000 pt from mid February.
 
 <p align="center"> <img src="/image/memo/210305_NASDAQ.png" alt="panel" width="520" height="300"> </p>
 
