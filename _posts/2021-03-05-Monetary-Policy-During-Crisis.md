@@ -1,7 +1,7 @@
 ---
 layout: post
 toc: true
-title: "Monetary Policy During Crisis"
+title: "Monetary Policy During Sanitary Crisis"
 categories: Memo
 tags: [Memo]
 math: true
@@ -20,10 +20,8 @@ Even though it is obvious to say that full employment is important and is a good
 
 When the number of jobs decreases, the overall consumption decreases. A decrease in consumption implies a decrease in demand. A decrease in demand then causes a decrease in supply. If the supply decreases, companies stop or reduce their investment. And once they stop investing, then no jobs are created. If there are no jobs created, then again, it leads to another decrease in demand, so on and so forth. This is the phenomenon called **Secular Stagflation** that Lawrence Summers, 27th U.S Secretary of the Treasury, was worried about.
 
-To stop this somewhat vicious cycle, a government can hire more people by itself. Or, it can force companies to hire more people. But they both sound ridiculous and too easy, right? So the best strategy would be to **encourage companies to invest**. To do so, in the case of the U.S, the FED can foster an environment that gives companies incentive to invest more.
+To stop this somewhat vicious cycle, a government can hire more people by itself. Or, it can force companies to hire more people. But they both sound ridiculous and too easy, right? So the best strategy would be to **encourage companies to invest**. To do so, in the case of the U.S, the FED can foster an environment that gives companies incentive to invest more. And the incentive would be a **cheaper price of debt**.
 
-The Covid-19 pandemic reduced enourmous number of jobs and the scale of laborforce. So in the U.S, the FED currently focuses on reducing the unemployment rate. There are several tools for FED to (re)boost the economy. Some of them are rather familiar to us, and some are maybe not.
+So how do you make debt cheaper?
 
 ## Monetary Policy of FED
-
-### 1. 
