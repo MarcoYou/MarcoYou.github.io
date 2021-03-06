@@ -22,18 +22,26 @@ When the number of jobs decreases, the overall consumption decreases. A decrease
 
 To stop this somewhat vicious cycle, a government can hire more people by itself. Or, it can force companies to hire more people. But they both sound ridiculous and too easy, right? So the best strategy would be to **encourage companies to invest**. To do so, in the case of the U.S, the FED can foster an environment that gives companies incentive to invest more. And the incentive would be a **cheaper price of debt**.
 
-So how do you make debt cheaper?
+**So how do you make debt cheaper?**
 
 ## Monetary Policy of FED
 
 1일짜리 vs 10년짜리 (모기지는 10년짜리랑 연동)
 
-I personally identify 4 tools that allow FED to make debt cheaper. But before getting into it, I have to explain what kind of debt I am talking about, why particularly that specific kind of bond, and lastly what's the price for it.
+I personally identify 4 tools that allow FED to make debt cheaper. But before getting into it, I have to explain what kind of debt I am talking about and why particularly that specific kind of debt is important.
 
-First, what kind of debt we are talking about? We are talking about notes. It is not a commercial loan or any sorts like that. We are precisely talking about **the U.S. 10-year treasury note** (often called T-note 10Y or by its ticker ^TNX), which is a type of debt that can be traded and whose issuer is the federal government of the U.S. having a maturity equal to 10 year.
+**First, what kind of debt we are talking about?**
+
+Here, we are talking about notes. It is not a commercial loan or any sorts like that. We are precisely talking about **the U.S. 10-year treasury note** (often called 10Y T-note or by its ticker **^TNX**), which is a type of debt that can be traded and whose issuer is the federal government of the U.S. having a maturity equal to 10 year.
 
 - **T-Bills**: short maturity terms, from 4 weeks to a year;
 - **T-Notes**: middle maturity terms, from 2 to 10 years;
-- **U.S. Savings Bonds**: long maturity terms, from 20 to 30 years.
+- **U.S. Bonds**: long maturity terms, from 20 to 30 years.
 
-Second, why is 
+**Second, why is 10Y T-Note important?**
+
+The type of Asset-Backed Security (ABS) that holds the largest amount of capital is the Mortgage-Backed Security in the U.S. It is incomparable with all the other types of ABSs as the chart belows shows.
+
+<p align="center"> <img src="/image/memo/MBS_vs_ABS.jpg" alt="MBS vs ABS" width="600" height="400"> </p>
+
+Because of its size and also the fact that it is "Mortgage-Backed", meaning it comes from Americans' homes, made it so important. 
