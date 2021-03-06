@@ -25,3 +25,13 @@ To stop this somewhat vicious cycle, a government can hire more people by itself
 So how do you make debt cheaper?
 
 ## Monetary Policy of FED
+
+1일짜리 vs 10년짜리 (모기지는 10년짜리랑 연동)
+
+I personally identify 4 tools that allow FED to make debt cheaper. But before getting into it, I have to explain what kind of debt I am talking about, why particularly that specific kind of bond, and lastly what's the price for it.
+
+First, what kind of debt we are talking about? We are talking about notes. It is not a commercial loan or any sorts like that. We are precisely talking about **the U.S. 10-year treasury note** (often called T-note 10Y or by its ticker ^TNX), which is a type of debt that can be traded and whose issuer is the federal government of the U.S. having a maturity equal to 10 year.
+
+- For your info, 
+
+Second, why is 
