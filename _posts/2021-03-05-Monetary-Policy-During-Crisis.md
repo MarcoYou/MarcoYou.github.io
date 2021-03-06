@@ -14,8 +14,10 @@ author:
 
 # Monetary Policy During Crisis
 
-Today the NASDAQ composite index had a quite dramatic day. It as been coming down to 12,000 pt from mid February.
+## Role of FED during Sanitary Crisis
 
-<p align="center"> <img src="/image/memo/210305_NASDAQ.png" alt="panel" width="520" height="300"> </p>
+The ultimate goal of any central bank is to make the economy to prosper in long run. One of the key requirements, or possibly the most important requirement, is the **full employment**.
 
-It dipped to almost 12,371 touching the 120-days-MA line, then it bounced back to 12,920 in just a few hours. 
+The Covid-19 pandemic reduced enourmous number of jobs and the scale of laborforce. So in the U.S, the FED currently focuses on reducing the unemployment rate. To do so, they have implemented, once again, a non-conventional monetary policy called **Quantitative Easing**
+
+## Monetary Policy in Action
