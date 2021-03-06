@@ -50,6 +50,6 @@ Because of its size and also the fact that it is "Mortgage-Backed", it made it s
 
 And why am I talking about MBS? it is because **30-Year Fixed Average Mortgage Rate is coupled with the 10Y T-Note Rate**
 
-<p align="center"> <img src="/image/memo/FRED_10TY_30MR.png" alt="T-Note and MBS" width="600" height="400"> </p>
+<p align="center"> <img src="/image/memo/FRED_10TY_30MR.png" alt="T-Note and MBS" width="550" height="400"> </p>
 
 [Source](https://fred.stlouisfed.org/series/MORTGAGE30US#0)
