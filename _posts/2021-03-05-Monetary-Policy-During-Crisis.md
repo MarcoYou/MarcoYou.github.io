@@ -44,4 +44,6 @@ The type of Asset-Backed Security (ABS) that holds the largest amount of capital
 
 <p align="center"> <img src="/image/memo/MBS_vs_ABS.jpg" alt="MBS vs ABS" width="600" height="400"> </p>
 
+[Source](https://jsf.pm-research.com/content/early/2019/11/11/jsf.2019.1.089)
+
 Because of its size and also the fact that it is "Mortgage-Backed", meaning it comes from Americans' homes, made it so important. 
