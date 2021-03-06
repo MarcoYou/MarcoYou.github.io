@@ -32,6 +32,8 @@ I personally identify 4 tools that allow FED to make debt cheaper. But before ge
 
 First, what kind of debt we are talking about? We are talking about notes. It is not a commercial loan or any sorts like that. We are precisely talking about **the U.S. 10-year treasury note** (often called T-note 10Y or by its ticker ^TNX), which is a type of debt that can be traded and whose issuer is the federal government of the U.S. having a maturity equal to 10 year.
 
-- For your info, 
+- **T-Bills**: short maturity terms, from 4 weeks to a year;
+- **T-Notes**: middle maturity terms, from 2 to 10 years;
+- **U.S. Savings Bonds**: long maturity terms, from 20 to 30 years.
 
 Second, why is 
