@@ -16,6 +16,6 @@ author:
 
 Today the NASDAQ composite index had a quite turbulent day.
 
-<p align="center"> <img src="/image/memo/210305_NASDAQ.png" alt="panel" width="500" height="300"> </p>
+<p align="center"> <img src="/image/memo/210305_NASDAQ.png" alt="panel" width="520" height="300"> </p>
 
 It dipped to almost 12,371 touching the 120-days-MA line, then it bounced back to 12,920 in just a few hours. 
