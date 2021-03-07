@@ -104,6 +104,9 @@ Another question that could arise is "_If the FED inject this much of cash into 
 
 The final goal of FED is to create job in companies, by giving them money. QE with federal bonds has to go through an intermediary which is a financial instituations. QE with corporate bonds will purchase bonds issued by companies directly providing them direct liquidity. But this operation is unlikely to happen as first, it is very risky to hold corporate bonds as you don't know what is going to happen to those companies in 10 years, whereas a country, especially the U.S, is very lkely, almost certainly, will still exist. Also, this can face political polemics because only some companies will be selected to do QE.
 
+
+_On a side note, FED can also buy MBSs alongside national bonds. This is another reason why MBS rate and 10Y T-Note rate are important_
+
 ### 3. Alternative Long-Term Yield Direct Intervention
 #### Yield Curve Control (YCC)
 #### Operation Twist
