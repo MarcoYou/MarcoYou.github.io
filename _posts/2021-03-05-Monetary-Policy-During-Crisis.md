@@ -100,6 +100,10 @@ In combination, **bond yields will go down, which makes other risky assets more 
 
 Another question that could arise is "_If the FED inject this much of cash into the economy, wouldn't it risk high inflation?_". Actually, there is no **high** inflation caused by QE because no money goes into people's hands. FED buys bonds from financial institutions, not from people. So no direct cash is injected into daily economy but is injected into corporate and financial economy.
 
+#### QE with Corporate Bonds
+
+The final goal of FED is to create job in companies, by giving them money. QE with federal bonds has to go through an intermediary which is a financial instituations. QE with corporate bonds will purchase bonds issued by companies directly providing them direct liquidity. But this operation is unlikely to happen as first, it is very risky to hold corporate bonds as you don't know what is going to happen to those companies in 10 years, whereas a country, especially the U.S, is very lkely, almost certainly, will still exist. Also, this can face political polemics because only some companies will be selected to do QE.
+
 ### 3. Alternative Long-Term Yield Direct Intervention
 #### Yield Curve Control (YCC)
 #### Operation Twist
