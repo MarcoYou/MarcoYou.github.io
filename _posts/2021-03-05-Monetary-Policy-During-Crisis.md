@@ -120,5 +120,10 @@ A yield curve is a line that plots yields (interest rates) of bonds having equal
 
 [Source](http://www.worldgovernmentbonds.com/country/united-states/)
 
+But, sometimes this curve can twisted following a monetary policy operation called **Operation Twist**.
 
 #### Operation Twist
+
+Operation Twist refers to a Federal Reserve monetary policy initiative designed to lower long-term interest rates to further stimulate the U.S economy. The initiative is done by selling short-term bonds and buying long-term bonds. This in result lifts short-term rates. Therefore it reduces the spread between short-term rate and long-term rate, which is sort of controversial.
+
+The difference between QE and Operation Twist resides in the balance sheet of FED. The former necessarily expands the FED's balance sheet, whereas the latter does not expand the FED's balance sheet. Therefore, it is considered to be less aggressive form of easing.
