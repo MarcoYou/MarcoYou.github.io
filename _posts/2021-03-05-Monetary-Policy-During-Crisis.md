@@ -20,7 +20,7 @@ Even though it is obvious to say that full employment is important and is a good
 
 When the number of jobs decreases, the overall consumption decreases. A decrease in consumption implies a decrease in demand. A decrease in demand then causes a decrease in supply. If the supply decreases, companies stop or reduce their investment. And once they stop investing, then no jobs are created. If there are no jobs created, then again, it leads to another decrease in demand, so on and so forth. This is the phenomenon called **Secular Stagflation** that Lawrence Summers, 27th U.S Secretary of the Treasury, was worried about.
 
-To stop this somewhat vicious cycle, a government can hire more people by itself. Or, it can force companies to hire more people. But they both sound ridiculous and too easy, right? So the best strategy would be to **encourage companies to invest**. To do so, in the case of the U.S, the FED can foster an environment that gives companies incentive to invest more. And the incentive would be a **cheaper price of debt**.
+To stop this somewhat vicious cycle, a government can hire more people by itself. Or, it can force companies to hire more people. But they both sound ridiculous and too easy, right? So the best strategy would be to **encourage companies to invest**. To do so, in the case of the U.S, the FED can foster an environment that gives companies incentive to invest more. And the incentive would be a **cheaper price of debt**. When debt is cheap enough relative to inflation rate, then at some point, it is same as just giving them (almost or literally) free money when companies decide to borrow money from banks.
 
 **So how do you make debt cheaper?**
 
@@ -81,6 +81,8 @@ But when the economic burden is too heavy, it is hardly possible to control the 
 This is why Quantiative Easing is necessary. It is as if Powell goes up on a ladder and pulls down the rope at 10Y T-Note level. This is why we often say that this method is not conventional.
 
 ### 2. Quantitative Easing with Federal Bonds
+
+Let's recall that wants to encourge companies to invest to create more jobs. And they encourage by 
 
 ### 3. Quantitative Easing with Corporate Bonds
 
