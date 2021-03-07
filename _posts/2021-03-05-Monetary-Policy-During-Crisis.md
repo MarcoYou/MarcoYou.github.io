@@ -88,8 +88,15 @@ Let's recall that FED wants to encourge companies to invest more therefore to cr
 
 Let's see how QE works:
 
-<p align="center"> <img src="/image/memo/How_QE_works.png" alt="How_QE_works" width="360" height="500"> </p>
+<p align="center"> <img src="/image/memo/How_QE_works.png" alt="How_QE_works" width="370" height="500"> </p>
 
+[Source](https://boycewire.com/how-does-quantitative-easing-work/)
+
+In the step number 2, we see that FED purchases government denominated debt. By the law of supply and demand, **extra demand for these government bonds lowers the interest rate of bonds** in the first round of this operation (FED must have lowered the FFR before QE so this is also another explanatory factor of decreasing bond interest rate).
+
+In addition, **QE will reduce the supply of long-term bonds in the secondary market since a huge part of these bonds will be bought by the FED**. This, in second round, **causes bond prices to increase**. (But you might ask why should anypne buy these expensive bonds. It is because huge financial instituations like pension funds or life insurance companies must comply to liquidity and solvency regulations)
+
+In combination, **bond yields will go down, which makes other risky assets more attractive, such as stocks**.
 
 ### 3. Alternative Long-Term Yield Direct Intervention
 #### Yield Curve Control (YCC)
