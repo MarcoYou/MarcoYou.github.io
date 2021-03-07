@@ -60,7 +60,7 @@ Let me list them first.
 1. Controling the Benchmark Interest Rates
 2. Quantitative Easing with Federal Bonds
 3. Quantitative Easing with Corporate Bonds
-4. Long-term yield direct intervention
+4. Alternative Long-Term Yield Direct Intervention:
   - Yield Curve Control (YCC)
   - Operation Twist
 
@@ -70,4 +70,10 @@ In the U.S, the benchmark interest rates are called **Federal Funds Rate**. Fede
 
 Let's take a look at the image below.
 
-<p align="center"> <img src="/image/memo/FFR.jpeg" alt="T-Note and MBS" width="500" height="350"> </p>
+<p align="center"> <img src="/image/memo/FFR.jpeg" alt="T-Note and MBS" width="500" height="360"> </p>
+
+If FED Chairman Powell pulls down FFR, then all the other interest rates on the rope, including the 10Y T-Note rate, will come down altogether. This is how FED controls the money supply in the market.
+
+But when the economic burden is too heavy, it is hardly possible to control the long term rates as they tend to resist more when the economy is going through a recession and also naturally impact of change in FFR is less direct on them.
+
+This is why Quantiative Easing is necessary. It is as if Powell goes up on a ladder and pulls down the rope at 10Y T-Note level.
