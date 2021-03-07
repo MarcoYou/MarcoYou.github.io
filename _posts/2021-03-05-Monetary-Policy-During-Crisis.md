@@ -77,3 +77,11 @@ If FED Chairman Powell pulls down FFR, then all the other interest rates on the 
 But when the economic burden is too heavy, it is hardly possible to control the long term rates as they tend to resist more when the economy is going through a recession and also naturally impact of change in FFR is less direct on them.
 
 This is why Quantiative Easing is necessary. It is as if Powell goes up on a ladder and pulls down the rope at 10Y T-Note level. This is why we often say that this method is not conventional.
+
+### 2. Quantitative Easing with Federal Bonds
+
+### 3. Quantitative Easing with Corporate Bonds
+
+### 4. Alternative Long-Term Yield Direct Intervention
+#### Yield Curve Control (YCC)
+#### Operation Twist
