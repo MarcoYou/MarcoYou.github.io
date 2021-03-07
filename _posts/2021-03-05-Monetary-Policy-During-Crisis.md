@@ -42,7 +42,7 @@ Here, we are talking about notes. It is not a commercial loan or any sorts like 
 
 The type of Asset-Backed Security (ABS) that holds the largest amount of capital is the Mortgage-Backed Security in the U.S.. It is incomparable with all the other types of ABSs as shows the chart belows.
 
-<p align="center"> <img src="/image/memo/MBS_vs_ABS.jpg" alt="MBS vs ABS" width="600" height="400"> </p>
+<p align="center"> <img src="/image/memo/MBS_vs_ABS.jpg" alt="MBS vs ABS" width="650" height="400"> </p>
 
 [Source](https://jsf.pm-research.com/content/early/2019/11/11/jsf.2019.1.089)
 
