@@ -61,4 +61,4 @@ In the U.S, the benchmark interest rates are called **Federal Funds Rate**. Fede
 
 Let's take a look at the image below.
 
-<p align="center"> <img src="/image/memo/FFR.jpeg" alt="T-Note and MBS" width="500" height="300"> </p>
+<p align="center"> <img src="/image/memo/FFR.jpeg" alt="T-Note and MBS" width="500" height="350"> </p>
