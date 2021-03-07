@@ -108,5 +108,17 @@ The final goal of FED is to create job in companies, by giving them money. QE wi
 _On a side note, FED can also buy MBSs alongside national bonds. This is another reason why MBS rate and 10Y T-Note rate are important_
 
 ### 3. Alternative Long-Term Yield Direct Intervention
-#### Yield Curve Control (YCC)
+#### Yield Curve Control
+
+Yiled Curve Contral (YCC) is one of monetary policy options that works in the same way as the QE. The principal difference is that YCC sets a target bond yield not allowing the yield curve to go beyond the threshold set by FED.
+
+A yield curve is a line that plots yields (interest rates) of bonds having equal credit quality but differing maturity dates (the fact that maturities differ could imply they do not have same credit quality but the difference is marginal). The slope of the yield curve gives an idea of future interest rate changes and economic activity. 
+
+**Normally**, an yield curve is concave and monotonously increasing. It is normal because bonds with longer maturity should be remunerated more than bonds with shorter maturity. Because time has value.
+
+<p align="center"> <img src="/image/memo/US_yield_curve.png" alt="US_yield_curve" width="500" height="360"> </p>
+
+[Source](http://www.worldgovernmentbonds.com/country/united-states/)
+
+
 #### Operation Twist
