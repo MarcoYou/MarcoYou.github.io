@@ -92,7 +92,7 @@ Let's see how QE works:
 
 [Source](https://boycewire.com/how-does-quantitative-easing-work/)
 
-In the step number 2, we see that FED purchases government denominated debt. By the law of supply and demand, **extra demand for these government bonds lowers the interest rate of bonds** in the first round of this operation (FED must have lowered the FFR before QE so this is also another explanatory factor of decreasing bond interest rate).
+In the step number 2, we see that FED purchases government denominated debt. By the law of supply and demand, **extra demand for these government bonds lowers the interest rate of bonds** in the first round of this operation (FED must have lowered the FFR before QE so this is also another explanatory factor of decreasing bond interest rate. Also, it is better to hold bonds because it guarantees an additional cash flows in the future no matter how marginal that is. If these institutions hold cash, then some of its value will be lost in the next year because of the inflation).
 
 In addition, **QE will reduce the supply of long-term bonds in the secondary market since a huge part of these bonds will be bought by the FED**. This, in second round, **causes bond prices to increase**. (But you might ask why should anypne buy these expensive bonds. It is because huge financial instituations like pension funds or life insurance companies must comply to liquidity and solvency regulations)
 
