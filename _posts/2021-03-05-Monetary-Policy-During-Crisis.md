@@ -40,16 +40,15 @@ Here, we are talking about notes. It is not a commercial loan or any sorts like 
 
 **Second, why is 10Y T-Note important?**
 
-The type of Asset-Backed Security (ABS) that holds the largest amount of capital is the Mortgage-Backed Security in the U.S.. It is incomparable with all the other types of ABSs as shows the chart belows.
+The type of Asset-Backed Security (ABS) that holds the largest amount of capital is the **Mortgage-Backed Security (MBS)** in the U.S.. It is incomparable with all the other types of ABSs as shows the chart belows.
 
 <p align="center"> <img src="/image/memo/MBS_vs_ABS.jpg" alt="MBS vs ABS" width="650" height="400"> </p>
 
 [Source](https://jsf.pm-research.com/content/early/2019/11/11/jsf.2019.1.089)
 
-Because of its size and also the fact that it is "Mortgage-Backed", it made it so important in the U.S. Economy.
-
-And why am I talking about MBS? it is because **30-Year Fixed Average Mortgage Rate is coupled with the 10Y T-Note Rate**
+Because of its size and also the fact that it is "Mortgage-Backed", it made it so important in the U.S. Economy. And why am I talking about MBS? it is because **_30-Year Fixed Average Mortgage Rate_ is coupled with the _10Y T-Note Rate_**.
 
 <p align="center"> <img src="/image/memo/FRED_10TY_30MR.png" alt="T-Note and MBS" width="550" height="400"> </p>
 
 [Source](https://fred.stlouisfed.org/series/MORTGAGE30US#0)
+
