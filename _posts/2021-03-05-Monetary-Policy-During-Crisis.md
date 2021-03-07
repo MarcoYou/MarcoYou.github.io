@@ -20,7 +20,7 @@ Even though it is obvious to say that full employment is important and is a good
 
 When the number of jobs decreases, the overall consumption decreases. A decrease in consumption implies a decrease in demand. A decrease in demand then causes a decrease in supply. If the supply decreases, companies stop or reduce their investment. And once they stop investing, then no jobs are created. If there are no jobs created, then again, it leads to another decrease in demand, so on and so forth. This is the phenomenon called **Secular Stagflation** that Lawrence Summers, 27th U.S Secretary of the Treasury, was worried about.
 
-To stop this somewhat vicious cycle, a government can hire more people by itself. Or, it can force companies to hire more people. But they both sound ridiculous and too easy, right? So the best strategy would be to **encourage companies to invest**. To do so, in the case of the U.S, the FED can foster an environment that gives companies incentive to invest more. And the incentive would be a **cheaper price of debt**. When debt is cheap enough relative to inflation rate, then at some point, it is same as just giving them (almost or literally) free money when companies decide to borrow money from banks.
+To stop this somewhat vicious cycle, a government can hire more people by itself. Or, it can force companies to hire more people. But they both sound ridiculous, right? So the best strategy would be to **encourage companies to invest**. To do so, in the case of the U.S, the FED can foster an environment that gives companies an incentive to invest more. And the incentive would be a **cheaper price of debt**. When debt is cheap enough relative to inflation rate, then at some point, it is same as just giving them (almost or literally) free money when companies decide to borrow money from banks.
 
 **So how do you make debt cheaper?**
 
@@ -28,11 +28,11 @@ To stop this somewhat vicious cycle, a government can hire more people by itself
 
 1일짜리 vs 10년짜리 (모기지는 10년짜리랑 연동)
 
-I personally identify 4 tools that allow FED to make debt cheaper. But before getting into it, I have to explain what kind of debt I am talking about and why particularly that specific kind of debt is important.
+I personally identify 3 tools that allow FED to make debt cheaper. But before getting into it, I have to explain what kind of debt I am talking about and why particularly that specific kind of debt is important.
 
 **First, what kind of debt we are talking about?**
 
-Here, we are talking about notes. It is not a commercial loan or any sorts like that. We are precisely talking about **the U.S. 10-year treasury note** (often called **10Y T-note** or by its ticker **^TNX**), which is a type of debt that can be traded and whose issuer is the federal government of the U.S. having a maturity equal to 10 year.
+Here, we are talking about notes. It is not a commercial loan or any sorts like that. We are precisely talking about **the U.S. 10-year treasury note** (often called **10Y T-note** or by its ticker **^TNX**), which is a type of debt that can be traded and whose issuer is the federal government of the U.S. having a maturity equal to 10 years.
 
 - **T-Bills**: short maturity terms, from 4 weeks to a year;
 - **T-Notes**: middle maturity terms, from 2 to 10 years;
@@ -53,14 +53,15 @@ Because of its size and also the fact that it is "Mortgage-Backed", it made it s
 [Source](https://fred.stlouisfed.org/series/MORTGAGE30US#0)
 
 
-Now we understand what kind of debt that FED targets and why it is important. We can proceed to discuss the 4 tools that I mentionned at the beginning of this section.
+Now we understand what kind of debt that FED targets and why it is important. We can proceed to discuss the 3 tools that I mentionned at the beginning of this section.
 
 Let me list them first.
 
 1. Controling the Benchmark Interest Rates
-2. Quantitative Easing with Federal Bonds
-3. Quantitative Easing with Corporate Bonds
-4. Alternative Long-Term Yield Direct Intervention:
+2. Quantitative Easing
+  - QE with Federal Bonds
+  - QE with Corporate Bonds
+3. Alternative Long-Term Yield Direct Intervention:
   - Yield Curve Control (YCC)
   - Operation Twist
 
@@ -70,22 +71,26 @@ In the U.S, the benchmark interest rates are called **Federal Funds Rate**. Fede
 
 Let's take a look at the image below.
 
-<p align="center"> <img src="/image/memo/FFR.jpeg" alt="T-Note and MBS" width="500" height="360"> </p>
+<p align="center"> <img src="/image/memo/FFR.jpeg" alt="FFR" width="500" height="360"> </p>
 
 (forget about my bad drawing skill)
 
 If FED Chairman Powell pulls down FFR, then all the other interest rates on the rope, including the 10Y T-Note rate, will come down altogether. This is how FED controls the money supply in the market.
 
-But when the economic burden is too heavy, it is hardly possible to control the long term rates as they tend to resist more when the economy is going through a recession and also naturally impact of change in FFR is less direct on them.
+But when the economic burden is too heavy, it is hardly possible to control the long term rates as they tend to resist more when the economy is going through a recession and also naturally the impact of change in FFR is less direct on them.
 
-This is why Quantiative Easing is necessary. It is as if Powell goes up on a ladder and pulls down the rope at 10Y T-Note level. This is why we often say that this method is not conventional.
+This is why Quantiative Easing is necessary. It is as if Powell goes up on a ladder and pulls down the rope at 10Y T-Note level. This is why we often say this method is not conventional.
 
-### 2. Quantitative Easing with Federal Bonds
+### 2. Quantitative Easing
+#### QE with Federal Bonds
 
-Let's recall that wants to encourge companies to invest to create more jobs. And they encourage by 
+Let's recall that FED wants to encourge companies to invest more therefore to create more jobs. And they encourage companies by (let's be simple) providing them low-price liquidity.
 
-### 3. Quantitative Easing with Corporate Bonds
+Let's see how QE works:
 
-### 4. Alternative Long-Term Yield Direct Intervention
+<p align="center"> <img src="/image/memo/How_QE_works.png" alt="How_QE_works" width="360" height="500"> </p>
+
+
+### 3. Alternative Long-Term Yield Direct Intervention
 #### Yield Curve Control (YCC)
 #### Operation Twist
