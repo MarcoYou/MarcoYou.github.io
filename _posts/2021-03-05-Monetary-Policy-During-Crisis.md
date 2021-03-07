@@ -48,7 +48,7 @@ The type of Asset-Backed Security (ABS) that holds the largest amount of capital
 
 Because of its size and also the fact that it is "Mortgage-Backed", it made it so important in the U.S. Economy. And why am I talking about MBS? it is because **_30-Year Fixed Average Mortgage Rate_ is coupled with the _10Y T-Note Rate_**.
 
-<p align="center"> <img src="/image/memo/FRED_10TY_30MR.png" alt="T-Note and MBS" width="550" height="400"> </p>
+<p align="center"> <img src="/image/memo/FRED_10TY_30MR.png" alt="T-Note and MBS" width="650" height="400"> </p>
 
 [Source](https://fred.stlouisfed.org/series/MORTGAGE30US#0)
 
