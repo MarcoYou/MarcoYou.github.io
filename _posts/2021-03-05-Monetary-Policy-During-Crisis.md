@@ -55,6 +55,15 @@ Because of its size and also the fact that it is "Mortgage-Backed", it made it s
 
 Now we understand what kind of debt that FED targets and why it is important. We can proceed to discuss the 4 tools that I mentionned at the beginning of this section.
 
+Let me list them first.
+
+1. Controling the Benchmark Interest Rates
+2. Quantitative Easing with Federal Bonds
+3. Quantitative Easing with Corporate Bonds
+4. Long-term yield direct intervention
+  - Yield Curve Control (YCC)
+  - Operation Twist
+
 ### 1. Controling the Benchmark Interest Rates
 
 In the U.S, the benchmark interest rates are called **Federal Funds Rate**. Federal funds rate (FFR) is the target interest rate set by the Federal Open Market Committee (FOMC) at which commercial banks borrow and lend their excess reserves to each other **overnight**. So this is an extremely short-term interest rate. Since all the interest rates of different maturities are increasingly aligned according to the maturity term risk, by lowering or lifting the FFR, the FED can, in theory, control all the other interest rates of longer maturity terms.
