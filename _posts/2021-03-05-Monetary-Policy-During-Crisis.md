@@ -127,3 +127,11 @@ But, sometimes this curve can twisted following a monetary policy operation call
 Operation Twist refers to a Federal Reserve monetary policy initiative designed to lower long-term interest rates to further stimulate the U.S economy. The initiative is done by selling short-term bonds and buying long-term bonds. This in result lifts short-term rates. Therefore it reduces the spread between short-term rate and long-term rate, which is sort of controversial.
 
 The difference between QE and Operation Twist resides in the balance sheet of FED. The former necessarily expands the FED's balance sheet, whereas the latter does not expand the FED's balance sheet. Therefore, it is considered to be less aggressive form of easing.
+
+## Insufficiency of Monetary Policy
+
+2009 Subprime Crisis was caused by financial institutions and affected them the most. It was sufficient(?) to finance them, or in other words, **bail out** them, with **tendered Quantitative Easing**, which is the basic QE explained in the previous section above.
+
+But the Covid-19 Pandemic Crisis is not a financial crisis. It is a real economy crisis that affects daily workers directly. That is why Trump and Biden wrote/writes stimulus check to give cash to people directly. And this comes from budget deficit which is a **fiscal policy** financed with federal bonds, which are bought by the FED.
+
+This structure necessarily brings inflation.
