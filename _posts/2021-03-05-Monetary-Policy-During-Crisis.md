@@ -2,8 +2,8 @@
 layout: post
 toc: true
 title: "Monetary Policy During Sanitary Crisis"
-categories: Memo
-tags: [Memo]
+categories: Macroeconomics
+tags: [Monetary Policy]
 math: true
 author:
   - Marco You
