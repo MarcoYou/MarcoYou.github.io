@@ -1,10 +1,10 @@
-title: Marco's Notebook
-description: Marco's personal notes
+title: Marco You
+description: Archive and Blog
 url: https://marcoyou.github.io/
 author: Marco You
 avatar: /CV Pic-white.jpeg
 email: gunhoqw20@gmail.com
-location: Paris, France
+location: Seoul and Paris
 
 plugins:
   - jekyll-seo-tag
