@@ -4,24 +4,23 @@ title: About
 permalink: /about/
 ---
 
-## About me
+## 소개
 
-프로데분러가 되고 싶은 경제돌이
+부족한게 너무 많은 경제학도.
 
-## Contents
+## 목적
 
-I will be posting things in the following fields:
+배운것을 아카이빙하고 겪은것을 기록하기.
 
+## 아카이빙 내용
+
+- Sustainability;
 - Economics;
 - Econometrics;
 - Mathematics;
 - Statistics;
 - Finance;
 - Data Science;
-- Machine Learning & Deep Learning (언젠가 올려놔 봤으면 ㅠㅠ)
+- Personal Experience
 
-I hope to post more things other than the sciences above in the future.
-
-## Others
-
-If you find any errors or lack of specification of any concept, please do let me know at gunhoqw20@gmail.com or in the comment.
+# 피드백 대환영
