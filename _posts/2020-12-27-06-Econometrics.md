@@ -3,7 +3,7 @@ layout: post
 toc: true
 title: "06. Econometrics"
 categories: Econometrics
-tags: [Panel Data, Fixed Effects]
+tags: [Panel Data]
 math: true
 author:
   - Marco You

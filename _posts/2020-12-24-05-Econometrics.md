@@ -3,7 +3,7 @@ layout: post
 toc: true
 title: "05. Econometrics"
 categories: Econometrics
-tags: [OLS, Estimation, Non-Linear Regression]
+tags: [Regression]
 math: true
 author:
   - Marco You

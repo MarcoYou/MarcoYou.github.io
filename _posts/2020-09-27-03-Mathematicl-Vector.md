@@ -3,7 +3,7 @@ layout: post
 toc: true
 title: "03. Mathematical Vector"
 categories: Linear_Algebra
-tags: [linear algebra, maths, matrix]
+tags: [linear algebra]
 math: true
 author:
   - Marco You

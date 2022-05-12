@@ -3,7 +3,7 @@ layout: post
 toc: true
 title: "Portfolio Theory Basics"
 categories: Portfolio_Theory
-tags: [finance, portfolio theory, CAPM, APT]
+tags: [Portfolio Theory]
 math: true
 author:
   - Marco You

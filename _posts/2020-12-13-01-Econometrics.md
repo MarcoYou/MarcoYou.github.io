@@ -3,7 +3,7 @@ layout: post
 toc: true
 title: "01. Econometrics"
 categories: Econometrics
-tags: [CEF, OLS, Regression]
+tags: [Regression]
 math: true
 author:
   - Marco You

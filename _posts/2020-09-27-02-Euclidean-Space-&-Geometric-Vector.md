@@ -3,7 +3,7 @@ layout: post
 toc: true
 title: "02. Euclidean Space and Geometric Vector"
 categories: Linear_Algebra
-tags: [linear algebra, matrix, maths, regression]
+tags: [linear algebra]
 math: true
 author:
   - Marco You
