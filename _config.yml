@@ -43,3 +43,6 @@ social:
 google_site_verification: u4WXQl0Eu66rsQo2kRdCNx
 lang: en
 skin: daylight
+
+# 푸시 안될때
+future: true
