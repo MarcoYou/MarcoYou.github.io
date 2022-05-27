@@ -2,7 +2,7 @@
 layout: post
 toc: true
 published: true
-title: "How ESG Affects Equity Valuation, Risk, and Performance"
+title: "[논문공부] How ESG Affects Equity Valuation, Risk, and Performance"
 categories: 논문공부
 tags: [ESG]
 math: true
