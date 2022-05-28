@@ -12,7 +12,7 @@ author:
 [comment]: <> (mathjax block  > $$...$$   )
 [comment]: <> <p align="center"> <img src="/image/file_name.png" alt="file_name" width="420" height="300"> </p>
 ---
-[Giese et al. - Foundations of ESG Investing: How ESG Affects Equity Valuation, Risk, and Performance](https://jpm.pm-research.com/content/45/5/69.abstract#:~:text=This%20showed%20that%20companies'%20ESG,lower%20exposures%20to%20tail%20risk)
+[Giese et al. (2019) - Foundations of ESG Investing: How ESG Affects Equity Valuation, Risk, and Performance](https://jpm.pm-research.com/content/45/5/69.abstract#:~:text=This%20showed%20that%20companies'%20ESG,lower%20exposures%20to%20tail%20risk)
 
 # 세 줄 요약
 - ESG는 현금흐름, 고유리스크, 체계적리스크 세 가지 채널을 통해 실제 기업가치에 영향을 주는 요소로서 작용할 수 있다.
