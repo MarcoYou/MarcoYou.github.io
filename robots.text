@@ -9,7 +9,6 @@ permalink: robots.txt
 ---
 
 User-agent: *
-
 Allow: /
 
 Sitemap: https://marcoyou.github.io/sitemap.xml
